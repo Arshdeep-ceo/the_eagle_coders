@@ -20,6 +20,9 @@ export default function AppBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = ["About", "Testimonials", "Contact Us", "Log Out"];
+
+  // function handleAppBar() {}
+
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll>
       <NavbarContent>
@@ -29,18 +32,23 @@ export default function AppBar() {
         />
         <NavbarBrand>
           {/* <AcmeLogo /> */}
-          <p className="font-bold text-inherit">TheEagleCoders</p>
+          <p className="font-bold text-inherit sm:text-lg">TheEagleCoders</p>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="">
+        <NavbarItem isActive>
+          <Link color="" href="#">
+            Home
+          </Link>
+        </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/about">
             About
           </Link>
         </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page">
+        <NavbarItem>
+          <Link href="#" color="foreground">
             Testimonials
           </Link>
         </NavbarItem>

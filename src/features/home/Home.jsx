@@ -1,4 +1,5 @@
 import AppBar from "../../ui/components/home/Appbar";
+import { Button } from "@nextui-org/react";
 
 function Home() {
   return (
@@ -18,10 +19,26 @@ function Home() {
       <h2 className="font-semibold text-lg m-2 leading-3 text-center">
         Master React, Ai, Flutter and more...
       </h2>
-      <p className=" text-gray-800 max-w-xl self-center p-4 text-center">
-        We at Eagle Coders inspires to teach to teach students the current
-        market leading technologies.
+      <p className=" text-gray-800 max-w-xl self-center p-4 text-center text-sm">
+        We at Eagle Coders inspires to teach students the current market leading
+        technologies.
       </p>
+      <div className="flex justify-center gap-x-3">
+        <Button
+          radius="full"
+          className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg w-36"
+        >
+          Explore
+        </Button>
+        <Button
+          variant="bordered"
+          color="primary"
+          radius="full"
+          className=" w-36"
+        >
+          Contact
+        </Button>
+      </div>
       <p className="p-10">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
         mollitia autem, nostrum error repudiandae praesentium hic quia
@@ -65,6 +82,7 @@ function Home() {
         quibusdam quae provident atque fuga neque culpa explicabo quo!
         Cupiditate.
       </p>
+
       {/* <div><img src="" alt="" srcset="" /></div> */}
     </div>
   );
