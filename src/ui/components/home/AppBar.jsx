@@ -3,6 +3,9 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
+  NavbarMenu,
+  NavbarMenuItem,
+  NavbarMenuToggle,
   Link,
   Button,
   DropdownItem,
@@ -11,27 +14,39 @@ import {
   DropdownMenu,
   Avatar,
 } from "@nextui-org/react";
+import { useState } from "react";
 
 export default function AppBar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const menuItems = ["About", "Testimonials", "Contact Us", "Log Out"];
   return (
-    <Navbar shouldHideOnScroll className="" isBordered:true>
-      <NavbarBrand>
-        <p className="font-bold text-lg uppercase">The Eagle Coders</p>
-      </NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+    <Navbar onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll>
+      <NavbarContent>
+        <NavbarMenuToggle
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          className="sm:hidden"
+        />
+        <NavbarBrand>
+          {/* <AcmeLogo /> */}
+          <p className="font-bold text-inherit">TheEagleCoders</p>
+        </NavbarBrand>
+      </NavbarContent>
+
+      <NavbarContent className="hidden sm:flex gap-4" justify="">
         <NavbarItem>
           <Link color="foreground" href="#">
-            Features
+            About
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
           <Link href="#" aria-current="page">
-            Customers
+            Testimonials
           </Link>
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="#">
-            Integrations
+            Contact Us
           </Link>
         </NavbarItem>
       </NavbarContent>
@@ -51,10 +66,10 @@ export default function AppBar() {
               isBordered
               as="button"
               className="transition-transform"
-              color="secondary"
+              color=""
               name="Jason Hughes"
               size="sm"
-              src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
+              src="./public/images/logo.png"
             />
           </DropdownTrigger>
           <DropdownMenu aria-label="Profile Actions" variant="flat">
@@ -74,6 +89,27 @@ export default function AppBar() {
           </DropdownMenu>
         </Dropdown>
       </NavbarContent>
+
+      <NavbarMenu>
+        {menuItems.map((item, index) => (
+          <NavbarMenuItem key={`${item}-${index}`}>
+            <Link
+              color={
+                index === 2
+                  ? "primary"
+                  : index === menuItems.length - 1
+                  ? "danger"
+                  : "foreground"
+              }
+              className="w-full"
+              href="#"
+              size="lg"
+            >
+              {item}
+            </Link>
+          </NavbarMenuItem>
+        ))}
+      </NavbarMenu>
     </Navbar>
   );
 }
