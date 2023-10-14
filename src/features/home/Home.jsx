@@ -1,90 +1,73 @@
-import AppBar from "../../ui/components/home/Appbar";
-import { Button } from "@nextui-org/react";
+// import AppBar from "../../ui/components/home/Appbar";
+import { Image } from "@nextui-org/react";
+import Main from "../../ui/components/home/Main";
 
 function Home() {
+  // const gradient = ""
   return (
-    <div
-      className="flex flex-col"
-      // style={{
-      //   backgroundColor: "#4158D0",
-      //   backgroundImage:
-      //     "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)",
-      // }}
-    >
-      <img src="" alt="" />
-      <AppBar />
-      <h1 className="text-center text-4xl px-4 mt-8 font-bold w-screen sm:mt-10 mx-auto md:mt-16 ">
-        Become the future you desire! <br />
-      </h1>
-      <h2 className="font-semibold text-lg m-2 leading-3 text-center">
-        Master React, Ai, Flutter and more...
-      </h2>
-      <p className=" text-gray-800 max-w-xl self-center p-4 text-center text-sm">
-        We at Eagle Coders inspires to teach students the current market leading
-        technologies.
-      </p>
-      <div className="flex justify-center gap-x-3">
-        <Button
-          radius="full"
-          className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg w-36"
-        >
-          Explore
-        </Button>
-        <Button
-          variant="bordered"
-          color="primary"
-          radius="full"
-          className=" w-36"
-        >
-          Contact
-        </Button>
-      </div>
-      <p className="p-10">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
-        mollitia autem, nostrum error repudiandae praesentium hic quia
-        voluptatum ratione itaque, quibusdam quae provident atque fuga neque
-        culpa explicabo quo! Cupiditate. Lorem ipsum dolor sit amet consectetur,
-        adipisicing elit. Commodi mollitia autem, nostrum error repudiandae
-        praesentium hic quia voluptatum ratione itaque, quibusdam quae provident
-        atque fuga neque culpa explicabo quo! Cupiditate. Lorem ipsum dolor sit
-        amet consectetur, adipisicing elit. Commodi mollitia autem, nostrum
-        error repudiandae praesentium hic quia voluptatum ratione itaque,
-        quibusdam quae provident atque fuga neque culpa explicabo quo!
-        Cupiditate. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Commodi mollitia autem, nostrum error repudiandae praesentium hic quia
-        voluptatum ratione itaque, quibusdam quae provident atque fuga neque
-        culpa explicabo quo! Cupiditate. Lorem ipsum dolor sit amet consectetur,
-        adipisicing elit. Commodi mollitia autem, nostrum error repudiandae
-        praesentium hic quia voluptatum ratione itaque, quibusdam quae provident
-        atque fuga neque culpa explicabo quo! Cupiditate. Lorem ipsum dolor sit
-        amet consectetur, adipisicing elit. Commodi mollitia autem, nostrum
-        error repudiandae praesentium hic quia voluptatum ratione itaque,
-        quibusdam quae provident atque fuga neque culpa explicabo quo!
-        Cupiditate. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Commodi mollitia autem, nostrum error repudiandae praesentium hic quia
-        voluptatum ratione itaque, quibusdam quae provident atque fuga neque
-        culpa explicabo quo! Cupiditate. Lorem ipsum dolor sit amet consectetur,
-        adipisicing elit. Commodi mollitia autem, nostrum error repudiandae
-        praesentium hic quia voluptatum ratione itaque, quibusdam quae provident
-        atque fuga neque culpa explicabo quo! Cupiditate. Lorem ipsum dolor sit
-        amet consectetur, adipisicing elit. Commodi mollitia autem, nostrum
-        error repudiandae praesentium hic quia voluptatum ratione itaque,
-        quibusdam quae provident atque fuga neque culpa explicabo quo!
-        Cupiditate. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Commodi mollitia autem, nostrum error repudiandae praesentium hic quia
-        voluptatum ratione itaque, quibusdam quae provident atque fuga neque
-        culpa explicabo quo! Cupiditate. Lorem ipsum dolor sit amet consectetur,
-        adipisicing elit. Commodi mollitia autem, nostrum error repudiandae
-        praesentium hic quia voluptatum ratione itaque, quibusdam quae provident
-        atque fuga neque culpa explicabo quo! Cupiditate. Lorem ipsum dolor sit
-        amet consectetur, adipisicing elit. Commodi mollitia autem, nostrum
-        error repudiandae praesentium hic quia voluptatum ratione itaque,
-        quibusdam quae provident atque fuga neque culpa explicabo quo!
-        Cupiditate.
-      </p>
+    <>
+      <Main />
+      <div className=" mt-[100vh] z-10 relative  bg-gradient-to-tr from-blue-100 to-pink-200 rounded-lg drop-shadow-2xl flex flex-row basis-full">
+        {/* <img
+          src="/images/raman.jpg"
+          alt=""
+          className="w-[50%] h-[40%] m-3 rounded-2xl transform transition duration-[10000] hover:scale-105 overflow-hidden self-start bg-clip-border sm:w-[40%]"
+        /> */}
+        <Image
+          isBlurred
+          width={240}
+          src="/images/raman.jpg"
+          alt="NextUI Album Cover"
+          className=" p-16 hover:scale-105 "
+        />
 
-      {/* <div><img src="" alt="" srcset="" /></div> */}
-    </div>
+        {/* Paragraph */}
+        <p className="p-10 ">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
+          mollitia autem, nostrum error repudiandae praesentium hic quia
+          voluptatum ratione itaque, quibusdam quae provident atque fuga neque
+          culpa explicabo quo! Cupiditate. Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Commodi mollitia autem, nostrum error
+          repudiandae praesentium hic quia voluptatum ratione itaque, quibusdam
+          quae provident atque fuga neque culpa explicabo quo! Cupiditate. Lorem
+          ipsum dolor sit amet consectetur, adipisicing elit. Commodi mollitia
+          autem, nostrum error repudirelativandae praesentium hic quia
+          voluptatum ratione itaque, quibusdam quae provident atque fuga neque
+          culpa explicabo quo! Cupiditate. Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Commodi mollitia autem, nostrum error
+          repudiandae praesentium hic quia voluptatum ratione itaque, quibusdam
+          quae provident atque fuga neque culpa explicabo quo! Cupiditate. Lorem
+          ipsum dolor sit amet consectetur, adipisicing elit. Commodi mollitia
+          autem, nostrum error repudiandae praesentium hic quia voluptatum
+          ratione itaque, quibusdam quae provident atque fuga neque culpa
+          explicabo quo! Cupiditate. Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Commodi mollitia autem, nostrum error repudiandae
+          praesentium hic quia voluptatum ratione itaque, quibusdam quae
+          provident atque fuga neque culpa explicabo quo! Cupiditate. Lorem
+          ipsum dolor sit amet consectetur, adipisicing elit. Commodi mollitia
+          autem, nostrum error repudiandae praesentium hic quia voluptatum
+          ratione itaque, quibusdam quae provident atque fuga neque culpa
+          explicabo quo! Cupiditate. Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Commodi mollitia autem, nostrum error repudiandae
+          praesentium hic quia voluptatum ratione itaque, quibusdam quae
+          provident atque fuga neque culpa explicabo quo! Cupiditate. Lorem
+          ipsum dolor sit amet consectetur, adipisicing elit. Commodi mollitia
+          autem, nostrum error repudiandae praesentium hic quia voluptatum
+          ratione itaque, quibusdam quae provident atque fuga neque culpa
+          explicabo quo! Cupiditate. Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Commodi mollitia autem, nostrum error repudiandae
+          praesentium hic quia voluptatum ratione itaque, quibusdam quae
+          provident atque fuga neque culpa explicabo quo! Cupiditate. Lorem
+          ipsum dolor sit amet consectetur, adipisicing elit. Commodi mollitia
+          autem, nostrum error repudiandae praesentium hic quia voluptatum
+          ratione itaque, quibusdam quae provident atque fuga neque culpa
+          explicabo quo! Cupiditate. Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Commodi mollitia autem, nostrum error repudiandae
+          praesentium hic quia voluptatum ratione itaque, quibusdam quae
+          provident atque fuga neque culpa explicabo quo! Cupiditate.
+        </p>
+      </div>
+    </>
   );
 }
 

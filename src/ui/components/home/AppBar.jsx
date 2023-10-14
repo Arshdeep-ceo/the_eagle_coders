@@ -6,7 +6,7 @@ import {
   NavbarMenu,
   NavbarMenuItem,
   NavbarMenuToggle,
-  Link,
+  // Link,
   Button,
   DropdownItem,
   DropdownTrigger,
@@ -15,16 +15,24 @@ import {
   Avatar,
 } from "@nextui-org/react";
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 export default function AppBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [currentTab, setCurrentTab] = useState(0);
 
-  const menuItems = ["About", "Testimonials", "Contact Us", "Log Out"];
+  const menuItems = ["Home", "About", "Testimonials", "Contact Us"];
+  const menuPaths = ["/", "/about", "testimonials", "/contact"];
 
-  // function handleAppBar() {}
+  const handleClick = (event, key) => {
+    setCurrentTab(key);
+  };
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll>
+    <Navbar
+      onMenuOpenChange={setIsMenuOpen}
+      shouldHideOnScroll
+      className="z-30"
+    >
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -36,27 +44,26 @@ export default function AppBar() {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="">
-        <NavbarItem isActive>
-          <Link color="" href="#">
-            Home
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="/about">
-            About
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link href="#" color="foreground">
-            Testimonials
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Contact Us
-          </Link>
-        </NavbarItem>
+      <NavbarContent className="hidden sm:flex gap-4 " justify="">
+        {menuItems.map((element, key) => (
+          <NavbarItem
+            isActive={currentTab === key ? true : false}
+            className="  animate-drip-expand"
+            key={key}
+            onClick={(event) => handleClick(event, key)}
+          >
+            {
+              <Link
+                className={
+                  currentTab === key ? "  text-blue-700" : "foreground"
+                }
+                to={menuPaths[key]}
+              >
+                {menuItems[key]}
+              </Link>
+            }
+          </NavbarItem>
+        ))}
       </NavbarContent>
 
       <NavbarContent as="div" justify="end">
@@ -77,13 +84,13 @@ export default function AppBar() {
               color=""
               name="Jason Hughes"
               size="sm"
-              src="./public/images/logo.png"
+              src="/images/logo.png"
             />
           </DropdownTrigger>
           <DropdownMenu aria-label="Profile Actions" variant="flat">
             <DropdownItem key="profile" className="h-14 gap-2">
               <p className="font-semibold">Signed in as</p>
-              <p className="font-semibold">zoey@example.com</p>
+              <p className="font-semibold">theeaglecoders@gmail.com</p>
             </DropdownItem>
             <DropdownItem key="settings">My Settings</DropdownItem>
             <DropdownItem key="team_settings">Team Settings</DropdownItem>
