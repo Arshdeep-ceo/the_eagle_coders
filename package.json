@@ -13,11 +13,17 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
     "@nextui-org/react": "^2.1.13",
+    "@react-email/tailwind": "0.0.9",
     "framer-motion": "^10.16.4",
+    "google-map-react": "^2.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
     "react-router-dom": "^6.16.0",
+    "styled-icons": "^10.47.0",
     "vite-plugin-gh-pages": "^0.4.1"
   },
   "devDependencies": {
