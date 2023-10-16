@@ -23,7 +23,7 @@ export default function AppBar() {
   const menuItems = ["Home", "About", "Testimonials", "Contact Us"];
   const menuPaths = ["/", "/about", "testimonials", "/contact"];
 
-  const handleClick = (event, key) => {
+  const handleClick = (key) => {
     setCurrentTab(key);
   };
 
@@ -45,21 +45,21 @@ export default function AppBar() {
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4 " justify="">
-        {menuItems.map((element, key) => (
+        {menuItems.map((element, index) => (
           <NavbarItem
-            isActive={currentTab === key ? true : false}
+            isActive={currentTab === index ? true : false}
             className="  animate-drip-expand"
-            key={key}
-            onClick={(event) => handleClick(event, key)}
+            key={index}
+            onClick={() => handleClick(index)}
           >
             {
               <Link
                 className={
-                  currentTab === key ? "  text-blue-700" : "foreground"
+                  currentTab === index ? "  text-blue-700" : "foreground"
                 }
-                to={menuPaths[key]}
+                to={menuPaths[index]}
               >
-                {menuItems[key]}
+                {menuItems[index]}
               </Link>
             }
           </NavbarItem>
@@ -107,20 +107,21 @@ export default function AppBar() {
 
       <NavbarMenu>
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
+          <NavbarMenuItem
+            // key={`${item}-${index}`}
+            key={index}
+            onClick={() => setCurrentTab(index)}
+          >
             <Link
-              color={
-                index === 2
-                  ? "primary"
-                  : index === menuItems.length - 1
-                  ? "danger"
-                  : "foreground"
+              style={{}}
+              className={
+                currentTab === index
+                  ? "  text-blue-700 font-semibold"
+                  : "text-stone-800"
               }
-              className="w-full"
-              href="#"
-              size="lg"
+              to={menuPaths[index]}
             >
-              {item}
+              {menuItems[index]}
             </Link>
           </NavbarMenuItem>
         ))}
