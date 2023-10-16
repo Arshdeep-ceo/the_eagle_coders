@@ -1,30 +1,36 @@
 import { Button } from "@nextui-org/react";
 import AnimatedArrow from "../AnimatedArrow/AnimatedArrow";
-import FlutterLogo from "./FlutterLogo";
-// import ReactLogo from "./ReactLogo";
+import { Fade, Slide, Zoom } from "react-awesome-reveal";
 import "./Home.css";
+import { useScroll, motion, useTransform } from "framer-motion";
 // import { motion } from "framer-motion";
 
 function Main() {
+  const { scrollY } = useScroll();
+  const y1 = useTransform(scrollY, [0, 300], [0, 100]);
+  const scale = useTransform(scrollY, [0, 300], [1, 0.6]);
+  const opacity = useTransform(scrollY, [0, 300], [1, 0]);
   return (
-    <div
-      className="flex flex-col justify-center h-[85vh] fixed pb-10 self-stretch"
-      style={
-        {
-          // backgroundColor: "#4158D0",
-          // opacity: "0.5",
-          // zIndex: "-1",
-          // backgroundImage:
-          //   "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)",
-          //   `url("/images/3341.jpg")`,
-        }
-      }
+    <motion.div
+      // initial={{ scale: 1 }}
+      // animate={{ scale: 0.5 }}
+      className="flex flex-col justify-center h-[85vh] pb-10"
+      style={{
+        y: y1,
+        scale: scale,
+        opacity: opacity,
+        // filter: `Brightness(50%)`,
+      }}
     >
-      {/* <img src="" alt="" /> */}
       <AnimatedArrow />
-      <h1 className="text-center text-transparent bg-gradient-to-r from-pink-500 to-yellow-500  bg-clip-text text-4xl px-4 mt-8 font-bold w-screen sm:mt-10 mx-auto md:mt-16 lg:text-5xl xl:text-6xl xl:m-2 ">
-        Become the future you desire! <br />
-      </h1>
+      <div className="bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text ">
+        <Zoom cascade={true}>
+          <h1 className="mb-2 text-center text-transparent bg-gradient-to-r from-pink-500 to-yellow-500  bg-clip-text text-4xl px-4 mt-8 font-bold w-screen sm:mt-10 mx-auto md:mt-16 lg:text-5xl xl:text-6xl xl:m-2 hover:scale-105 transition-all ">
+            Become the future you desire!
+          </h1>
+          {/* Become the future you desire! <br /> */}
+        </Zoom>
+      </div>
       <h2 className="font-semibold text-lg m-2 leading-3 text-center">
         Master React, Ai, Flutter and more...
       </h2>
@@ -35,41 +41,29 @@ function Main() {
       </p>
       <div className="flex items-center justify-center gap-x-3 flex-col gap-y-2 sm:flex-row">
         <Button
+          variant="shadow"
           radius="full"
-          className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg w-48 "
+          className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white  w-48 "
         >
           Explore
         </Button>
         <Button
+          onPress={() => alert("sdfjkh")}
           variant="bordered"
           color="primary"
           radius="full"
-          className=" w-48"
+          className=" w-48 cursor-pointer"
         >
           Contact
         </Button>
       </div>
-      <FlutterLogo />
+      {/* <FlutterLogo /> */}
       <img
         src="/images/react-logo.png"
         alt=""
         className="w-40 h-40 opacity-20 absolute bottom-5 right-9 -z-10 logo-spin"
-        fr
       />
-      {/* <img
-        src="/images/react-logo.png"
-        alt=""
-        className="absolute z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large object-cover"
-      /> */}
-      {/* <ReactLogo1 /> */}
-      <AnimatedArrow />
-      {/* <img
-        src="/images/imgtop.jpg"
-        alt=""
-        className="w-28 h-36 bg-cover self-end animate-bounce duration-[3000] transition-all mr-14 hover:scale-150 "
-      /> */}
-      {/* <div><img src="" alt="" srcset="" /></div> */}
-    </div>
+    </motion.div>
   );
 }
 
