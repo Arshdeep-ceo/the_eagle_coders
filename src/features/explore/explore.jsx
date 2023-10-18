@@ -18,7 +18,7 @@ export default function explore() {
             variant="shadow"
             color="primary"
             radius="full"
-            className="mt-4 w-48 p-5 bg-indigo-600 text-white"
+            className="mt-4 w-48 p-5 dark:bg-indigo-600 text-white"
           >
             Start your journey now...
           </Button>

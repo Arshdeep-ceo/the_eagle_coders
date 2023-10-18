@@ -44,7 +44,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <NextUIProvider>
-      <main className="dark overflow-x: hidden;">
+      <main className="dark overflow-x-hidden bg-gradient-to-tr from-gray-950 from-60% via-[#14091C] via-90% to-gray-950 to-100%">
         <RouterProvider router={router} />
       </main>
     </NextUIProvider>
