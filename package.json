@@ -26,7 +26,6 @@
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.16.0",
     "styled-icons": "^10.47.0",
-    "styled-components": "^6.1.0",
     "vite-plugin-gh-pages": "^0.4.1"
   },
   "devDependencies": {

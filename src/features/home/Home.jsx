@@ -9,26 +9,47 @@ function Home() {
   const { scrollY } = useScroll();
   const animatedY = useTransform(scrollY, [0, 400], [0, -300]);
   const animatedText = useTransform(scrollY, [0, 400], ["#fff", "#000"]);
+  const photoX = useTransform(scrollY, [100, 350], [-100, 0]);
+  const textSize = useTransform(scrollY, [100, 350], [1, 2]);
   return (
     // <section className="">
     // <div className="overflow-visible">
-    <div className="flex  items-stretch flex-col overflow-hidden">
+    <div
+      className="flex  items-stretch flex-col overflow-hidden hue_rotate -mt-20 dark:bg-black bg-no-repeat p-8"
+      style={
+        {
+          // background: `linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)`,
+        }
+      }
+    >
       <Main />
       <motion.section
-        className=" mt-[30vh] p-7 bg-gradient-to-tr from-blue-50  to-pink-100 via-purple-100 rounded-lg flex flex-col sm:flex-row"
+        className=" mt-[50vh] p-7 bg-gradient-to-tr from-blue-50  to-pink-100 via-purple-100 rounded-lg flex flex-col sm:flex-row"
         style={{ y: animatedY }}
       >
-        <img
-          src="/images/raman.jpg"
-          style={{ objectFit: "cover", objectPosition: "top" }}
-          alt=""
-          // className="w-[50%] h-[40%] m-3  transform transition duration-[10000] hover:scale-105 overflow-hidden self-start sm:w-[40%]"
-          className="overflow-hidden bg-contain rounded-2xl bg-clip-border sm:basis-[35%] max-h-[25rem]  drop-shadow-xl transition-all hover:scale-105 hover:drop-shadow-2xl "
-          // style={{}}
-          // initial={{ opacity: 0 }}
-          // whileInView={{ opacity: 1 }}
-          // animate={{ transform: "translateX(100px)", opacity: 1 }}
-        />
+        <motion.div
+          initial={{ opacity: 0 }}
+          style={{ x: photoX }}
+          transition={{ type: "spring", stiffness: 100 }}
+          whileInView={{ opacity: 1 }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <img
+            src="/images/raman.jpg"
+            alt=""
+            style={{
+              objectFit: "cover",
+              objectPosition: "top",
+            }}
+            // className="w-[50%] h-[40%] m-3  transform transition duration-[10000] hover:scale-105 overflow-hidden self-start sm:w-[40%]"
+            className="overflow-hidden bg-contain rounded-2xl bg-clip-border sm:basis-[35%] max-h-[25rem]  drop-shadow-xl transition-all hover:scale-105 hover:drop-shadow-2xl duration-75 "
+            // style={{}}
+            // initial={{ opacity: 0 }}
+            // whileInView={{ opacity: 1 }}
+            // animate={{ transform: "translateX(100px)", opacity: 1 }}
+          />
+        </motion.div>
+
         <div className="pt-4 sm:basis-[65%] sm:ml-6 sm:p-0">
           <h2
             className=" font-bold text-stone-700 text-2xl transition-all hover:scale-[1.01] hover:drop-shadow-lg"
@@ -36,7 +57,10 @@ function Home() {
           >
             Why to learn Code?
           </h2>
-          <p className="my-2 text-stone-600 ">
+          <motion.p
+            className="my-2 text-stone-600 "
+            style={{ fontSize: `${textSize}rem` }}
+          >
             Learning to code is essential in {"today's"} tech-driven world,
             offering students the power to solve complex problems, drive
             innovation, access diverse career opportunities, and shape the
@@ -44,7 +68,7 @@ function Home() {
             literacy, all while being a pathway to high-demand, high-paying
             jobs, making it an invaluable skill for personal growth and
             professional success.
-          </p>
+          </motion.p>
           <h2 className=" font-bold text-stone-700 text-2xl transition-all hover:scale-[1.01] hover:drop-shadow-lg duration-100">
             Who can code?
           </h2>

@@ -60,7 +60,7 @@ export default function Contact() {
   };
 
   return (
-    <div className=" pl-6 w-full h-full rounded-2xl bg-cover bg-scroll duration-500 top-0 left-0 relative ">
+    <div className=" p-7 rounded-2xl bg-cover bg-scroll flex flex-col ">
       <div className=" lg:mx-0 bg-transparent">
         <img
           className="mx-auto h-unit-4xl animate-drip-expand"
