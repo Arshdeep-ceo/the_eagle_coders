@@ -10,16 +10,22 @@ export default {
   ],
   theme: {
     extend: {
+      
       keyframes:{
         animate_floating :{
     '0%': { transform: 'translate(0,  0px)' },
     '50%'  :{ transform: 'translate(0, 1.5rem)' },
     '100%' : { transform: 'translate(0, -1.5rem)' }    
-      }
+      },hue_rotate: {
+        '0%, 100%': { transform: 'hue-rotate(-360deg)' },
+        '50%': { transform: 'hue-rotate(360deg)' },
+      },
       },
 
       animation: {
         animate_floating: 'floating 1s ease-in-out infinite',
+          hue_rotate: 'hue_rotate 1s ease-in-out infinite',
+        
       }
     },
   },

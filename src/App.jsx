@@ -43,8 +43,10 @@ const router = createBrowserRouter([
 // ]);
 function App() {
   return (
-    <NextUIProvider className="dark">
-      <RouterProvider router={router} />
+    <NextUIProvider>
+      <main className="dark overflow-x: hidden;">
+        <RouterProvider router={router} />
+      </main>
     </NextUIProvider>
   );
 }

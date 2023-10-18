@@ -31,7 +31,7 @@ export default function AppBar() {
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
       shouldHideOnScroll
-      className="z-30"
+      className="z-40 text-gray-200 "
     >
       <NavbarContent>
         <NavbarMenuToggle
@@ -40,7 +40,9 @@ export default function AppBar() {
         />
         <NavbarBrand>
           {/* <AcmeLogo /> */}
-          <p className="font-bold text-inherit sm:text-lg">TheEagleCoders</p>
+          <p className="font-bold text-inherit text-lg sm:text-xl dark:text-gray-200 font-mono ">
+            TheEagleCoders
+          </p>
         </NavbarBrand>
       </NavbarContent>
 
