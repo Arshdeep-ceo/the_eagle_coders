@@ -71,7 +71,7 @@ export default function About() {
     setCurrentIndex(peopleIndex);
   };
   return (
-    <div className="pr-0 flex overflow-hidden bg-white-800 pt-4 pl-3  ">
+    <div className="pr-0 flex overflow-hidden bg-white  dark:bg-gray-950 pt-4 pl-3  ">
       {/* <img
         src="https://images.unsplash.com/photo-1610465299993-e6675c9f9efa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
         alt=""
@@ -94,7 +94,7 @@ export default function About() {
         aria-hidden="true"
       >
         <div
-          className="absolute aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
+          className="absolute aspect-[1097/845] w-[68.5625rem] dark:bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20"
           style={{
             clipPath:
               "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
@@ -105,21 +105,21 @@ export default function About() {
       {/* <div className="mx-auto max-w-7xl px-6 lg:px-8"> */}
       <div className="">
         <div className=" mx-auto max-w-2xl lg:mx-0">
-          <h2 className=" text-[2.8rem] font-bold bg-clip-text bg-gradient-to-r from-pink-600 via-amber-700 to bg-amber-600 tracking-tight text-transparent sm:text-6xl animate-[bounce_5s_ease-in_infinite] duration-10000 ">
+          <h2 className=" text-[2.8rem] font-bold bg-clip-text dark:bg-gradient-to-r from-pink-600 via-amber-700 to bg-amber-600 tracking-tight text-transparent sm:text-6xl animate-[bounce_5s_ease-in_infinite] duration-10000 ">
             Work with us
           </h2>
-          <p className=" text-md leading-6 text-gray-800 animate-drip-expand">
+          <p className=" text-md leading-6 text-black dark:text-gray-600 animate-drip-expand">
             Learn with Expert Learning with Experts is a global classroom
             community that brings people together to learn from expert tutors
             and each other.
           </p>
-          <p className=" mt-5 text-3xl tracking-tight text-black sm:text-4xl animate-pulse w-15">
-            We Provide
-          </p>
+          <h2 className=" text-[2.8rem] font-semibold bg-clip-text dark:bg-gradient-to-r from-pink-400 via-amber-500 to bg-amber-300 tracking-tight text-transparent sm:text-4xl animate-[pulse_5s_ease-in_infinite] duration-10000  ">
+            We provide
+          </h2>
         </div>
         {/* <div className="bg-slate-100"></div> */}
         <div className="mt-5">
-          <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-black sm:grid-cols-2 md:flex lg:gap-x-10">
+          <div className=" text-gray-500 grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7  sm:grid-cols-2 md:flex lg:gap-x-10">
             {links.map((link) => (
               <a key={link.name} href={link.href}>
                 {link.name} <span aria-hidden="true">&rarr;</span>
@@ -129,15 +129,17 @@ export default function About() {
           <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4 animate-appearance-in">
             {stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse">
-                <dt className="text-base leading-7 text-black">{stat.name}</dt>
-                <dd className="text-2xl font-bold leading-9 tracking-tight text-black">
+                <dt className="text-base leading-7 bg-black dark:text-gray-500">
+                  {stat.name}
+                </dt>
+                <dd className="text-2xl font-bold leading-9 tracking-tight bg-black dark:text-gray-400">
                   {stat.value}
                 </dd>
               </div>
             ))}
           </dl>
 
-          <div className=" pl-5 pr-4 pt-24 sm:pt-14 mt-8  bg-gradient-to-r from-pink-600 via-amber-400 to bg-amber-600 ">
+          <div className=" rounded-lg pl-5 pr-4 pt-24 sm:pt-14 mt-8  bg-gradient-to-r from-pink-600 via-amber-400 to bg-amber-600 ">
             <div className="max-w-2xl">
               <h2 className="ml-0 text-3xl  tracking-tight sm:text-6xl animate-[bounce_5s_ease-in_infinite] duration-10000">
                 Our Awesome Team!

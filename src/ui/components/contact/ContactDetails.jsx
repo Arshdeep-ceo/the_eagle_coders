@@ -1,7 +1,7 @@
 export default function ContactDetails() {
   return (
-    <div className="text-center sm:max-w-[50%] flex flex-col sm:flex-row ">
-      <div className="shadow-large mt-4">
+    <div className=" mt-4 dark:text-gray-500  dark:bg-gray-900 text-center sm:max-w-[50%] flex flex-col sm:flex-row ">
+      <div className="  shadow-large mt-4">
         <div className=" font-bold">Chat to support</div>
         <p className="font-semibold">We are here to help</p>
         <img

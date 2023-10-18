@@ -35,10 +35,10 @@ function Hero() {
           {/* Become the future you desire! <br /> */}
         </Zoom>
       </div>
-      <h2 className="font-semibold text-lg m-2 leading-3 text-center">
+      <h2 className="font-semibold text-lg m-2 leading-3 text-center dark:text-gray-400">
         Master React, Ai, Flutter and more...
       </h2>
-      <p className="  text-gray-700 max-w-xl self-center p-3 text-center text-sm sm:p-6">
+      <p className=" text-gray-200 max-w-xl self-center p-3 text-center text-sm sm:p-6">
         We at Eagle Coders inspires to teach students the current market leading
         technologies Hey There. We at Eagle Coders inspires to teach students
         the current market leading technologies. We at Eagle Coders inspires to

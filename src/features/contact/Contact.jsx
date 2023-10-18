@@ -61,19 +61,19 @@ export default function Contact() {
   };
 
   return (
-    <div className=" p-7 rounded-2xl bg-cover bg-scroll duration-500 top-0 left-0 relative flex flex-col items-center ">
+    <div className="dark:bg-gray-950 p-7 rounded-2xl bg-cover bg-scroll duration-500 top-0 left-0 relative flex flex-col items-center ">
       <div className=" lg:mx-0 bg-transparent">
         <img
-          className="mx-auto h-unit-4xl animate-drip-expand"
+          className="mx-auto h-unit-4xl animate-drip-expand bg-white rounded-full"
           src="../../public/images/logo.png"
           alt=""
         />
         <figure className="mt-3  ">
-          <h2 className="animate-animate_floating text-center text-4xl font-bold leading-8 text-gray-900 sm:text-5xl sm:leading-9">
+          <h2 className=" text-[2.8rem] font-bold bg-clip-text bg-gradient-to-r from-pink-600 via-amber-700 to bg-amber-600 tracking-tight text-transparent sm:text-6xl animate-[bounce_5s_ease-in_infinite] duration-10000 ">
             Contact our friendly team
           </h2>
           <blockquote className=" mt-3 text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-            <p className=" animate-[appearance-in_3s_ease-in] duration-1000">
+            <p className="text-gray-500 animate-[appearance-in_3s_ease-in] duration-1000">
               Let us know how we can help..
               <br />
               We are open for any suggestion or just to have a chat
@@ -82,7 +82,7 @@ export default function Contact() {
         </figure>
       </div>
       <ContactDetails />
-      <div className=" rounded-large mt-8 mb-6 ">
+      <div className=" dark:bg-gray-500 rounded-large mt-8 mb-6 ">
         <div
           className=" absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
           aria-hidden="true"
@@ -96,7 +96,7 @@ export default function Contact() {
           />
         </div>
         <div className=" rounded-xl shadow-2xl mt-6 pt-6 mx-auto max-w-2xl text-center">
-          <h2 className=" animate-bounce font-bold tracking-tight  text-transparent bg-clip-text bg-gradient-to-r from-pink-600 via-amber-500 to bg-amber-600 sm:text-5xl">
+          <h2 className=" animate-bounce font-bold tracking-tight  text-transparent bg-clip-text bg-gradient-to-r from-pink-600 via-amber-700 to bg-amber-600 sm:text-5xl">
             Contact Us
           </h2>
           <p className="mt-12 text-lg leading-8 bg-clip-text bg-gradient-to-r from-pink-500 via-amber-500 to bg-amber-600">

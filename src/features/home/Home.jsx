@@ -2,6 +2,7 @@
 // import { Image } from "@nextui-org/react";
 import Hero from "../../ui/components/home/Hero";
 import { useScroll, motion, useTransform } from "framer-motion";
+import Footer from "../home/footer/footer.jsx";
 
 function Home() {
   // const { scrollYProgress } = useScroll();
@@ -17,7 +18,7 @@ function Home() {
     <div className="flex  items-stretch flex-col overflow-hidden dark:bg-gray-950">
       <Hero />
       <motion.section
-        className=" mt-[50vh] p-7 bg-gradient-to-tr from-blue-50  to-pink-100 via-purple-100 rounded-lg flex flex-col sm:flex-row"
+        className="  mt-[50vh] p-7 dark:bg-gray-600  rounded-lg flex flex-col sm:flex-row"
         style={{ y: animatedY }}
       >
         <motion.div
@@ -35,7 +36,7 @@ function Home() {
               objectPosition: "top",
             }}
             // className="w-[50%] h-[40%] m-3  transform transition duration-[10000] hover:scale-105 overflow-hidden self-start sm:w-[40%]"
-            className="overflow-hidden bg-contain rounded-2xl bg-clip-border sm:basis-[35%] max-h-[25rem]  drop-shadow-xl transition-all hover:scale-105 hover:drop-shadow-2xl duration-75 "
+            className=" bg-[#4B5563] overflow-hidden bg-contain rounded-2xl bg-clip-border sm:basis-[35%] max-h-[25rem]  drop-shadow-xl transition-all hover:scale-105 hover:drop-shadow-2xl duration-75 "
             // style={{}}
             // initial={{ opacity: 0 }}
             // whileInView={{ opacity: 1 }}
@@ -43,17 +44,14 @@ function Home() {
           />
         </motion.div>
 
-        <div className="pt-4 sm:basis-[65%] sm:ml-6 sm:p-0">
+        <div className="  pt-4 sm:basis-[65%] sm:ml-6 sm:p-0">
           <h2
-            className=" font-bold text-stone-700 text-2xl transition-all hover:scale-[1.01] hover:drop-shadow-lg"
+            className="pl-2 font-bold dar text-2xl transition-all hover:scale-[1.01] hover:drop-shadow-lg"
             style={{ color: { animatedText } }}
           >
             Why to learn Code?
           </h2>
-          <motion.p
-            className="my-2 text-stone-600 "
-            style={{ fontSize: `${textSize}rem` }}
-          >
+          <motion.p className="my-2   " style={{ fontSize: `${textSize}rem` }}>
             Learning to code is essential in {"today's"} tech-driven world,
             offering students the power to solve complex problems, drive
             innovation, access diverse career opportunities, and shape the
@@ -62,10 +60,10 @@ function Home() {
             jobs, making it an invaluable skill for personal growth and
             professional success.
           </motion.p>
-          <h2 className=" font-bold text-stone-700 text-2xl transition-all hover:scale-[1.01] hover:drop-shadow-lg duration-100">
+          <h2 className=" pl-2 font-bold  rounded-medium  text-2xl transition-all hover:scale-[1.01] hover:drop-shadow-lg duration-100">
             Who can code?
           </h2>
-          <p className="mt-2 text-stone-600">
+          <p className="mt-2  ">
             Learning to code is essential in {"today's"} tech-driven world,
             offering students the power to solve complex problems, drive
             innovation, access diverse career opportunities, and shape the
@@ -126,57 +124,10 @@ function Home() {
           provident atque fuga neque culpa explicabo quo! Cupiditate.
         </p>
       </section>
+      <Footer />
     </div>
     // </section>
   );
 }
 
 export default Home;
-
-{
-  /* <p className="mt-2">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
-            mollitia autem, nostrum error repudiandae praesentium hic quia
-            voluptatum ratione itaque, quibusdam quae provident atque fuga neque
-            culpa explicabo quo! Cupiditate. Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Commodi mollitia autem, nostrum error
-            repudiandae praesentium hic quia voluptatum ratione itaque,
-            quibusdam quae provident atque fuga neque culpa explicabo quo!
-            Cupiditate. Lorem ipsum dolor sit amet consectetur, adipisicing
-            elit. Commodi mollitia autem, nostrum error repudirelativandae
-            praesentium hic quia voluptatum ratione itaque, quibusdam quae
-            provident atque fuga neque culpa explicabo quo! Cupiditate. Lorem
-            ipsum dolor sit amet consectetur, adipisicing elit. Commodi mollitia
-            autem, nostrum error repudiandae praesentium hic quia voluptatum
-            ratione itaque, quibusdam quae provident atque fuga neque culpa
-            explicabo quo! Cupiditate. Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Commodi mollitia autem, nostrum error repudiandae
-            praesentium hic quia voluptatum ratione itaque, quibusdam quae
-            provident atque fuga neque culpa explicabo quo! Cupiditate. Lorem
-            ipsum dolor sit amet consectetur, adipisicing elit. Commodi mollitia
-            autem, nostrum error repudiandae praesentium hic quia voluptatum
-            ratione itaque, quibusdam quae provident atque fuga neque culpa
-            explicabo quo! Cupiditate. Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Commodi mollitia autem, nostrum error repudiandae
-            praesentium hic quia voluptatum ratione itaque, quibusdam quae
-            provident atque fuga neque culpa explicabo quo! Cupiditate. Lorem
-            ipsum dolor sit amet consectetur, adipisicing elit. Commodi mollitia
-            autem, nostrum error repudiandae praesentium hic quia voluptatum
-            ratione itaque, quibusdam quae provident atque fuga neque culpa
-            explicabo quo! Cupiditate. Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Commodi mollitia autem, nostrum error repudiandae
-            praesentium hic quia voluptatum ratione itaque, quibusdam quae
-            provident atque fuga neque culpa explicabo quo! Cupiditate. Lorem
-            ipsum dolor sit amet consectetur, adipisicing elit. Commodi mollitia
-            autem, nostrum error repudiandae praesentium hic quia voluptatum
-            ratione itaque, quibusdam quae provident atque fuga neque culpa
-            explicabo quo! Cupiditate. Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Commodi mollitia autem, nostrum error repudiandae
-            praesentium hic quia voluptatum ratione itaque, quibusdam quae
-            provident atque fuga neque culpa explicabo quo! Cupiditate. Lorem
-            ipsum dolor sit amet consectetur, adipisicing elit. Commodi mollitia
-            autem, nostrum error repudiandae praesentium hic quia voluptatum
-            ratione itaque, quibusdam quae provident atque fuga neque culpa
-            explicabo quo! Cupiditate.
-          </p> */
-}
