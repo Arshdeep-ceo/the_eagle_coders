@@ -12,19 +12,21 @@ export default {
     extend: {
       
       keyframes:{
-        animate_floating :{
-    '0%': { transform: 'translate(0,  0px)' },
-    '50%'  :{ transform: 'translate(0, 1.5rem)' },
-    '100%' : { transform: 'translate(0, -1.5rem)' }    
-      },hue_rotate: {
+        floating :{
+    '0%': { transform: 'translate(0,  0rem)' },
+    '25%'  :{ transform: 'translate(0, 0.5rem)' },
+    '50%' : { transform: 'translate(0, -0.3rem)' }  ,  
+    '100%' : { transform: 'translate(0, 0rem)' }    
+      },
+      hue_rotate: {
         '0%, 100%': { transform: 'hue-rotate(-360deg)' },
         '50%': { transform: 'hue-rotate(360deg)' },
       },
       },
 
       animation: {
-        animate_floating: 'floating 1s ease-in-out infinite',
-          hue_rotate: 'hue_rotate 1s ease-in-out infinite',
+        'floating': 'floating 5s linear infinite',
+          'hue_rotate': 'hue_rotate 1s ease-in-out infinite',
         
       }
     },

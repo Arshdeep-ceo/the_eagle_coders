@@ -1,7 +1,8 @@
 // import AppBar from "../../ui/components/home/Appbar";
-// import { Image } from "@nextui-org/react";
+import { Image, Card, CardHeader, CardFooter, Button } from "@nextui-org/react";
 import Hero from "../../ui/components/home/Hero";
 import { useScroll, motion, useTransform } from "framer-motion";
+import "../../index.css";
 import Footer from "../home/footer/footer.jsx";
 
 function Home() {
@@ -15,10 +16,81 @@ function Home() {
   return (
     // <section className="">
     // <div className="overflow-visible">
-    <div className="flex  items-stretch flex-col overflow-hidden dark:bg-gray-950">
+    <div className="flex items-stretch flex-col  ">
       <Hero />
+      <div className="flex flex-col px-5 min-[]: sm:flex-row items-stretch justify-around space-x-9 bg-transparent">
+        {/* <div className=""></div> */}
+        <Card
+          isFooterBlurred
+          radius="lg"
+          className="border-none grow absolute animate-floating right-16 bottom-6"
+        >
+          <Image
+            alt="Woman listing to music"
+            className="object-cover "
+            height={100}
+            src="/images/raman.jpg"
+            width={100}
+          />
+          <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+            <p className="text-tiny text-white/80">Available soon.</p>
+            <Button
+              className="text-tiny text-white bg-black/20"
+              variant="flat"
+              color="default"
+              radius="lg"
+              size="sm"
+            >
+              Notify me
+            </Button>
+          </CardFooter>
+        </Card>
+        <Card isFooterBlurred radius="lg" className="border-none grow">
+          <Image
+            alt="Woman listing to music"
+            className="object-cover"
+            height={200}
+            src="/images/raman.jpg"
+            width={200}
+          />
+          <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+            <p className="text-tiny text-white/80">Available soon.</p>
+            <Button
+              className="text-tiny text-white bg-black/20"
+              variant="flat"
+              color="default"
+              radius="lg"
+              size="sm"
+            >
+              Notify me
+            </Button>
+          </CardFooter>
+        </Card>
+        <Card isFooterBlurred radius="lg" className="border-none grow">
+          <Image
+            alt="Woman listing to music"
+            className="object-cover"
+            height={200}
+            src="/images/raman.jpg"
+            width={200}
+          />
+          <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+            <p className="text-tiny text-white/80">Available soon.</p>
+            <Button
+              className="text-tiny text-white bg-black/20"
+              variant="flat"
+              color="default"
+              radius="lg"
+              size="sm"
+            >
+              Notify me
+            </Button>
+          </CardFooter>
+        </Card>
+      </div>
+
       <motion.section
-        className="  mt-[50vh] p-7 dark:bg-gray-600  rounded-lg flex flex-col sm:flex-row"
+        className=" mt-[70vh] p-7  rounded-lg flex flex-col sm:flex-row text-gray-400 dark:bg-gray-900 "
         style={{ y: animatedY }}
       >
         <motion.div
@@ -29,7 +101,7 @@ function Home() {
           whileTap={{ scale: 0.95 }}
         >
           <img
-            src="/images/raman.jpg"
+            src="/images/team.bg.jpeg"
             alt=""
             style={{
               objectFit: "cover",
@@ -44,14 +116,17 @@ function Home() {
           />
         </motion.div>
 
-        <div className="  pt-4 sm:basis-[65%] sm:ml-6 sm:p-0">
+        <div className="pt-4 sm:basis-[65%] sm:ml-6 sm:p-0 ">
           <h2
-            className="pl-2 font-bold dar text-2xl transition-all hover:scale-[1.01] hover:drop-shadow-lg"
+            className=" font-bold text-stone-700 dark:text-gray-300 text-2xl transition-all hover:scale-[1.01] hover:drop-shadow-lg"
             style={{ color: { animatedText } }}
           >
             Why to learn Code?
           </h2>
-          <motion.p className="my-2   " style={{ fontSize: `${textSize}rem` }}>
+          <motion.p
+            className="my-2 text-stone-600 dark:text-gray-400 "
+            style={{ fontSize: `${textSize}rem` }}
+          >
             Learning to code is essential in {"today's"} tech-driven world,
             offering students the power to solve complex problems, drive
             innovation, access diverse career opportunities, and shape the
@@ -60,10 +135,10 @@ function Home() {
             jobs, making it an invaluable skill for personal growth and
             professional success.
           </motion.p>
-          <h2 className=" pl-2 font-bold  rounded-medium  text-2xl transition-all hover:scale-[1.01] hover:drop-shadow-lg duration-100">
+          <h2 className=" font-bold text-stone-700 dark:text-gray-300 text-2xl transition-all hover:scale-[1.01] hover:drop-shadow-lg duration-100">
             Who can code?
           </h2>
-          <p className="mt-2  ">
+          <p className="mt-2 text-stone-600 dark:text-gray-400">
             Learning to code is essential in {"today's"} tech-driven world,
             offering students the power to solve complex problems, drive
             innovation, access diverse career opportunities, and shape the
@@ -74,12 +149,12 @@ function Home() {
           </p>
         </div>
       </motion.section>
-      <section className="bg-white -mt-64 p-6" style={{}}>
-        <div className=" font-bold text-stone-700 text-2xl transition-all hover:scale-[1.01] hover:drop-shadow-lg duration-100">
+      <section className=" -mt-64 p-6" style={{}}>
+        <div className=" font-bold text-stone-700 dark:text-gray-200 text-2xl transition-all hover:scale-[1.01] hover:drop-shadow-lg duration-100">
           Why Us?
         </div>
 
-        <p className="mt-2 ">
+        <p className="mt-2 dark:text-gray-200">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi
           mollitia autem, nostrum error repudiandae praesentium hic quia
           voluptatum ratione itaque, quibusdam quae provident atque fuga neque

@@ -21,7 +21,7 @@ export default function AppBar() {
   const [currentTab, setCurrentTab] = useState(0);
 
   const menuItems = ["Home", "About", "Testimonials", "Contact Us", "Explore"];
-  const menuPaths = ["/", "/about", "testimonials", "/contact", "/explore"];
+  const menuPaths = ["/", "/about", "/testimonials", "/contact", "/explore"];
 
   const handleClick = (key) => {
     setCurrentTab(key);
@@ -31,7 +31,7 @@ export default function AppBar() {
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
       shouldHideOnScroll
-      className="z-40 text-gray-200 "
+      className="z-40 text-gray-200 bg-transparent "
     >
       <NavbarContent>
         <NavbarMenuToggle
@@ -69,15 +69,15 @@ export default function AppBar() {
       </NavbarContent>
 
       <NavbarContent as="div" justify="end">
-        <NavbarItem className="hidden lg:flex">
+        {/* <NavbarItem className="hidden lg:flex">
           <Link href="#">Login</Link>
-        </NavbarItem>
+        </NavbarItem> */}
         <NavbarItem>
           <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
+            Contact
           </Button>
         </NavbarItem>
-        <Dropdown placement="bottom-end">
+        {/* <Dropdown placement="bottom-end">
           <DropdownTrigger>
             <Avatar
               isBordered
@@ -104,7 +104,7 @@ export default function AppBar() {
               Log Out
             </DropdownItem>
           </DropdownMenu>
-        </Dropdown>
+        </Dropdown> */}
       </NavbarContent>
 
       <NavbarMenu>
