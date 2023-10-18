@@ -12,6 +12,7 @@ import Testimonials from "./features/testimonials/Testimonials";
 import Contact from "./features/contact/Contact";
 import { NextUIProvider } from "@nextui-org/react";
 import AppLayout from "./AppLayout";
+import Explore from "./features/explore/explore.jsx";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
       { path: "/about", element: <About /> },
       { path: "/testimonials", element: <Testimonials /> },
       { path: "/contact", element: <Contact /> },
+      { path: "/explore", element: <Explore /> },
     ],
   },
 ]);
@@ -41,7 +43,7 @@ const router = createBrowserRouter([
 // ]);
 function App() {
   return (
-    <NextUIProvider>
+    <NextUIProvider className="dark">
       <RouterProvider router={router} />
     </NextUIProvider>
   );

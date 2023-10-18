@@ -5,7 +5,7 @@ import "./Home.css";
 import { useScroll, motion, useTransform } from "framer-motion";
 // import { motion } from "framer-motion";
 
-function Main() {
+function Hero() {
   const { scrollY } = useScroll();
   const y1 = useTransform(scrollY, [0, 300], [0, 100]);
   const scale = useTransform(scrollY, [0, 300], [1, 0.6]);
@@ -25,8 +25,12 @@ function Main() {
       <AnimatedArrow />
       <div className="bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text ">
         <Zoom cascade={true}>
-          <h1 className="mb-2 text-center text-transparent bg-gradient-to-r from-pink-500 to-yellow-500  bg-clip-text text-4xl px-4 mt-8 font-bold w-screen sm:mt-10 mx-auto md:mt-16 lg:text-5xl xl:text-6xl xl:m-2 hover:scale-105 transition-all ">
-            Become the future you desire!
+          <h1 className="mb-2 text-center text-transparent bg-clip-text bg-[#ECEDEE] text-4xl px-4 mt-8 font-bold w-screen sm:mt-10 mx-auto md:mt-16 lg:text-5xl xl:text-6xl xl:m-2 hover:scale-105 transition-all ">
+            Become the{" "}
+            <span className="bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text">
+              future{" "}
+            </span>
+            you desire!
           </h1>
           {/* Become the future you desire! <br /> */}
         </Zoom>
@@ -67,4 +71,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Hero;

@@ -1,6 +1,6 @@
 // import AppBar from "../../ui/components/home/Appbar";
 // import { Image } from "@nextui-org/react";
-import Main from "../../ui/components/home/Main";
+import Hero from "../../ui/components/home/Hero";
 import { useScroll, motion, useTransform } from "framer-motion";
 
 function Home() {
@@ -12,8 +12,8 @@ function Home() {
   return (
     // <section className="">
     // <div className="overflow-visible">
-    <div className="flex  items-stretch flex-col overflow-hidden">
-      <Main />
+    <div className="flex  items-stretch flex-col overflow-hidden dark:bg-gray-950">
+      <Hero />
       <motion.section
         className=" mt-[30vh] p-7 bg-gradient-to-tr from-blue-50  to-pink-100 via-purple-100 rounded-lg flex flex-col sm:flex-row"
         style={{ y: animatedY }}

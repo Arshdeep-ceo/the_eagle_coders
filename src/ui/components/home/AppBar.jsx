@@ -20,8 +20,8 @@ export default function AppBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [currentTab, setCurrentTab] = useState(0);
 
-  const menuItems = ["Home", "About", "Testimonials", "Contact Us"];
-  const menuPaths = ["/", "/about", "testimonials", "/contact"];
+  const menuItems = ["Home", "About", "Testimonials", "Contact Us", "Explore"];
+  const menuPaths = ["/", "/about", "testimonials", "/contact", "/explore"];
 
   const handleClick = (key) => {
     setCurrentTab(key);
