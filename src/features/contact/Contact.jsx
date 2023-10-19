@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Switch } from "@headlessui/react";
 import ContactDetails from "../../ui/components/contact/ContactDetails";
 // import { Header } from "styled-icons/fa-solid";
+import Footer from "../home/footer/footer.jsx";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -113,7 +114,7 @@ export default function Contact() {
             <div className="sm:col-span-2">
               {/* <label
                 htmlFor="company"
-                className="block text-sm font-semibold leading-6 text-gray-900"
+                className="block text-sm font-semibold leading-6 text-gray-900 "
               >
                 Name
               </label> */}
