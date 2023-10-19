@@ -1,6 +1,7 @@
 import { useState } from "react";
 // import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Switch } from "@headlessui/react";
+import Footer from "../home/footer/footer.jsx";
 import ContactDetails from "../../ui/components/contact/ContactDetails";
 // import { Header } from "styled-icons/fa-solid";
 
@@ -114,7 +115,7 @@ export default function Contact() {
             <div className="sm:col-span-2">
               <label
                 htmlFor="company"
-                className="block text-sm font-semibold leading-6 text-gray-900"
+                className="block text-sm font-semibold leading-6 text-gray-900 "
               >
                 Name
               </label>
@@ -136,7 +137,7 @@ export default function Contact() {
                 htmlFor="company"
                 className="block text-sm font-semibold leading-6 text-gray-900"
               >
-                Course
+                Batch
               </label>
               <div className="mt-2.5">
                 <input
@@ -260,6 +261,7 @@ export default function Contact() {
           // referrerpolicy="no-referrer-when-downgrade"
         />
       </div>
+      <Footer />
     </div>
   );
 }

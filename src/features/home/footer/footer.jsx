@@ -20,10 +20,6 @@ const SITEMAP = [
       "And many more...",
     ],
   },
-  {
-    title: "Products",
-    links: ["Templates", "UI Kits", "Icons", "Mockups"],
-  },
 ];
 
 const currentYear = new Date().getFullYear();
@@ -32,13 +28,13 @@ export default function Footer() {
   return (
     <footer className=" dark:bg-gray-950 relative w-full">
       <div className=" mx-auto w-full max-w-7xl px-8">
-        <div className=" dark:text-gray-400 mx-auto grid w-full grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-4">
+        <div className=" dark:text-gray-400 mx-auto grid w-full grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-3  justify-items-center content-center place-content-center place-items-center">
           {SITEMAP.map(({ title, links }, key) => (
             <div key={key} className=" w-full">
               <Typography
                 variant="small"
                 color="blue-gray"
-                className=" mb-4 font-bold uppercase opacity-50 animate-bounce "
+                className=" mb-4 font-bold uppercase opacity-50 "
               >
                 {title}
               </Typography>

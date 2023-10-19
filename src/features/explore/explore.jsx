@@ -1,5 +1,6 @@
 import Features from "./features.jsx";
 import { Button } from "@nextui-org/react";
+import Footer from "../home/footer/footer.jsx";
 export default function explore() {
   return (
     <div className="flex flex-col relative overflow-hidden bg-gray-950 ">
@@ -60,6 +61,7 @@ export default function explore() {
       </div>
 
       <Features />
+      <Footer />
     </div>
   );
 }
