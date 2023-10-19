@@ -38,7 +38,7 @@ export default function Footer() {
               <Typography
                 variant="small"
                 color="blue-gray"
-                className=" mb-4 font-bold uppercase opacity-50 animate-bounce "
+                className=" mb-4 font-bold uppercase opacity-50 "
               >
                 {title}
               </Typography>

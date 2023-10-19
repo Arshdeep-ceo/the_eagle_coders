@@ -25,7 +25,7 @@ export default {
       },
 
       animation: {
-        'floating': 'floating 5s linear infinite',
+        'floating': 'floating 4s linear infinite',
           'hue_rotate': 'hue_rotate 1s ease-in-out infinite',
         
       }

@@ -1,5 +1,5 @@
 // import AppBar from "../../ui/components/home/Appbar";
-import { Image, Card, CardHeader, CardFooter, Button } from "@nextui-org/react";
+import { Image, Card, CardFooter, Button } from "@nextui-org/react";
 import Hero from "../../ui/components/home/Hero";
 import { useScroll, motion, useTransform } from "framer-motion";
 import "../../index.css";
@@ -18,86 +18,46 @@ function Home() {
     // <div className="overflow-visible">
     <div className="flex items-stretch flex-col  ">
       <Hero />
-      <div className="flex flex-col px-5 min-[]: sm:flex-row items-stretch justify-around space-x-9 bg-transparent">
-        {/* <div className=""></div> */}
+      <div className="-mt-8 items-start grid grid-cols-1 px-5 min-[540px]:grid-cols-2 lg:grid-cols-4 gap-4 ">
         <Card
           isFooterBlurred
           radius="lg"
-          className="border-none grow absolute animate-floating right-16 bottom-6"
+          className="border-none backdrop-blur-lg bg-white/10 h-48"
         >
-          <Image
-            alt="Woman listing to music"
-            className="object-cover "
-            height={100}
-            src="/images/raman.jpg"
-            width={100}
-          />
-          <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-            <p className="text-tiny text-white/80">Available soon.</p>
-            <Button
-              className="text-tiny text-white bg-black/20"
-              variant="flat"
-              color="default"
-              radius="lg"
-              size="sm"
-            >
-              Notify me
-            </Button>
-          </CardFooter>
+          Fast
         </Card>
-        <Card isFooterBlurred radius="lg" className="border-none grow">
-          <Image
-            alt="Woman listing to music"
-            className="object-cover"
-            height={200}
-            src="/images/raman.jpg"
-            width={200}
-          />
-          <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-            <p className="text-tiny text-white/80">Available soon.</p>
-            <Button
-              className="text-tiny text-white bg-black/20"
-              variant="flat"
-              color="default"
-              radius="lg"
-              size="sm"
-            >
-              Notify me
-            </Button>
-          </CardFooter>
+        <Card
+          isFooterBlurred
+          radius="lg"
+          className="border-none grow backdrop-blur-lg bg-white/10 h-48"
+        >
+          Yo
         </Card>
-        <Card isFooterBlurred radius="lg" className="border-none grow">
-          <Image
-            alt="Woman listing to music"
-            className="object-cover"
-            height={200}
-            src="/images/raman.jpg"
-            width={200}
-          />
-          <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-            <p className="text-tiny text-white/80">Available soon.</p>
-            <Button
-              className="text-tiny text-white bg-black/20"
-              variant="flat"
-              color="default"
-              radius="lg"
-              size="sm"
-            >
-              Notify me
-            </Button>
-          </CardFooter>
+        <Card
+          isFooterBlurred
+          radius="lg"
+          className="border-none grow backdrop-blur-lg bg-white/10 h-48"
+        >
+          Yo
+        </Card>
+        <Card
+          isFooterBlurred
+          radius="lg"
+          className="border-none grow backdrop-blur-lg bg-white/10 h-48"
+        >
+          Yo
         </Card>
       </div>
 
-      <motion.section
-        className=" mt-[70vh] p-7  rounded-lg flex flex-col sm:flex-row text-gray-400 dark:bg-gray-900 "
+      <section
+        className="mt-8 p-7  rounded-lg flex flex-col sm:flex-row text-gray-400 dark:bg-gray-900/40 backdrop-blur-lg"
         style={{ y: animatedY }}
       >
         <motion.div
-          initial={{ opacity: 0 }}
+          initial={{ opacity: 0, transform: "translateX(-40px)" }}
           style={{ x: photoX }}
-          transition={{ type: "spring", stiffness: 100 }}
-          whileInView={{ opacity: 1 }}
+          transition={{ type: "spring", stiffness: 400 }}
+          whileInView={{ opacity: 1, transform: "translateX(0px)" }}
           whileTap={{ scale: 0.95 }}
         >
           <img
@@ -148,8 +108,8 @@ function Home() {
             professional success.
           </p>
         </div>
-      </motion.section>
-      <section className=" -mt-64 p-6" style={{}}>
+      </section>
+      <section className=" p-6" style={{}}>
         <div className=" font-bold text-stone-700 dark:text-gray-200 text-2xl transition-all hover:scale-[1.01] hover:drop-shadow-lg duration-100">
           Why Us?
         </div>
