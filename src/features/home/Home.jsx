@@ -1,5 +1,5 @@
 // import AppBar from "../../ui/components/home/Appbar";
-import { Image, Card, CardFooter, Button } from "@nextui-org/react";
+import { Card } from "@nextui-org/react";
 import Hero from "../../ui/components/home/Hero";
 import { useScroll, motion, useTransform } from "framer-motion";
 import "../../index.css";

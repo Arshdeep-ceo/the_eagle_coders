@@ -1,36 +1,58 @@
+import { Card } from "@nextui-org/react";
 export default function ContactDetails() {
   return (
-    <div className=" mt-4 dark:text-gray-500  dark:bg-gray-900 text-center sm:max-w-[50%] flex flex-col sm:flex-row ">
-      <div className="  shadow-large mt-4">
-        <div className=" font-bold">Chat to support</div>
-        <p className="font-semibold">We are here to help</p>
-        <img
-          className="mx-auto h-unit-2xl mt-3"
-          src="../../public/images/logo.png"
-          alt=""
-        />
-        <p className="mt-3">theeaglecoders@gmail.com</p>
-      </div>
+    <div className=" mt-4 dark:text-gray-500 text-center sm:max-w-[70%] flex flex-col gap-5 sm:flex-row flex-grow">
+      <Card
+        isFooterBlurred
+        radius="lg"
+        className="border-none  bg-white/10 h-48 shadow-lg "
+      >
+        <div className="my-auto p-2">
+          <p className="font-bold ">Chat</p>
+          <p className="">We are here to help</p>
+          <img
+            className="mx-auto h-unit-2xl mt-3"
+            src="../../public/images/logo.png"
+            alt=""
+          />
+          <p className=" underline">
+            theeaglecoders
+            <br />
+            @gmail.com
+          </p>
+        </div>
+      </Card>
+      <Card
+        isFooterBlurred
+        radius="lg"
+        className="border-none  bg-white/10 h-48 grow shadow-lg "
+      >
+        <div className="my-auto ">
+          <div className=" font-bold">Visit us</div>
 
-      <div className="shadow-large mt-4">
-        <div className=" font-bold">Vist us</div>
-
-        <p className="mt-3 underline">Visit our office HQ.</p>
-        <p className="font-semibold mt-4">
-          d, 185D, Phase 8B, Industrial Area, Sector 74, Sahibzada Ajit Singh
-          Nagar, Punjab 160055
-        </p>
-      </div>
-      <div className="shadow-large mt-4">
-        <div className=" font-bold">Call us</div>
-        <p className=" font-semibold mt-1">Speak to our friendly team</p>
-        <img
-          className="mx-auto h-unit-2xl mt-3"
-          src="../../public/images/logo.png"
-          alt=""
-        />
-        <p className=" font-semibold underline mt-2">+91 88723 12729</p>
-      </div>
+          <p className="mt-3 underline">Visit our office HQ.</p>
+          <p className="font-semibold mt-4">
+            d, 185D, Phase 8B, Industrial Area, Sector 74, Sahibzada Ajit Singh
+            Nagar, Punjab 160055
+          </p>
+        </div>
+      </Card>
+      <Card
+        isFooterBlurred
+        radius="lg"
+        className="border-none  bg-white/10 h-48 grow shadow-lg "
+      >
+        <div className="my-auto ">
+          <div className=" font-bold">Call us</div>
+          <p className=" ">Speak to our friendly team</p>
+          <img
+            className="mx-auto h-unit-2xl mt-3"
+            src="../../public/images/logo.png"
+            alt=""
+          />
+          <p className=" font-semibold underline mt-2">+91 88723 12729</p>
+        </div>
+      </Card>
     </div>
   );
 }
