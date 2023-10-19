@@ -51,8 +51,8 @@ function Hero() {
       </h2>
       <p className="  text-gray-500 dark:text-gray-400 max-w-xl self-center p-3 text-center text-sm sm:p-6 z-10">
         We at Eagle Coders inspires to teach students the current market leading
-        technologies Hey There. We at Eagle Coders inspires to teach students
-        the current market leading technologies. We at Eagle Coders inspires to
+        technologies Hey There. <br></br>Innovating today for a better digital
+        tomorrow.
       </p>
       <div className="flex items-center justify-center gap-x-3 flex-col gap-y-2 sm:flex-row z-10">
         <Button

@@ -65,7 +65,7 @@ function Home() {
             className="mt-4 mb-8 font-bold text-stone-700 dark:text-gray-300 text-4xl transition-all hover:scale-[1.01] hover:drop-shadow-lg"
             style={{ color: { animatedText } }}
           >
-            Indusry{"'s"} Solutions
+            Industry{"'s"} Solutions
           </h2>
           <motion.p
             className="my-2 text-stone-600 dark:text-gray-400 "
@@ -158,14 +158,11 @@ function Home() {
             className=" font-bold text-stone-700 dark:text-gray-300 text-4xl transition-all hover:scale-[1.01] hover:drop-shadow-lg"
             style={{ color: { animatedText } }}
           >
-            You will definitly going to 😊
+            You are definitly going to 😊
           </h2>
-          <a
-            href="#"
-            className=" mt-4 bg-gradient-to-r from-pink-500 to-yellow-500  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          >
+          <p className=" mt-4 bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  focus:ring-4 focus:outline-none  ">
             Love coding
-          </a>
+          </p>
         </div>
       </section>
       <section className=" p-6" style={{}}>
