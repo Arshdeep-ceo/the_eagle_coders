@@ -1,9 +1,9 @@
 import { useState } from "react";
 // import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Switch } from "@headlessui/react";
-import Footer from "../home/footer/footer.jsx";
 import ContactDetails from "../../ui/components/contact/ContactDetails";
 // import { Header } from "styled-icons/fa-solid";
+import Footer from "../home/footer/footer.jsx";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
