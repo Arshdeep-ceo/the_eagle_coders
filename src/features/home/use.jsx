@@ -66,14 +66,11 @@ export default function Use() {
           to international coding standards and practices.
         </p>
 
-        <a
-          href="#"
-          className=" mt-4 bg-gradient-to-r from-pink-500 to-yellow-500  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-        >
+        <p className=" mt-4 bg-gradient-to-r from-pink-500 to-yellow-500  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
           {" "}
           we{"'re"} not just teaching code.<br></br> we{"'re"} shaping the
           future architects of the web.
-        </a>
+        </p>
       </div>
     </section>
   );
