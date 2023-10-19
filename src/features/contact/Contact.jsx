@@ -3,7 +3,6 @@ import { useState } from "react";
 import { Switch } from "@headlessui/react";
 import ContactDetails from "../../ui/components/contact/ContactDetails";
 // import { Header } from "styled-icons/fa-solid";
-import Footer from "../home/footer/footer.jsx";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
