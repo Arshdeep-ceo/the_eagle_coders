@@ -142,7 +142,7 @@ export default function Contact() {
                   type="text"
                   name="course"
                   id="course"
-                  placeholder="Enter your course name"
+                  placeholder="Enter your branch name"
                   value={user.course}
                   onChange={getUserData}
                   autoComplete="course"
