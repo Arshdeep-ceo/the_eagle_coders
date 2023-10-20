@@ -7,10 +7,11 @@ import Footer from "../home/footer/footer.jsx";
 import Use from "../home/use.jsx";
 import Course from "../home/course.jsx";
 import { Zoom } from "react-awesome-reveal";
-import { Whatsapp } from "@styled-icons/remix-fill/Whatsapp";
+import { useOutletContext } from "react-router-dom";
 
 function Home() {
   // const { scrollYProgress } = useScroll();
+  const [setCurrentTab] = useOutletContext();
   // const gradient = ""
   const { scrollY } = useScroll();
   const animatedY = useTransform(scrollY, [0, 400], [0, -300]);
@@ -24,7 +25,7 @@ function Home() {
     <div className="flex items-stretch flex-col ">
       <a
         aria-label="Chat on WhatsApp"
-        href="https://wa.me/91628366924?text=Hey%20there%20Eagle%20Coders%20"
+        href="https://wa.me/916283669924?text=Hey%20there%20Eagle%20Coders%20"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -35,7 +36,7 @@ function Home() {
           src="/ChatOnWhatsAppButton/WhatsAppButtonGreenSmall.svg"
         />
       </a>
-      <Hero />
+      <Hero setCurrentTab={setCurrentTab} />
       <Use />
       <div className="mt-6 mb-6  bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text  subpixel-antialiased z-10">
         <Zoom cascade={true}>

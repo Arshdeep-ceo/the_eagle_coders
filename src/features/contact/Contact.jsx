@@ -62,6 +62,19 @@ export default function Contact() {
 
   return (
     <div className=" p-7  flex flex-col  items-center text-center">
+      <a
+        aria-label="Chat on WhatsApp"
+        href="https://wa.me/916283669924?text=Hey%20there%20Eagle%20Coders%20"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {" "}
+        <img
+          className="fixed bottom-5 right-5 z-30 hover:scale-[1.05] shadow-lg "
+          alt="Chat on WhatsApp"
+          src="/ChatOnWhatsAppButton/WhatsAppButtonGreenSmall.svg"
+        />
+      </a>
       <div className=" lg:mx-0 bg-transparent  flex flex-col items-center">
         <img
           className="h-unit-4xl animate-drip-expand bg-white rounded-full self-center"

@@ -8,12 +8,15 @@ import HeroFloatingLogos from "../home/HeroFloatingLogos";
 
 // import { motion } from "framer-motion";
 
-function Hero() {
+// eslint-disable-next-line react/prop-types
+function Hero({ setCurrentTab }) {
   const navigate = useNavigate();
   function handleContact() {
+    setCurrentTab(3);
     navigate("/contact");
   }
   function handleExplore() {
+    setCurrentTab(4);
     navigate("/explore");
   }
   const { scrollY } = useScroll();

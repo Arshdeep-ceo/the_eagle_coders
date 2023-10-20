@@ -7,7 +7,7 @@ function AppLayout() {
   return (
     <div>
       <AppBar currentTab={currentTab} setCurrentTab={setCurrentTab} />
-      <Outlet />
+      <Outlet context={[setCurrentTab]} />
     </div>
   );
 }
