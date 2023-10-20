@@ -19,16 +19,16 @@ const stats = [
 export default function About() {
   const people = [
     {
-      imageUrl: "../../public/images/office.bg.jpeg",
+      imageUrl: "/images/office.bg.jpeg",
     },
     {
-      imageUrl: "../../public/images/team.bg.jpeg",
+      imageUrl: "/images/team.bg.jpeg",
     },
     {
-      imageUrl: "../../public/images/meet.bg.jpeg",
+      imageUrl: "/images/meet.bg.jpeg",
     },
     {
-      imageUrl: "../../public/images/meet2.bg.jpeg",
+      imageUrl: "/images/meet2.bg.jpeg",
     },
 
     // More people...
@@ -37,12 +37,12 @@ export default function About() {
     {
       name: "Arshdeep Singh",
       role: "Web Developer",
-      imageUrl: "../../public/images/team/t2.webp",
+      imageUrl: "/images/team/t2.webp",
     },
     {
       name: "Sunil Jaswal",
       role: "Developer",
-      imageUrl: "../../public/images/team/t1.webp",
+      imageUrl: "/images/team/t1.webp",
     },
 
     {

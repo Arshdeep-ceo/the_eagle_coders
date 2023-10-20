@@ -158,7 +158,7 @@ function Home() {
             className=" font-bold text-stone-700 dark:text-gray-300 text-4xl transition-all hover:scale-[1.01] hover:drop-shadow-lg"
             style={{ color: { animatedText } }}
           >
-            You are definitly going to 😊
+            You are definitely going to 😊
           </h2>
           <p className=" mt-4 bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  focus:ring-4 focus:outline-none  ">
             Love coding
