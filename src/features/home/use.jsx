@@ -40,7 +40,7 @@ export default function Use() {
           style={{ color: { animatedText } }}
         >
           Welcome to <br></br>
-          <span className=" text-pink-800 text-4xl">The eagle coders 😍</span>
+          <span className=" text-pink-800 text-4xl">The eagle coders </span>
         </h2>
         <motion.p
           className="my-2 text-stone-600 dark:text-gray-400 "

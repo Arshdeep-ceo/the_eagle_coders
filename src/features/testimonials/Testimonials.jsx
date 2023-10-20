@@ -11,11 +11,35 @@ export default function Testimonials() {
           <motion.div style={{ scaleX: scrollYProgress }} />
           <img
             className="mx-auto h-unit-4xl bg-white"
-            src="../../public/images/logo.png"
+            src="/images/logo.png"
             alt=""
           />
           <figure className="mt-10">
             <blockquote className="text-center text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
+              <figcaption className="mt-4">
+                <img
+                  className="mx-auto h-10 w-10 rounded-full"
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  alt=""
+                />
+                <div className="mt-4 flex items-center justify-center space-x-3 text-base">
+                  <div className="font-semibold text-white mb-4">
+                    Jasleen Kaur
+                  </div>
+                  <svg
+                    viewBox="0 0 2 2"
+                    width={3}
+                    height={3}
+                    aria-hidden="true"
+                    className="fill-gray-900"
+                  >
+                    <circle cx={1} cy={1} r={1} />
+                  </svg>
+                  <div className="text-white mb-4">
+                    Student of The Eagle Coders
+                  </div>
+                </div>
+              </figcaption>
               <p>
                 “We are satisfied with the solution given to us and with the
                 communication flow through the project. We would like to
@@ -25,14 +49,18 @@ export default function Testimonials() {
                 provided.”
               </p>
             </blockquote>
-            <figcaption className="mt-10">
+          </figure>
+          <blockquote className="mt-14 text-center text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
+            <figcaption className="mt-4">
               <img
                 className="mx-auto h-10 w-10 rounded-full"
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                src="/images/team/t1.webp"
                 alt=""
               />
               <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                <div className="font-semibold text-white">Jasleen Kaur</div>
+                <div className=" mb-4 font-semibold text-white">
+                  Rahul Kumar
+                </div>
                 <svg
                   viewBox="0 0 2 2"
                   width={3}
@@ -42,10 +70,111 @@ export default function Testimonials() {
                 >
                   <circle cx={1} cy={1} r={1} />
                 </svg>
-                <div className="text-white">Student of The Eagle Coders</div>
+                <div className="text-white mb-4">
+                  Student of The Eagle Coders
+                </div>
               </div>
             </figcaption>
-          </figure>
+            <p>
+              “Choosing The Eagle Coders was the best decision for our digital
+              initiatives. Their tailoed solutions and flexibility have exceeded
+              our expectations.”
+            </p>
+          </blockquote>
+
+          <blockquote className=" mt-14 text-center text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
+            <figcaption className="mt-4">
+              <img
+                className="  mx-auto h-10 w-10 rounded-full"
+                src="/images/team/t2.webp"
+                alt=""
+              />
+              <div className="mt-4 flex items-center justify-center space-x-3 text-base">
+                <div className="font-semibold text-white mb-4">
+                  Hamid Sharma
+                </div>
+                <svg
+                  viewBox="0 0 2 2"
+                  width={3}
+                  height={3}
+                  aria-hidden="true"
+                  className="fill-gray-900"
+                >
+                  <circle cx={1} cy={1} r={1} />
+                </svg>
+                <div className="text-white mb-4">
+                  Student of The Eagle Coders
+                </div>
+              </div>
+            </figcaption>
+            <p>
+              “The eagle coders is a standout digital agency in our area,
+              offering personalize attention and exceptional expertise.”
+            </p>
+          </blockquote>
+
+          <blockquote className="mt-14 text-center text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
+            <figcaption className="mt-4 ">
+              <img
+                className="mx-auto h-10 w-10 rounded-full"
+                src="/images/team/t3.webp"
+                alt=""
+              />
+              <div className="mt-4 flex items-center justify-center space-x-3 text-base">
+                <div className="font-semibold text-white mb-4">
+                  Simranjeet Kaur
+                </div>
+                <svg
+                  viewBox="0 0 2 2"
+                  width={3}
+                  height={3}
+                  aria-hidden="true"
+                  className="fill-gray-900"
+                >
+                  <circle cx={1} cy={1} r={1} />
+                </svg>
+                <div className="text-white mb-4">
+                  Student of The Eagle Coders
+                </div>
+              </div>
+            </figcaption>
+            <p>
+              “I am impressed by The eagle coders dedication, creativity and
+              attention to detail. They deliver high-quality solutions with
+              speed and agility.”
+            </p>
+          </blockquote>
+
+          <blockquote className="mt-14 text-center text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
+            <figcaption className="mt-4">
+              <img
+                className="mx-auto h-10 w-10 rounded-full"
+                src="/images/team/t4.webp"
+                alt=""
+              />
+              <div className="mt-4 flex items-center justify-center space-x-3 text-base">
+                <div className="font-semibold text-white mb-4">
+                  Jaswinder Singh
+                </div>
+                <svg
+                  viewBox="0 0 2 2"
+                  width={3}
+                  height={3}
+                  aria-hidden="true"
+                  className="fill-gray-900 mb-4"
+                >
+                  <circle cx={1} cy={1} r={1} />
+                </svg>
+                <div className="text-white mb-4">
+                  Student of The Eagle Coders
+                </div>
+              </div>
+            </figcaption>
+            <p>
+              “The eagle coders stands out with their skill, efficiency and
+              their customer focused approach. Highly regarded in the industry.”
+            </p>
+          </blockquote>
         </div>
       </section>
       <Footer />
