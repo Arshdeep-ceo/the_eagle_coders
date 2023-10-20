@@ -50,7 +50,10 @@ export default function AppBar({ currentTab, setCurrentTab }) {
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
-        <NavbarBrand onClick={() => handleLogoClick()}>
+        <NavbarBrand
+          onClick={() => handleLogoClick()}
+          className="cursor-pointer"
+        >
           {/* <AcmeLogo /> */}
           <p className="font-bold text-inherit text-lg sm:text-xl dark:text-gray-200 font-mono ">
             TheEagleCoders
