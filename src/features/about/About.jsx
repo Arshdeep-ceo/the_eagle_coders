@@ -36,20 +36,28 @@ export default function About() {
   const team = [
     {
       name: "Arshdeep Singh",
-      role: "Web Developer",
-      imageUrl: "/images/team/t2.webp",
+      role: "Founder & Web Developer",
+      experience: "Two years",
+      imageUrl: "/images/arsh.jpeg",
     },
     {
       name: "Sunil Jaswal",
-      role: "Developer",
-      imageUrl: "/images/team/t1.webp",
+      role: "Founder & Web Developer",
+      experience: "Two years",
+      imageUrl: "/images/Sunil.jpeg",
     },
 
     {
       name: "Ramanpreet kaur",
       role: "Web Developer",
-      imageUrl:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      experience: "One year",
+      imageUrl: "/images/Raman.jpeg",
+    },
+    {
+      name: "Neha Sharma",
+      role: "HR manager",
+      experience: "Three years",
+      imageUrl: "/images/team/t3.webp",
     },
 
     // More people...
@@ -134,7 +142,7 @@ export default function About() {
             </div>
             <ul // Team Cards
               role="list"
-              className="mt-6 grid grid-cols-1 gap-x-2 gap-y-12 sm:grid-cols-3 sm:gap-y-10 sm:gap-x-4   xl:col-span-2 place-content-stretch place-items-stretch mb-8" //
+              className="mt-6 grid grid-cols-1 gap-x-2 gap-y-12 sm:grid-cols-4 sm:gap-y-10 sm:gap-x-4   xl:col-span-2 place-content-stretch place-items-stretch mb-8 " //
             >
               {team.map((person) => (
                 <li key={person.name} className="text-center ">
@@ -156,6 +164,9 @@ export default function About() {
                   </h3>
                   <p className="text-left text-sm font-semibold  text-amber-100">
                     {person.role}
+                  </p>
+                  <p className="text-left text-sm font-semibold  text-amber-100">
+                    {person.experience} of experience
                   </p>
                 </li>
               ))}

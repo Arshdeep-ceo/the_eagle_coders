@@ -65,7 +65,7 @@ export default function Contact() {
       <div className=" lg:mx-0 bg-transparent  flex flex-col items-center">
         <img
           className="h-unit-4xl animate-drip-expand bg-white rounded-full self-center"
-          src="../../public/images/logo.png"
+          src="/images/logo.png"
           alt=""
         />
         <h2 className="my-2 text-2xl font-bold sm:text-4xl dark:text-gray-400 ">
