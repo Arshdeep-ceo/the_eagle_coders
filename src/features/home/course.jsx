@@ -2,19 +2,17 @@ export default function Course() {
   return (
     <div className="mt-6 mb-6 items-start grid grid-cols-1 px-5 min-[540px]:grid-cols-2 lg:grid-cols-4 gap-4 ">
       <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <p>
-          <img
-            className="rounded-t-lg"
-            src="https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?auto=format&fit=crop&q=60&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2V8ZW58MHx8MHx8fDA%3D"
-            alt=""
-          />
-        </p>
+        <img
+          className="rounded-t-lg"
+          src="https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?auto=format&fit=crop&q=60&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2V8ZW58MHx8MHx8fDA%3D"
+          alt=""
+        />
+
         <div className="p-5">
-          <p>
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Artificial Intelligence
-            </h5>
-          </p>
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            Artificial Intelligence
+          </h5>
+
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
             Learn AI with an artificial intelligence course from experienced
             instructors.
