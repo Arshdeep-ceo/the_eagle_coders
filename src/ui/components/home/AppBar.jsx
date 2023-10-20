@@ -32,6 +32,10 @@ export default function AppBar({ currentTab, setCurrentTab }) {
     navigate("/contact");
     setCurrentTab(3);
   };
+  const handleLogoClick = () => {
+    navigate("/");
+    setCurrentTab(0);
+  };
 
   const navigate = useNavigate();
 
@@ -46,7 +50,7 @@ export default function AppBar({ currentTab, setCurrentTab }) {
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
-        <NavbarBrand>
+        <NavbarBrand onClick={() => handleLogoClick()}>
           {/* <AcmeLogo /> */}
           <p className="font-bold text-inherit text-lg sm:text-xl dark:text-gray-200 font-mono ">
             TheEagleCoders

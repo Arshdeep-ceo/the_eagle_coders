@@ -1,7 +1,17 @@
 import Features from "./features.jsx";
 import { Button } from "@nextui-org/react";
 import Footer from "../home/footer/footer.jsx";
-export default function explore() {
+import { useNavigate } from "react-router-dom";
+import { useOutletContext } from "react-router-dom";
+
+export default function Explore() {
+  const navigate = useNavigate();
+  const [setCurrentTab] = useOutletContext();
+  function handleStartJourneyBtn() {
+    setCurrentTab(0);
+    navigate("/contact");
+  }
+
   return (
     <div className="flex flex-col relative overflow-hidden bg-gray-950 ">
       <div className="flex flex-col sm:flex-row justify-between xl:justify-around p-3 md:p-12 sm:px-6 lg:px-8 pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-26">
@@ -15,7 +25,7 @@ export default function explore() {
             experience😍<br></br> come and join us..
           </p>
           <Button
-            onPress={() => alert("sdfjkh")}
+            onPress={() => handleStartJourneyBtn()}
             variant="shadow"
             color="primary"
             radius="medium"
