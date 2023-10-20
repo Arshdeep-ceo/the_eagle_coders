@@ -16,9 +16,11 @@ import {
 } from "@nextui-org/react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-export default function AppBar() {
+import { useNavigate } from "react-router-dom";
+
+// eslint-disable-next-line react/prop-types
+export default function AppBar({ currentTab, setCurrentTab }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [currentTab, setCurrentTab] = useState(0);
 
   const menuItems = ["Home", "About", "Testimonials", "Contact Us", "Explore"];
   const menuPaths = ["/", "/about", "/testimonials", "/contact", "/explore"];
@@ -26,6 +28,12 @@ export default function AppBar() {
   const handleClick = (key) => {
     setCurrentTab(key);
   };
+  const handleContactButton = () => {
+    navigate("/contact");
+    setCurrentTab(3);
+  };
+
+  const navigate = useNavigate();
 
   return (
     <Navbar
@@ -73,9 +81,15 @@ export default function AppBar() {
           <Link href="#">Login</Link>
         </NavbarItem> */}
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
+          {/* <Link to={"/contact"}> */}
+          <Button
+            color="primary"
+            variant="flat"
+            onPress={() => handleContactButton()}
+          >
             Contact
           </Button>
+          {/* </Link> */}
         </NavbarItem>
         {/* <Dropdown placement="bottom-end">
           <DropdownTrigger>
