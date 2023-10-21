@@ -76,15 +76,10 @@ export default function Contact() {
         />
       </a>
       <div className=" lg:mx-0 bg-transparent  flex flex-col items-center">
-        <img
-          className="h-unit-4xl animate-drip-expand bg-white rounded-full self-center"
-          src="/images/logo.png"
-          alt=""
-        />
-        <h2 className="my-2 text-2xl font-bold sm:text-4xl dark:text-gray-400 ">
+        <h2 className="my-2 text-2xl font-bold sm:text-6xl dark:text-amber-600 ">
           Contact our friendly team
         </h2>
-        <p className="text-gray-400 animate-[appearance-in_3s_ease-in] duration-1000">
+        <p className=" text-2xl text-gray-400 animate-[appearance-in_3s_ease-in] duration-1000">
           Let us know how we can help..
           <br />
           We are open for any suggestion or just to have a chat
@@ -92,9 +87,14 @@ export default function Contact() {
         {/* <figure className="mt-3  ">
           <blockquote className=" mt-3 text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9"></blockquote>
         </figure> */}
+        <img
+          className=" m-12 animate-drip-expand bg-white rounded-xl self-center"
+          src="/images/Contact.png"
+          alt=""
+        />
       </div>
       <ContactDetails />
-      <div className=" dark:bg-white/10 rounded-large mt-8 mb-6 px-4">
+      <div className=" dark:bg-white/10 rounded-large mt-8 mb-6 px-4 ">
         <div
           className=" absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
           aria-hidden="true"
@@ -108,10 +108,11 @@ export default function Contact() {
           />
         </div>
         <div className=" rounded-xl shadow-2xl mt-6 pt-6 mx-auto max-w-2xl text-center">
-          <h2 className="font-bold tracking-tight dark:text-gray-400 text-xl sm:text-3xl">
-            Contact Us
+          <h2 className="font-bold tracking-tight dark:text-amber-600 text-xl sm:text-3xl">
+            Interested?<br></br>
+            <p>Request a call</p>
           </h2>
-          <p className="mt-2 text-lg leading-8 dark:text-gray-300">
+          <p className="mt-2 pb-6 text-xl leading-8 dark:text-gray-300">
             Contact the Eagle Coders® here by Email Skype or Contact form - We
             look forward to starting a conversation with you!
           </p>

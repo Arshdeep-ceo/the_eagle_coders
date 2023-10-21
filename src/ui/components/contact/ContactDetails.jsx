@@ -1,13 +1,13 @@
 import { Card } from "@nextui-org/react";
 export default function ContactDetails() {
   return (
-    <div className=" mt-4 dark:text-gray-500 text-center sm:max-w-[70%] flex flex-col gap-5 sm:flex-row flex-grow">
+    <div className=" mt-4 dark:text-gray-500 text-center sm:max-w-[70%] flex flex-col gap-5 sm:flex-row flex-wrap">
       <Card
         isFooterBlurred
-        radius="lg"
+        radius="xl"
         className="border-none  bg-white/10 h-48 shadow-lg "
       >
-        <div className="my-auto p-2">
+        <div className="my-auto p-4 text-xl">
           <p className="font-bold ">Chat</p>
           <p className="">We are here to help</p>
           <img
@@ -25,7 +25,7 @@ export default function ContactDetails() {
       <Card
         isFooterBlurred
         radius="lg"
-        className="border-none  bg-white/10 h-48 grow shadow-lg "
+        className=" text-xl border-none  bg-white/10 h-48 grow shadow-lg "
       >
         <div className="my-auto ">
           <div className=" font-bold">Visit us</div>
@@ -40,7 +40,7 @@ export default function ContactDetails() {
       <Card
         isFooterBlurred
         radius="lg"
-        className="border-none  bg-white/10 h-48 grow shadow-lg "
+        className="text-xl border-none  bg-white/10 h-48 grow shadow-lg "
       >
         <div className="my-auto ">
           <div className=" font-bold">Call us</div>
@@ -50,7 +50,9 @@ export default function ContactDetails() {
             src="../../public/images/logo.png"
             alt=""
           />
-          <p className=" font-semibold underline mt-2">+91 88723 12729</p>
+          <p className=" font-semibold underline mt-2">
+            +91 88723 12729<br></br>+91 88475 97046
+          </p>
         </div>
       </Card>
     </div>

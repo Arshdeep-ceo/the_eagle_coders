@@ -1,7 +1,10 @@
 import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
-import { Avatar } from "@nextui-org/react";
+import { useScroll, motion, useTransform } from "framer-motion";
+import Fellowship from "./fellowship.jsx";
+import Footer from "../home/footer/footer.jsx";
+import Team from "./team.jsx";
 
 const links = [
   { name: "Offline courses", href: "#" },
@@ -10,7 +13,7 @@ const links = [
   { name: "Meet our leadership", href: "#" },
 ];
 const stats = [
-  { name: "Offices worldwide", value: "1" },
+  { name: "Offices worldwide", value: "3" },
   { name: "Full-time colleagues", value: "30+" },
   { name: "Hours per week", value: "40" },
   { name: "Paid time off", value: "Unlimited" },
@@ -33,35 +36,6 @@ export default function About() {
 
     // More people...
   ];
-  const team = [
-    {
-      name: "Arshdeep Singh",
-      role: "Founder & Web Developer",
-      experience: "Two years",
-      imageUrl: "/images/arsh.jpeg",
-    },
-    {
-      name: "Sunil Jaswal",
-      role: "Founder & Web Developer",
-      experience: "Two years",
-      imageUrl: "/images/Sunil.jpeg",
-    },
-
-    {
-      name: "Ramanpreet kaur",
-      role: "Web Developer",
-      experience: "One year",
-      imageUrl: "/images/Raman.jpeg",
-    },
-    {
-      name: "Neha Sharma",
-      role: "HR manager",
-      experience: "Three years",
-      imageUrl: "/images/Neha.jpeg",
-    },
-
-    // More people...
-  ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const prevSlide = () => {
@@ -78,6 +52,13 @@ export default function About() {
   const goToSlide = (peopleIndex) => {
     setCurrentIndex(peopleIndex);
   };
+
+  const { scrollY } = useScroll();
+  const animatedText = useTransform(scrollY, [0, 400], ["#fff", "#000"]);
+
+  const textSize = useTransform(scrollY, [100, 350], [1, 2]);
+  const photoX = useTransform(scrollY, [100, 350], [-100, 0]);
+  const animatedY = useTransform(scrollY, [0, 400], [0, -300]);
   return (
     <div className="overflow-hidden bg-white  dark:bg-gray-950 p-4 ">
       <div
@@ -94,107 +75,145 @@ export default function About() {
       </div>
 
       {/* <div className="mx-auto max-w-7xl px-6 lg:px-8"> */}
-      <div className="">
-        <div className="">
-          <h2 className=" text-3xl sm:text-[2.5rem] font-bold sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-pink-400 via-amber-500 to bg-amber-300">
+      <div className=" ">
+        <div className="p-4 text-center rounded-xl bg-slate-800">
+          <h2 className=" text-3xl sm:text-[3rem] font-bold sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-pink-400 via-amber-600 to bg-amber-200">
             Work with us
           </h2>
-          <p className=" text-md leading-6 text-black  dark:text-gray-400 animate-drip-expand">
+          <p className="mt-4 text-xl leading-6 text-black  dark:text-gray-400 animate-drip-expand">
             Learn with Expert Learning with Experts is a global classroom
             community that brings people together to learn from expert tutors
-            and each other.
+            and each other.<br></br>An industry that will bring the biggest
+            transformation in the future in just a couple of decades.
           </p>
-          <h2 className="mt-5 text-lg font-semibold dark:text-gray-400 sm:text-2xl   ">
-            We provide
-          </h2>
+          <section
+            className="mt-8 p-7   rounded-lg flex flex-col sm:flex-row text-gray-400 dark:bg-gray-900/40 backdrop-blur-lg"
+            style={{ y: animatedY }}
+          >
+            <div className="pt-4 sm:basis-[65%] sm:ml-6 sm:p-0 ">
+              <h2
+                className="pt-4 font-bold text-stone-700 dark:text-gray-300 text-4xl transition-all hover:scale-[1.01] hover:drop-shadow-lg"
+                style={{ color: { animatedText } }}
+              >
+                What we do?
+              </h2>
+              <motion.p
+                className="pr-6 lg:text-xl my-2 text-stone-600 dark:text-gray-400 "
+                style={{ fontSize: `${textSize}rem` }}
+              >
+                <ul className=" text-pink-600 text-xl font-bold">
+                  <p> Train</p>
+                  <p>Educate</p>
+                  <p>Innovate</p>
+                </ul>
+                Eagle coders is a collective and collaborative initiative to
+                train, educate and innovate young data enthusiasts of India to
+                become changemakers of society using Data Science.<br></br>The
+                Eagle coders aims to train, educate and develop aspiring Data
+                Scientists into benchmark leaders to promote sustainable,
+                socially responsible, and impactful solutions for the modern
+                world.
+              </motion.p>
+            </div>
+            <motion.div
+              initial={{ opacity: 0, transform: "translateX(-40px)" }}
+              style={{ x: photoX }}
+              transition={{ type: "spring", stiffness: 400 }}
+              whileInView={{ opacity: 1, transform: "translateX(0px)" }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <img
+                src="/images/about.webp"
+                alt=""
+                style={{
+                  objectFit: "cover",
+                  objectPosition: "top",
+                }}
+                // className="w-[50%] h-[40%] m-3  transform transition duration-[10000] hover:scale-105 overflow-hidden self-start sm:w-[40%]"
+                className="  bg-[#4B5563] overflow-hidden bg-contain rounded-2xl bg-clip-border sm:basis-[35%] max-h-[25rem]  drop-shadow-xl transition-all hover:scale-105 hover:drop-shadow-2xl duration-75 shadow-xl"
+                // style={{}}
+                // initial={{ opacity: 0 }}
+                // whileInView={{ opacity: 1 }}
+                // animate={{ transform: "translateX(100px)", opacity: 1 }}
+              />
+            </motion.div>
+          </section>
         </div>
+        <Fellowship />
         {/* <div className="bg-slate-100"></div> */}
         <div className="mt-5">
-          <div className=" dark:text-gray-300 grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7  sm:grid-cols-2 md:flex lg:gap-x-10">
+          <h2 className=" mb-4 bg-clip-text text-center mt-5 text-2xl font-bold dark:text-amber-600  sm:text-4xl  ">
+            We provide
+          </h2>
+          <p className="  text-gray-300 text-center text-xl animate-appearance-in ">
+            At Eagle coders, we train students to apply Data Science to problems
+            that really matter and work with government & NGO data to create
+            real change in society.<br></br>We understand that true Data
+            Scientists must satisfy their need to learn more in a subject that
+            is rapidly growing in addition to meeting consumer demands.
+          </p>
+
+          <div className=" dark:text-gray-200 text-center grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7  sm:grid-cols-2 md:flex lg:gap-x-10">
             {links.map((link) => (
-              <a key={link.name} href={link.href}>
-                {link.name} <span aria-hidden="true">&rarr;</span>
-              </a>
+              <p
+                key={link.name}
+                className="p-6 text-2xl bg-slate-800 m-8 rounded-full"
+              >
+                {link.name} <span aria-hidden="true"></span>
+              </p>
             ))}
           </div>
-          <dl className="mt-16 mr-4 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4 animate-appearance-in">
-            {stats.map((stat) => (
-              <div key={stat.name} className="flex flex-col ">
-                <dt className="text-base leading-7 dark:bg-white/30 rounded-lg pl-2 dark:text-gray-300">
-                  {stat.name}
-                </dt>
-                <dd className="text-2xl font-bold leading-9 tracking-tight pl-2 dark:text-gray-300">
-                  {stat.value}
-                </dd>
-              </div>
-            ))}
-          </dl>
 
-          <div className="mt-12 ">
-            <div className="max-w-2xl">
-              <h2 className="text-3xl font-bold dark:text-gray-300 tracking-tight sm:text-4xl ">
+          <div className="mt-12 text-center  rounded-3xl pt-6 pb-6 ">
+            <div className="">
+              <h2 className="mb-4 bg-clip-text text-center mt-5 text-4xl font-bold dark:text-amber-600  sm:text-5xl">
                 Our Awesome Team!
               </h2>
-              <p className="mt-2 text-md  text-gray-800 dark:text-gray-300">
+              <p className="mt-2 text-2xl  text-gray-800 dark:text-gray-300">
                 Meet the leaders behind the worlds leading software development
                 platform.
               </p>
             </div>
-            <ul // Team Cards
-              role="list"
-              className="mt-6 grid grid-cols-1 gap-x-2 gap-y-12 sm:grid-cols-4 sm:gap-y-10 sm:gap-x-4   xl:col-span-2 place-content-stretch place-items-stretch mb-8 " //
-            >
-              {team.map((person) => (
-                <li key={person.name} className="text-center ">
-                  {/* <img
-                    className=" rounded-md w-[100%] p-3"
-                    src={person.imageUrl}
-                    alt=""
-                  /> */}
-                  <Avatar
-                    isBordered
-                    radius="sm"
-                    color="primary"
-                    src={person.imageUrl}
-                    className="h-30 w-unit-5xl ring-transparent drop-shadow-xl hover:scale-[1.05] transition-transform"
-                  />
-
-                  <h3 className=" text-left font-semibold leading-7 tracking-tight dark:text-gray-300 ">
-                    {person.name}
-                  </h3>
-                  <p className="text-left text-sm font-semibold  text-amber-100">
-                    {person.role}
-                  </p>
-                  <p className="text-left text-sm font-semibold  text-amber-100">
-                    {person.experience} of experience
-                  </p>
-                </li>
-              ))}
-            </ul>
+            <Team />
           </div>
-          <div className="sm:py-16">
-            <div className="grid  gap-y-20 xl:grid-cols-3">
-              <div className="max-w-2xl">
-                <h2 className="text-3xl font-bold text-gray-400 sm:text-5xl">
+          <p className="dark:text-gray-300 text-3xl text-center pt-6 font-bold">
+            Our company has
+          </p>
+          <div className=" text-center mt-16 grid grid-cols-1 gap-8 sm:mt-10 sm:grid-cols-2 lg:grid-cols-4 animate-appearance-in">
+            {stats.map((stat) => (
+              <div key={stat.name} className="flex flex-col ">
+                <dt className="text-base leading-7 dark:bg-white/30 rounded-lg pl-2 dark:text-gray-300">
+                  {stat.name}
+                  <dd className="text-2xl font-bold leading-9 tracking-tight pl-2 dark:text-gray-300">
+                    {stat.value}
+                  </dd>
+                </dt>
+              </div>
+            ))}
+          </div>
+          <div className="mt-10 pt-6 sm:py-16 bg-slate-900 ">
+            <div className="grid text-center ">
+              <div className=" ">
+                <h2 className=" text-3xl font-bold text-amber-700 sm:text-5xl">
                   Some interesting stories!{" "}
                 </h2>
-                <p className="mt-6 text-lg text-gray-400">
+                <p className="mt-6 text-lg text-gray-400  text-center">
                   Learn more about our dedicated, focused and experienced
                   leadership team ...
                 </p>
               </div>
             </div>
-            <div className="mt-6 max-w-[1400px] h-[700px] w-full m-auto py-16 px-4 relative group ">
+            <div className="mt-10 max-w-[1000px] h-[700px] w-full m-auto py-16 px-4 relative group ">
               <div
                 style={{
                   backgroundImage: `url(${people[currentIndex].imageUrl})`,
                 }}
-                className="w-full h-full rounded-2xl bg-cover bg-scroll duration-500 top-0 left-0 absolute"
+                className="w-full h-full rounded-2xl lg:bg-cover bg-contain bg-no-repeat bg-scroll duration-500 top-0 left-0 absolute"
               ></div>
-              <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+              <div className="hidden group-hover:block absolute lg:top-[50%] top-[25%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
                 <BsChevronCompactLeft onClick={prevSlide} size={30} />
               </div>
-              <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+              <div className="hidden group-hover:block absolute lg:top-[50%] top-[25%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
                 <BsChevronCompactRight onClick={nextSlide} size={30} />
               </div>
               <div className="flex top-4  justify-center py-2">
@@ -210,6 +229,7 @@ export default function About() {
               </div>
             </div>
           </div>
+          <Footer />
         </div>
       </div>
     </div>
