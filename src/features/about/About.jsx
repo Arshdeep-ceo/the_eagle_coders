@@ -57,7 +57,7 @@ export default function About() {
       name: "Neha Sharma",
       role: "HR manager",
       experience: "Three years",
-      imageUrl: "/images/team/t3.webp",
+      imageUrl: "/images/Neha.jpeg",
     },
 
     // More people...
