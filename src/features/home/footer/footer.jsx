@@ -46,10 +46,7 @@ export default function Footer() {
                     color="blue-gray"
                     className="font-normal"
                   >
-                    <a
-                      href="#"
-                      className="inline-block py-1 pr-2 transition-transform hover:scale-105"
-                    >
+                    <a className="inline-block py-1 pr-2 transition-transform hover:scale-105">
                       {link}
                     </a>
                   </Typography>

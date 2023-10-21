@@ -17,9 +17,9 @@ export default function Course() {
             Learn AI with an artificial intelligence course from experienced
             instructors.
           </p>
-          <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
-          </p>
+          </p> */}
         </div>
       </div>
 
@@ -41,9 +41,9 @@ export default function Course() {
             Take a machine learning course at The eagle coders with real world
             experts.
           </p>
-          <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
-          </p>
+          </p> */}
         </div>
       </div>
       <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -64,9 +64,9 @@ export default function Course() {
             Learn Node.js, MongoDB, Express.js, React, System Design & much
             more.
           </p>
-          <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -87,9 +87,9 @@ export default function Course() {
             Start learning with the Complete 2023 Flutter Development Bootcamp
             with Dart.
           </p>
-          <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
-          </p>
+          </p> */}
         </div>
       </div>
       <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -110,9 +110,9 @@ export default function Course() {
             If you{"'re"} looking to learn React, here{"'s"} a basic guide to
             get you started
           </p>
-          <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
-          </p>
+          </p> */}
         </div>
       </div>
       <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -133,9 +133,9 @@ export default function Course() {
             Learning fullstack involves understanding both the front-end and the
             back-end
           </p>
-          <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
-          </p>
+          </p> */}
         </div>
       </div>
       <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -156,9 +156,9 @@ export default function Course() {
             Certainly! Learning C and C++ provides a strong foundation in
             programming.
           </p>
-          <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
-          </p>
+          </p> */}
         </div>
       </div>
       <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -179,9 +179,9 @@ export default function Course() {
             Learning Python is an excellent choice, given its popularity,
             user-friendly syntax.
           </p>
-          <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

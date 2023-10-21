@@ -16,9 +16,11 @@ import {
 } from "@nextui-org/react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-export default function AppBar() {
+import { useNavigate } from "react-router-dom";
+
+// eslint-disable-next-line react/prop-types
+export default function AppBar({ currentTab, setCurrentTab }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [currentTab, setCurrentTab] = useState(0);
 
   const menuItems = ["Home", "About", "Testimonials", "Contact Us", "Explore"];
   const menuPaths = ["/", "/about", "/testimonials", "/contact", "/explore"];
@@ -26,6 +28,16 @@ export default function AppBar() {
   const handleClick = (key) => {
     setCurrentTab(key);
   };
+  const handleContactButton = () => {
+    navigate("/contact");
+    setCurrentTab(3);
+  };
+  const handleLogoClick = () => {
+    navigate("/");
+    setCurrentTab(0);
+  };
+
+  const navigate = useNavigate();
 
   return (
     <Navbar
@@ -38,7 +50,10 @@ export default function AppBar() {
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
-        <NavbarBrand>
+        <NavbarBrand
+          onClick={() => handleLogoClick()}
+          className="cursor-pointer"
+        >
           {/* <AcmeLogo /> */}
           <p className="font-bold text-inherit text-lg sm:text-xl dark:text-gray-200 font-mono ">
             TheEagleCoders
@@ -73,9 +88,15 @@ export default function AppBar() {
           <Link href="#">Login</Link>
         </NavbarItem> */}
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
+          {/* <Link to={"/contact"}> */}
+          <Button
+            color="primary"
+            variant="flat"
+            onPress={() => handleContactButton()}
+          >
             Contact
           </Button>
+          {/* </Link> */}
         </NavbarItem>
         {/* <Dropdown placement="bottom-end">
           <DropdownTrigger>
