@@ -8,11 +8,11 @@ import {
 import "./App.css";
 import Home from "./features/home/Home";
 import About from "./features/about/About";
-import Testimonials from "./features/testimonials/Testimonials";
 import Contact from "./features/contact/Contact";
 import { NextUIProvider } from "@nextui-org/react";
 import AppLayout from "./AppLayout";
 import Explore from "./features/explore/explore.jsx";
+import Internship from "./features/internship/Internship";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
         // loader: teamLoader,
       },
       { path: "/about", element: <About /> },
-      { path: "/testimonials", element: <Testimonials /> },
+      { path: "/internship", element: <Internship /> },
       { path: "/contact", element: <Contact /> },
       { path: "/explore", element: <Explore /> },
     ],
