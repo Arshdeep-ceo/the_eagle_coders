@@ -43,14 +43,26 @@ export default function Team() {
   const animatedY = useTransform(scrollY, [0, 400], [0, -300]);
   return (
     <div className=" lg:ml-72 lg:mr-72 text-center rounded-xl ">
-      {team.map((person) => (
+      {team.map((person, index) => (
         <section
           key={person.name}
-          className="mt-2 p-7   rounded-lg flex flex-col sm:flex-row text-gray-400 dark:bg-gray-900/40 backdrop-blur-lg"
+          className={`mt-2 p-7 sm:flex-row  rounded-lg flex flex-col  ${
+            index === 1 && "sm:flex-row-reverse"
+          }  ${
+            index === 3 && "sm:flex-row-reverse"
+          } text-gray-400 dark:bg-gray-900/40 backdrop-blur-lg`}
           style={{ y: animatedY }}
         >
           <motion.div
-            initial={{ opacity: 0, transform: "translateX(-40px)" }}
+            initial={{
+              opacity: 0,
+              transform: `translateX(${
+                (index === 0 && "-40px") ||
+                (index === 2 && "-40px") ||
+                (index === 1 && "40px") ||
+                (index === 3 && "40px")
+              })`,
+            }}
             style={{ x: photoX }}
             transition={{ type: "spring", stiffness: 400 }}
             whileInView={{ opacity: 1, transform: "translateX(0px)" }}
