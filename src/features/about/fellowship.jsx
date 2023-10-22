@@ -11,10 +11,10 @@ export default function Fellowship() {
           <p className=" dark:text-amber-600 text-2xl  font-bold p-8">
             Full - Time: Duration: 6 Months{" "}
           </p>
-          <div className="  flex lg:flex-row flex-col p-6">
-            <div className=" p-6  border border-gray-800 rounded-lg shadow  dark:border-gray-700 lg:flex-grow">
-              <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                Time commitment-
+          <div className="  flex lg:flex-row flex-col p-4">
+            <div className=" p-4  border border-gray-800 rounded-lg shadow  dark:border-gray-700 lg:flex-grow">
+              <h5 className=" p-2 mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                Time commitment
               </h5>
 
               <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
@@ -66,8 +66,8 @@ export default function Fellowship() {
             Part - Time: Duration: 12 Months{" "}
           </p>
           <div className=" flex lg:flex-row flex-col  p-6 ">
-            <div className=" p-6  border border-gray-800 rounded-lg shadow  dark:border-gray-700 lg:flex-grow">
-              <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+            <div className=" p-4  border border-gray-800 rounded-lg shadow  dark:border-gray-700 lg:flex-grow">
+              <h5 className="p-2 mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                 Time commitment-
               </h5>
 
