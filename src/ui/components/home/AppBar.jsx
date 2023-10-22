@@ -56,7 +56,7 @@ export default function AppBar({ currentTab, setCurrentTab }) {
         >
           {/* <AcmeLogo /> */}
           <p className="font-bold text-inherit text-lg sm:text-xl dark:text-gray-200 font-mono ">
-            TheEagleCoders
+            CodeRippleX
           </p>
         </NavbarBrand>
       </NavbarContent>
