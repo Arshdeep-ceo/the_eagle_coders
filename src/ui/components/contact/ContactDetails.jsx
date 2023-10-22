@@ -13,7 +13,7 @@ export default function ContactDetails() {
         className=" text-xl border-none  bg-white/10 h-48 shadow-lg grow hover:scale-[1.03]"
       >
         <div className="my-auto">
-          <p className="font-bold ">Chat</p>
+          <p className="font-bold pb-4">Chat</p>
           <p className="">We are here to help</p>
           <Gmail size="30" color="white" />
 
@@ -31,7 +31,7 @@ export default function ContactDetails() {
         className=" text-xl border-none  bg-white/10 h-48 grow shadow-lg hover:scale-[1.03]"
       >
         <div className="my-auto ">
-          <div className=" font-bold">Visit us</div>
+          <div className=" font-bold pb-4">Visit us</div>
           <Location size="30" color="white" />
           <p className="mt-3 underline">Visit our office HQ.</p>
           <p className="font-semibold mt-4">
