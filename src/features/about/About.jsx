@@ -101,7 +101,7 @@ export default function About() {
                 className="pr-6 lg:text-xl my-2 text-stone-600 dark:text-gray-400 "
                 style={{ fontSize: `${textSize}rem` }}
               >
-                <ul className=" text-pink-600 text-xl font-bold">
+                <ul className=" text-blue-500 text-xl font-bold">
                   <p> Train</p>
                   <p>Educate</p>
                   <p>Innovate</p>
