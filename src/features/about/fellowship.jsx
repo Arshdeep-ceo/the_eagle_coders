@@ -66,8 +66,8 @@ export default function Fellowship() {
             Part - Time: Duration: 12 Months{" "}
           </p>
           <div className=" flex lg:flex-row flex-col  p-6 ">
-            <div className=" p-6  border border-gray-800 rounded-lg shadow  dark:border-gray-700 lg:flex-grow">
-              <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+            <div className=" p-4  border border-gray-800 rounded-lg shadow  dark:border-gray-700 lg:flex-grow">
+              <h5 className="p-2 mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                 Time commitment-
               </h5>
 
