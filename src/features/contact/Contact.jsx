@@ -88,7 +88,7 @@ export default function Contact() {
           <blockquote className=" mt-3 text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9"></blockquote>
         </figure> */}
         <img
-          className=" m-12 animate-drip-expand bg-white rounded-xl self-center"
+          className=" m-12 animate-drip-expand rounded-xl self-center"
           src="/images/Contact.png"
           alt=""
         />
