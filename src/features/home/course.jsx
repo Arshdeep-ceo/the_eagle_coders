@@ -4,6 +4,27 @@ export default function Course() {
       <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <img
           className="rounded-t-lg"
+          src="https://innovature.ai/wp-content/uploads/2020/08/data-analytics.jpg"
+          alt=""
+        />
+
+        <div className="p-5">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            Data Science
+          </h5>
+
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Learn AI with an artificial intelligence course from experienced
+            instructors.
+          </p>
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+            Available now!
+          </p> */}
+        </div>
+      </div>
+      <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img
+          className="rounded-t-lg"
           src="https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?auto=format&fit=crop&q=60&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2V8ZW58MHx8MHx8fDA%3D"
           alt=""
         />
@@ -22,15 +43,55 @@ export default function Course() {
           </p> */}
         </div>
       </div>
+      <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img
+          className="rounded-t-lg"
+          src="https://www.investopedia.com/thmb/vMfO1M5PnRVYCtImkhBP535KkHk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/big-data.asp_final-d2382542261e4dafa0a1faa05ea2fcce.png"
+          alt=""
+        />
+
+        <div className="p-5">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            Big data
+          </h5>
+
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Learn AI with an artificial intelligence course from experienced
+            instructors.
+          </p>
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+            Available now!
+          </p> */}
+        </div>
+      </div>
+      <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img
+          className="rounded-t-lg"
+          src="https://www.investopedia.com/thmb/fMBgCui9yvwN2WbtM3q4PUB0slk=/4000x2700/filters:no_upscale():max_bytes(150000):strip_icc()/business-intelligence-bi.asp-Final-96640b2a1f8d43f7803afb193b675f1a.jpg"
+          alt=""
+        />
+
+        <div className="p-5">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            Business Intelligence
+          </h5>
+
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Learn AI with an artificial intelligence course from experienced
+            instructors.
+          </p>
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+            Available now!
+          </p> */}
+        </div>
+      </div>
 
       <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <p>
-          <img
-            className="rounded-t-lg"
-            src="https://images.unsplash.com/photo-1591453089816-0fbb971b454c?auto=format&fit=crop&q=80&w=870&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt=""
-          />
-        </p>
+        <img
+          className="rounded-t-lg h-60"
+          src="https://images.unsplash.com/photo-1591453089816-0fbb971b454c?auto=format&fit=crop&q=80&w=870&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
         <div className="p-5">
           <p>
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -47,17 +108,144 @@ export default function Course() {
         </div>
       </div>
       <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <p>
-          <img
-            className="rounded-t-lg"
-            src="https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?auto=format&fit=crop&q=60&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww"
-            alt=""
-          />
-        </p>
+        <img
+          className="rounded-t-lg h-60"
+          src="https://www.corpnce.com/wp-content/uploads/2020/05/deep-learning.jpg"
+          alt=""
+        />
+
+        <div className="p-5">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            Deep learning
+          </h5>
+
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Learn AI with an artificial intelligence course from experienced
+            instructors.
+          </p>
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+            Available now!
+          </p> */}
+        </div>
+      </div>
+      <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img
+          className="rounded-t-lg lg:h-60"
+          src="https://www.expert.ai/wp-content/uploads/2021/06/NLP-examples-1024x606.jpeg"
+          alt=""
+        />
+
+        <div className="p-5 ">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            Natural language processing
+          </h5>
+
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Learn AI with an artificial intelligence course from experienced
+            instructors.
+          </p>
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+            Available now!
+          </p> */}
+        </div>
+      </div>
+      <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img
+          className="rounded-t-lg h-60"
+          src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_Computer_Vision.jpg"
+          alt=""
+        />
+
+        <div className="p-5">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            Computer vision
+          </h5>
+
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Learn AI with an artificial intelligence course from experienced
+            instructors.
+          </p>
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+            Available now!
+          </p> */}
+        </div>
+      </div>
+      <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img
+          className="rounded-t-lg lg:h-60 h-60"
+          src="https://scratchpad.co.nz/wp-content/uploads/2017/11/Graphic-Design-Product.png"
+          alt=""
+        />
+
+        <div className="p-5">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            Graphic designing
+          </h5>
+
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Learn AI with an artificial intelligence course from experienced
+            instructors.
+          </p>
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+            Available now!
+          </p> */}
+        </div>
+      </div>
+      <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img
+          className="rounded-t-lg h-52 w-full"
+          src="https://images.shiksha.com/mediadata/shikshaOnline/mailers/2022/naukri-learning/what-is/What-is-Data-Structures-and-Algorithms.jpg"
+          alt=""
+        />
+
+        <div className="p-5">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            Data structure and algorithms
+          </h5>
+
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Learn AI with an artificial intelligence course from experienced
+            instructors.
+          </p>
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+            Available now!
+          </p> */}
+        </div>
+      </div>
+
+      <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img
+          className="rounded-t-lg"
+          src="https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?auto=format&fit=crop&q=60&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlYiUyMGRldmVsb3BtZW50fGVufDB8fDB8fHww"
+          alt=""
+        />
+
         <div className="p-5">
           <p>
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Web development
+            </h5>
+          </p>
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Learn Node.js, MongoDB, Express.js, React, System Design & much
+            more.
+          </p>
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+            Available now!
+          </p> */}
+        </div>
+      </div>
+      <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img
+          className="rounded-t-lg"
+          src="https://netgen.in/wp-content/uploads/2021/09/web-design.png"
+          alt=""
+        />
+
+        <div className="p-5">
+          <p>
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              Web designing
             </h5>
           </p>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -95,7 +283,7 @@ export default function Course() {
       <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <p>
           <img
-            className="rounded-t-lg"
+            className="rounded-t-lg "
             src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=60&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVhY3R8ZW58MHx8MHx8fDA%3D"
             alt=""
           />
@@ -103,7 +291,53 @@ export default function Course() {
         <div className="p-5">
           <p>
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              React
+              React Js
+            </h5>
+          </p>
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            If you{"'re"} looking to learn React, here{"'s"} a basic guide to
+            get you started
+          </p>
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+            Available now!
+          </p> */}
+        </div>
+      </div>
+      <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <p>
+          <img
+            className="rounded-t-lg h-60"
+            src="https://media.geeksforgeeks.org/wp-content/uploads/20230726113229/Concept-of-nodejs.webp"
+            alt=""
+          />
+        </p>
+        <div className="p-5">
+          <p>
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              Node Js
+            </h5>
+          </p>
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            If you{"'re"} looking to learn React, here{"'s"} a basic guide to
+            get you started
+          </p>
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+            Available now!
+          </p> */}
+        </div>
+      </div>
+      <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <p>
+          <img
+            className="rounded-t-lg h-60"
+            src="https://cdn.educba.com/academy/wp-content/uploads/2020/03/What-is-ExpressJS.jpg"
+            alt=""
+          />
+        </p>
+        <div className="p-5">
+          <p>
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              Express Js
             </h5>
           </p>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -155,6 +389,27 @@ export default function Course() {
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
             Certainly! Learning C and C++ provides a strong foundation in
             programming.
+          </p>
+          {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
+            Available now!
+          </p> */}
+        </div>
+      </div>
+      <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <img
+          className="rounded-t-lg"
+          src="https://static.javatpoint.com/tutorial/r/images/history-of-r-programming.png"
+          alt=""
+        />
+
+        <div className="p-5">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            R language
+          </h5>
+
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+            Learn AI with an artificial intelligence course from experienced
+            instructors.
           </p>
           {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
