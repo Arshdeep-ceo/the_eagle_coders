@@ -1,16 +1,17 @@
 import { Card } from "@nextui-org/react";
-// import Gmail from "@styled-icons/boxicons-logos/Gmail";
-import { PhoneCall } from "styled-icons/boxicons-regular";
-import { Gmail } from "styled-icons/boxicons-logos";
+import { Gmail } from "styled-icons/simple-icons";
+import { PhoneCall } from "styled-icons/boxicons-solid";
+
+("@styled-icons/evaicons-solid/PhoneCall");
 export default function ContactDetails() {
   return (
     <div className=" mt-4 dark:text-gray-500 text-center sm:max-w-[70%] flex flex-col gap-5 sm:flex-row flex-wrap">
       <Card
         isFooterBlurred
-        radius="xl"
-        className="border-none  bg-white/10 h-48 shadow-lg grow "
+        radius="lg"
+        className=" text-xl border-none  bg-white/10 h-48 shadow-lg grow "
       >
-        <div className="my-auto p-4 text-xl">
+        <div className="my-auto">
           <p className="font-bold ">Chat</p>
           <p className="">We are here to help</p>
           <Gmail size="30" color="white" />
