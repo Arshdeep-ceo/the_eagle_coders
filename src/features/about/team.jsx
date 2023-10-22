@@ -64,7 +64,7 @@ export default function Team() {
                 objectPosition: "top",
               }}
               // className="w-[50%] h-[40%] m-3  transform transition duration-[10000] hover:scale-105 overflow-hidden self-start sm:w-[40%]"
-              className="bg-[#4B5563] overflow-hidden bg-contain rounded-2xl bg-clip-border sm:basis-[35%] max-h-[25rem]  drop-shadow-xl transition-all hover:scale-105 hover:drop-shadow-2xl duration-75 shadow-xl"
+              className="bg-[#4B5563] overflow-hidden bg-contain rounded-2xl bg-clip-border sm:basis-[35%] max-h-[25rem]  drop-shadow-xl transition-all hover:scale-105 hover:drop-shadow-2xl duration-75 shadow-xl "
               // style={{}}
               // initial={{ opacity: 0 }}
               // whileInView={{ opacity: 1 }}

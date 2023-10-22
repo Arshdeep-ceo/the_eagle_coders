@@ -36,8 +36,8 @@ export default function Fellowship() {
               </h5>
 
               <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
-                We will consider based on the candidate{"'s"}
-                commitment and dedication towards the fellowship.
+                We will consider based on the candidate{"'s"} commitment and
+                dedication towards the fellowship.
               </p>
             </div>
           </div>
@@ -91,7 +91,7 @@ export default function Fellowship() {
               </h5>
 
               <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
-                We will consider based on the candidate{"'s"}
+                We will consider based on the candidate{"'s "}
                 commitment and dedication towards the fellowship.
               </p>
             </div>
