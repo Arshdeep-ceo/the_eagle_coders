@@ -3,14 +3,14 @@ import { useScroll, motion, useTransform } from "framer-motion";
 const team = [
   {
     name: "Arshdeep Singh",
-    role: "Founder & Web Developer",
+    role: "Web Developer",
     experience:
-      "The Eagle Coders was founded by Mr.Arshdeep Singh in 2022 along with Mr.Sunil Jaswal. He train students to apply Data Science to problems that really matter. He is a software engineer who loves to create websites as well as apps for people. He think that people should look at the bigger picture when they are building something. He love to work in groups where everyone can voice their opinions and ideas.",
+      "He train students to apply Data Science to problems that really matter. He is a software engineer who loves to create websites as well as apps for people. He think that people should look at the bigger picture when they are building something. He love to work in groups where everyone can voice their opinions and ideas.",
     imageUrl: "/images/arsh.jpeg",
   },
   {
     name: "Sunil Jaswal",
-    role: "Founder & Web Developer",
+    role: "Python Developer",
     experience:
       "Mr.Sunil Jaswal have expertise in areas such as machine learning, deep learning, natural language processing and computer vision. He believe that AI has the potential to make a significant impact on society and various industries. By developing AI solutions, you can contribute to advancements in healthcare, finance, transportation, climate change, and many other areas, making a positive difference in the world.",
 
@@ -21,7 +21,7 @@ const team = [
     name: "Ramanpreet kaur",
     role: "Web Developer",
     experience:
-      "Ms.Ramanpreet kaur work as a web developer. With Two years of experience in the dynamic field of web development, She has consistently showcased exceptional technical prowess coupled with a keen eye for design. Being a pivotal part of our team, she brings an unmatched passion for creating responsive, user-friendly, and innovative websites.Beyond technical skills, his strength lies in her dedication to continuous learning and improvement.",
+      "Ms.Ramanpreet Kaur works as a web developer. With Two years of experience in the dynamic field of web development, She has consistently showcased exceptional technical prowess coupled with a keen eye for design. Being a pivotal part of our team, she brings an unmatched passion for creating responsive, user-friendly, and innovative websites.Beyond technical skills, his strength lies in her dedication to continuous learning and improvement.",
     imageUrl: "/images/Raman.jpeg",
   },
   {
@@ -35,23 +35,25 @@ const team = [
   // More people...
 ];
 export default function Team() {
-  const { scrollY } = useScroll();
-  const animatedText = useTransform(scrollY, [0, 400], ["#fff", "#000"]);
+  // const { scrollY } = useScroll();
+  // const animatedText = useTransform(scrollY, [0, 400], ["#fff", "#000"]);
 
-  const textSize = useTransform(scrollY, [100, 350], [1, 2]);
-  const photoX = useTransform(scrollY, [100, 350], [-100, 0]);
-  const animatedY = useTransform(scrollY, [0, 400], [0, -300]);
+  // const textSize = useTransform(scrollY, [100, 350], [1, 2]);
+  // const photoX = useTransform(scrollY, [100, 350], [-100, 0]);
+  // const animatedY = useTransform(scrollY, [0, 400], [0, -300]);
   return (
     <div className=" lg:ml-72 lg:mr-72 text-center rounded-xl ">
-      {team.map((person) => (
+      {team.map((person, index) => (
         <section
           key={person.name}
-          className="mt-2 p-7   rounded-lg flex flex-col sm:flex-row text-gray-400 dark:bg-gray-900/40 backdrop-blur-lg"
-          style={{ y: animatedY }}
+          className={`mt-2 p-7   rounded-lg flex flex-col ${
+            index === 2 ? "sm:flex-row-reverse" : ""
+          } sm:flex-row-reverse text-gray-400 dark:bg-gray-900/40 backdrop-blur-lg`}
+          // style={{ y: animatedY }}
         >
           <motion.div
             initial={{ opacity: 0, transform: "translateX(-40px)" }}
-            style={{ x: photoX }}
+            // style={{ x: photoX }}
             transition={{ type: "spring", stiffness: 400 }}
             whileInView={{ opacity: 1, transform: "translateX(0px)" }}
             whileTap={{ scale: 0.95 }}
@@ -74,13 +76,13 @@ export default function Team() {
           <div className="pt-4 sm:basis-[65%] sm:ml-6 sm:p-0 ">
             <h2
               className="pt-4 font-bold text-stone-700 dark:text-gray-300 text-4xl transition-all hover:scale-[1.01] hover:drop-shadow-lg"
-              style={{ color: { animatedText } }}
+              // style={{ color: { animatedText } }}
             >
               {person.name}
             </h2>
             <motion.p
               className="my-2 text-stone-600 dark:text-gray-400 "
-              style={{ fontSize: `${textSize}rem` }}
+              // style={{ fontSize: `${textSize}rem` }}
             >
               <p className=" text-xl font-semibold  text-amber-200">
                 {person.role}
