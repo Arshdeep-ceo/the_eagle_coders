@@ -28,7 +28,7 @@ function Hero({ setCurrentTab }) {
     <motion.header
       // initial={{ scale: 1 }}
       // animate={{ scale: 0.5 }}
-      className="flex flex-col justify-center h-[90vh] pb-10 relative "
+      className="bg-[url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=2020&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-cover  flex flex-col pt-24 lg:h-[90vh] h-[60vh] pb-8 relative"
       style={{
         y: y1,
         scale: scale,
@@ -52,10 +52,9 @@ function Hero({ setCurrentTab }) {
       <h2 className="font-semibold text-lg m-2 leading-3 text-center dark:text-gray-300 z-10">
         Master React, Ai, Flutter and more...
       </h2>
-      <p className="  text-gray-500 dark:text-gray-400 max-w-xl self-center p-3 text-center text-sm sm:p-6 z-10">
+      <p className=" text-gray-500 dark:text-gray-400 max-w-xl self-center p-3 text-center text-sm sm:p-6 z-10">
         We at Eagle Coders inspires to teach students the current market leading
-        technologies Hey There. <br></br>Innovating today for a better digital
-        tomorrow.
+        technologies <br></br>Innovating today for a better digital tomorrow.
       </p>
       <div className="flex items-center justify-center gap-x-3 flex-col gap-y-2 sm:flex-row z-10">
         <Button
