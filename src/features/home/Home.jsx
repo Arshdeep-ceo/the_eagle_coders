@@ -37,6 +37,7 @@ function Home() {
         />
       </a>
       <Hero setCurrentTab={setCurrentTab} />
+
       <Use />
       <div className="mt-6 mb-6  bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text  subpixel-antialiased z-10">
         <Zoom cascade={true}>
@@ -181,6 +182,58 @@ function Home() {
           </p>
         </div>
       </section>
+      <section
+        className="mt-8 p-7 justify-center rounded-lg flex flex-col sm:flex-row text-gray-400 dark:bg-gray-900/40 backdrop-blur-lg"
+        style={{ y: animatedY }}
+      >
+        <div className="pt-4 sm:basis-[65%] sm:ml-6 sm:p-0 ">
+          <h2
+            className=" font-bold text-stone-700 dark:text-gray-300 text-4xl transition-all hover:scale-[1.01] hover:drop-shadow-lg"
+            style={{ color: { animatedText } }}
+          >
+            PLACEMENT SUPPORT
+          </h2>
+          <motion.p
+            className="my-2 text-stone-600 dark:text-gray-400 "
+            style={{ fontSize: `${textSize}rem` }}
+          ></motion.p>
+
+          <p className=" lg:text-xl mt-2 text-stone-600 dark:text-gray-400">
+            The Placement Program is designed to help interns improve their
+            chances to get the right career opportunity and make them
+            industry-ready. Sabudh seeks to assist interns with professional
+            development and improve their interpersonal skills, hence making
+            them ready to deliver in all kinds of business environments. For
+            this purpose, Sabudh organizes various workshops to help the interns
+            get ready for their future endeavors.
+          </p>
+          <p className="lg:text-xl mt-2 text-stone-600 dark:text-gray-400">
+            The list of proposed workshops is as follows:<br></br> Team Building
+            sessions<br></br>
+            Resume and cover letter building<br></br> Curating social media
+            presence<br></br>
+            Interview training including mock interviews
+          </p>
+        </div>
+        <motion.div
+          initial={{ opacity: 0, transform: "translateX(-40px)" }}
+          style={{ x: photoX }}
+          transition={{ type: "spring", stiffness: 400 }}
+          whileInView={{ opacity: 1, transform: "translateX(0px)" }}
+          whileTap={{ scale: 0.95 }}
+        >
+          <img
+            src="/images/placement-support.png"
+            alt=""
+            style={{
+              objectFit: "cover",
+              objectPosition: "top",
+            }}
+            className=" overflow-hidden bg-contain rounded-2xl bg-clip-border sm:basis-[35%] max-h-[25rem]  drop-shadow-xl transition-all hover:scale-105 hover:drop-shadow-2xl duration-75 "
+          />
+        </motion.div>
+      </section>
+
       <section className=" p-6" style={{}}>
         <div className=" font-bold text-stone-700 dark:text-yellow-500 text-4xl transition-all hover:scale-[1.01] hover:drop-shadow-lg duration-100">
           Why Us?

@@ -8,6 +8,7 @@ import {
 import "./App.css";
 import Home from "./features/home/Home";
 import About from "./features/about/About";
+import Projects from "./features/projects/projects.jsx";
 import Contact from "./features/contact/Contact";
 import { NextUIProvider } from "@nextui-org/react";
 import AppLayout from "./AppLayout";
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
       { path: "/internship", element: <Internship /> },
       { path: "/contact", element: <Contact /> },
       { path: "/explore", element: <Explore /> },
+      { path: "/projects", element: <Projects /> },
     ],
   },
 ]);

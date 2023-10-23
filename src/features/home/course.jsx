@@ -14,8 +14,8 @@ export default function Course() {
           </h5>
 
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Learn AI with an artificial intelligence course from experienced
-            instructors.
+            Prepare for a career in Data Science. Receive professional-level
+            training.
           </p>
           {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
@@ -56,8 +56,8 @@ export default function Course() {
           </h5>
 
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Learn AI with an artificial intelligence course from experienced
-            instructors.
+            Master the big data skills and tools essential in today{"'s"}
+            marketplace.
           </p>
           {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
@@ -77,8 +77,8 @@ export default function Course() {
           </h5>
 
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Learn AI with an artificial intelligence course from experienced
-            instructors.
+            Learn about a software that ingests business data and presents it in
+            UI views.
           </p>
           {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
@@ -120,8 +120,7 @@ export default function Course() {
           </h5>
 
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Learn AI with an artificial intelligence course from experienced
-            instructors.
+            Learn deep learning from top-rated instructors.
           </p>
           {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
@@ -141,8 +140,8 @@ export default function Course() {
           </h5>
 
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Learn AI with an artificial intelligence course from experienced
-            instructors.
+            Take the next step in your professional journey and enroll in a NLP
+            course today!
           </p>
           {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
@@ -162,8 +161,8 @@ export default function Course() {
           </h5>
 
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Learn AI with an artificial intelligence course from experienced
-            instructors.
+            This course is designed to gain a thorough knowledge of image
+            processing.
           </p>
           {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
@@ -183,8 +182,8 @@ export default function Course() {
           </h5>
 
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Learn AI with an artificial intelligence course from experienced
-            instructors.
+            Take a graphics design course from us and learn how to express your
+            creativity.
           </p>
           {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
@@ -204,8 +203,8 @@ export default function Course() {
           </h5>
 
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Learn AI with an artificial intelligence course from experienced
-            instructors.
+            Enroll to the Best Data Structures & Algorithms Course with the
+            skill Program.
           </p>
           {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
@@ -249,8 +248,8 @@ export default function Course() {
             </h5>
           </p>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Learn Node.js, MongoDB, Express.js, React, System Design & much
-            more.
+            Join millions of learners and begin a web design course led by top
+            rated instructors.
           </p>
           {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
@@ -318,8 +317,8 @@ export default function Course() {
             </h5>
           </p>
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            If you{"'re"} looking to learn React, here{"'s"} a basic guide to
-            get you started
+            Learn to build desktop, mobile, and web applications in a
+            cross-platform Js env.
           </p>
           {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!
@@ -408,8 +407,8 @@ export default function Course() {
           </h5>
 
           <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Learn AI with an artificial intelligence course from experienced
-            instructors.
+            Learn the world{"'s"} biggest platforms & architect better systems
+            for your career.
           </p>
           {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
             Available now!

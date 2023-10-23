@@ -22,8 +22,22 @@ import { useNavigate } from "react-router-dom";
 export default function AppBar({ currentTab, setCurrentTab }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems = ["Home", "About", "Internship", "Contact Us", "Explore"];
-  const menuPaths = ["/", "/about", "/internship", "/contact", "/explore"];
+  const menuItems = [
+    "Home",
+    "About",
+    "Internship",
+    "Contact Us",
+    "Explore",
+    "Our Projects",
+  ];
+  const menuPaths = [
+    "/",
+    "/about",
+    "/internship",
+    "/contact",
+    "/explore",
+    "/projects",
+  ];
 
   const handleClick = (key) => {
     setCurrentTab(key);

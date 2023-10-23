@@ -3,11 +3,11 @@ import { List } from "@material-tailwind/react";
 export default function Fellowship() {
   return (
     <div>
-      <div className="items-center overflow-hidden p-4 m-4 rounded-xl text-center  bg-slate-800">
+      <div className="items-center overflow-hidden rounded-xl text-center  bg-slate-800">
         <h2 className=" shadow-2xl text-3xl sm:text-[3rem] font-bold sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-pink-400 via-amber-600 to bg-amber-200">
           CODERIPPLEX FELLOWSHIP
         </h2>
-        <div className="m-8 dark:bg-slate-950 rounded-xl ">
+        <div className="m-4 dark:bg-slate-950 rounded-xl ">
           <p className=" dark:text-amber-600 text-2xl  font-bold p-8">
             Full - Time: Duration: 6 Months{" "}
           </p>
@@ -61,7 +61,7 @@ export default function Fellowship() {
             </List>
           </p>
         </div>
-        <div className="m-8 dark:bg-slate-950 rounded-xl ">
+        <div className="m-4 dark:bg-slate-950 rounded-xl ">
           <p className=" dark:text-amber-600 text-2xl font-bold p-8">
             Part - Time: Duration: 12 Months{" "}
           </p>

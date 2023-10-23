@@ -1,4 +1,5 @@
 import Features from "./features.jsx";
+import Blog from "./blog.jsx";
 import { Button } from "@nextui-org/react";
 import Footer from "../home/footer/footer.jsx";
 import { useNavigate } from "react-router-dom";
@@ -71,6 +72,7 @@ export default function Explore() {
       </div>
 
       <Features />
+      <Blog />
       <Footer />
     </div>
   );
