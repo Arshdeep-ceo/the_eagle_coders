@@ -1,4 +1,6 @@
 import Features from "./features.jsx";
+import SoftProducts from "./products.jsx";
+import AIservices from "./aiservices.jsx";
 import { Button } from "@nextui-org/react";
 import Footer from "../home/footer/footer.jsx";
 import { useNavigate } from "react-router-dom";
@@ -115,6 +117,125 @@ export default function Explore() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="bg-gray-900 ">
+        <div className="mx-auto pl-4 pr-8 pt-20 pb-12 ">
+          <div className="">
+            <h2 className="text-5xl font-bold tracking-tight text-amber-600 ">
+              Services provided by CodeRippleX
+            </h2>
+
+            <p className="mt-4 text-2xl text-gray-400">
+              Our company provide IT services and software products.
+            </p>
+          </div>
+        </div>
+        <div className="h-auto w-auto">
+          <p className=" pl-6 mb-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white">
+            IT Services:
+          </p>
+
+          <div className="mt-6 mb-6 items-start grid grid-cols-1 px-5 min-[540px]:grid-cols-2 lg:grid-cols-4 gap-4 ">
+            <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img
+                className="rounded-t-lg h-60 w-full"
+                src="https://assets-global.website-files.com/62be22872850996333a4861f/62be2287285099f561a48ee2_IT%20services%20.jpg"
+                alt=""
+              />
+              <div className="p-5">
+                <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Tech Support Solutions managed IT services
+                </p>
+              </div>
+            </div>
+            <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img
+                className="rounded-t-lg h-60 w-full"
+                src="https://www.veritis.com/wp-content/uploads/2022/09/What-are-the-Different-Types-of-Cloud-Computing-Services.jpg"
+                alt=""
+              />
+              <div className="p-5">
+                <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Cloud Computing Services provided
+                </p>
+              </div>
+            </div>
+            <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img
+                className="rounded-t-lg h-60 w-full"
+                src="https://www.bitlyft.com/hubfs/Cybersecurity-solutions.jpeg"
+                alt=""
+              />
+              <div className="p-5">
+                <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Network Security Solutions provided
+                </p>
+              </div>
+            </div>
+            <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img
+                className="rounded-t-lg h-60 w-full"
+                src="https://www.irissol.com/wp-content/uploads/2020/12/Data-Backup-And-Recovery-Services.jpeg"
+                alt=""
+              />
+              <div className="p-5">
+                <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Data Recovery and Backup Services
+                </p>
+              </div>
+            </div>
+            <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img
+                className="rounded-t-lg h-60 w-full"
+                src="https://statesecurity.com.au/wp-content/uploads/2019/08/security_consulting.jpg"
+                alt=""
+              />
+              <div className="p-5">
+                <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Cybersecurity Consulting IT Infrastructure
+                </p>
+              </div>
+            </div>
+            <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img
+                className="rounded-t-lg h-60 w-full"
+                src="https://distantjob.com/wp-content/uploads/2022/05/Software-Development-Project-Management.png"
+                alt=""
+              />
+              <div className="p-5">
+                <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Management Software Development
+                </p>
+              </div>
+            </div>
+            <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img
+                className="rounded-t-lg h-60 w-full"
+                src="https://www.appsdevpro.com/blog/wp-content/uploads/2022/09/Top-Web-Design-Development-Trends-You-Need-to-Know-in-2023.png"
+                alt=""
+              />
+              <div className="p-5">
+                <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Web Design and Development
+                </p>
+              </div>
+            </div>
+            <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img
+                className="rounded-t-lg h-60 w-full"
+                src="https://www.finesofttechnologies.com/wp-content/uploads/2019/04/Custom-Application-Development.jpg"
+                alt=""
+              />
+              <div className="p-5">
+                <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Custom Application Development
+                </p>
+              </div>
+            </div>
+          </div>
+          <SoftProducts />
+          <AIservices />
         </div>
       </div>
       <Features />
