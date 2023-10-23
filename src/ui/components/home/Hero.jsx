@@ -39,7 +39,7 @@ function Hero({ setCurrentTab }) {
       <AnimatedArrow />
       <div className="bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text  subpixel-antialiased z-10">
         <Zoom cascade={true}>
-          <h1 className="mb-2 text-center text-transparent bg-clip-text bg-[#ECEDEE] text-4xl px-4 mt-8 font-bold w-screen sm:mt-10 mx-auto md:mt-8 lg:text-5xl xl:text-6xl xl:mt-0 hover:scale-105 transition-all ">
+          <h1 className=" mb-2 text-center text-transparent bg-clip-text bg-[#ECEDEE] text-4xl px-4 mt-8 font-bold w-screen sm:mt-10 mx-auto md:mt-8 lg:text-5xl xl:text-6xl xl:mt-0 hover:scale-105 transition-all  ">
             Become the{" "}
             <span className="bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text">
               future{" "}
