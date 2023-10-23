@@ -49,11 +49,9 @@ export default function Internship() {
                   >
                     <circle cx={1} cy={1} r={1} />
                   </svg>
-                  <div className="text-white mb-4">
-                    Student of The Eagle Coders
-                  </div>
+                  <div className="text-white mb-4">Student of CodeRippleX</div>
                 </div>
-                <p>
+                <p className="pb-4">
                   “We are satisfied with the solution given to us and with the
                   communication flow through the project. We would like to
                   recommend Mr. Arshdeep Singh and his development team. We look
@@ -85,13 +83,11 @@ export default function Internship() {
                   >
                     <circle cx={1} cy={1} r={1} />
                   </svg>
-                  <div className="text-white mb-4">
-                    Student of The Eagle Coders
-                  </div>
+                  <div className="text-white mb-4">Student of CodeRippleX</div>
                 </div>
               </figcaption>
-              <p>
-                “Choosing The Eagle Coders was the best decision for our digital
+              <p className="pb-4">
+                “Choosing CodeRippleX was the best decision for our digital
                 initiatives. Their tailoed solutions and flexibility have
                 exceeded our expectations.”
               </p>
@@ -118,14 +114,12 @@ export default function Internship() {
                   >
                     <circle cx={1} cy={1} r={1} />
                   </svg>
-                  <div className="text-white mb-4">
-                    Student of The Eagle Coders
-                  </div>
+                  <div className="text-white mb-4">Student of CodeRippleX</div>
                 </div>
               </figcaption>
-              <p>
-                “The eagle coders is a standout digital agency in our area,
-                offering personalize attention and exceptional expertise.”
+              <p className="pb-4">
+                “CodeRippleX is a standout digital agency in our area, offering
+                personalize attention and exceptional expertise.”
               </p>
             </blockquote>
           </div>
@@ -150,13 +144,11 @@ export default function Internship() {
                   >
                     <circle cx={1} cy={1} r={1} />
                   </svg>
-                  <div className="text-white mb-4">
-                    Student of The Eagle Coders
-                  </div>
+                  <div className="text-white mb-4">Student of CodeRippleX</div>
                 </div>
               </figcaption>
-              <p>
-                “I am impressed by The eagle coders dedication, creativity and
+              <p className="pb-4">
+                “I am impressed by CodeRippleX dedication, creativity and
                 attention to detail. They deliver high-quality solutions with
                 speed and agility.”
               </p>
@@ -183,15 +175,12 @@ export default function Internship() {
                   >
                     <circle cx={1} cy={1} r={1} />
                   </svg>
-                  <div className="text-white mb-4">
-                    Student of The Eagle Coders
-                  </div>
+                  <div className="text-white mb-4">Student of CodeRippleX</div>
                 </div>
               </figcaption>
-              <p>
-                “The eagle coders stands out with their skill, efficiency and
-                their customer focused approach. Highly regarded in the
-                industry.”
+              <p className="pb-4">
+                “CodeRippleX stands out with their skill, efficiency and their
+                customer focused approach. Highly regarded in the industry.”
               </p>
             </blockquote>
           </div>

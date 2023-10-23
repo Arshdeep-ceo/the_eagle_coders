@@ -43,16 +43,16 @@ function Home() {
         <div className="mx-auto pl-4 pr-8 pt-10 pb-12 ">
           <div className="">
             <h2 className=" text-center text-5xl font-bold text-amber-600 ">
-              Services provided by<br></br> The Eagle Coders
+              Services provided by<br></br> CodeRippleX
             </h2>
 
             <p className=" text-center mt-4 text-2xl text-gray-400">
-              Our company provide IT services and software products.At The Eagle
-              Coders, we craft software that pushes the boundaries of innovation
-              and delivers exceptional user experiences.From ideation to
-              deployment,our company is your end-to-end partner for cutting-edge
-              software solutions.Transforming your vision into pixel-perfect
-              reality, one line of code at a time.
+              Our company provide IT services and software products.<br></br>At
+              CodeRippleX, we craft software that pushes the boundaries of
+              innovation and delivers exceptional user experiences.<br></br>From
+              ideation to deployment,our company is your end-to-end partner for
+              cutting-edge software solutions.Transforming your vision into
+              pixel-perfect reality, one line of code at a time.
             </p>
           </div>
         </div>
@@ -65,7 +65,7 @@ function Home() {
             the forefront, delivering agile and scalable software solutions. We
             power businesses with IT solutions that are both innovative and
             reliable.From robust infrastructure management to cutting-edge cloud
-            solutions, Eagle coders is your trusted IT partner for the digital
+            solutions, CodeRippleX is your trusted IT partner for the digital
             age.<br></br>Our commitment? Seamless IT solutions that optimize
             operations, reduce costs, and drive growth.
           </p>
@@ -272,7 +272,7 @@ function Home() {
           ></motion.p>
 
           <p className="mt-2 text-stone-600 dark:text-gray-400">
-            At the<span className="text-pink-500 font-bold"> Eagle coders</span>{" "}
+            At the<span className="text-pink-500 font-bold"> CodeRippleX</span>{" "}
             , we provide an unparalleled experience for aspiring web developers,
             ensuring they are equipped for the rapidly evolving digital
             landscape. Our curriculum is meticulously designed to offer a blend

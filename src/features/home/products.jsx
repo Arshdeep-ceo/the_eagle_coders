@@ -8,10 +8,10 @@ export default function SoftProducts() {
         <p className=" pt-4 pb-5 text-xl pl-6 mb-2 tracking-tight text-gray-900 dark:text-gray-400 animate-pulse">
           Every software product we release is a testament to our commitment to
           excellence and client success.From robust enterprise solutions to
-          intuitive mobile apps,Eagle coders software products are shaping the
+          intuitive mobile apps, CodeRippleX software products are shaping the
           future.Seamless design, robust functionality, and unparalleled user
-          experience – that{"'s"} the Eagle coders software promise.Empowering
-          businesses, enriching users: Dive into the world of Eagle coders
+          experience – that{"'s"} CodeCraft software promise.Empowering
+          businesses, enriching users: Dive into the world of CodeRippleX
           transformative software products.Our software products aren{"'t"} just
           tools, they{"'re"} catalysts for change, growth, and innovation.
         </p>

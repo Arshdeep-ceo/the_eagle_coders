@@ -7,7 +7,7 @@ export default function AIservices() {
         </p>
         <p className="pb-5 text-xl pl-6 mb-2 tracking-tight text-gray-900 dark:text-gray-400 animate-pulse">
           We harness the power of AI to unlock new possibilities and propel
-          businesses forward.Our AI algorithms don{"'t"} just process data; they
+          businesses forward.Our AI algorithms don{"'t"} just process data, they
           breathe intelligence into every facet of your business.Experience the
           future of decision-making with our advanced AI-driven solutions.Our AI
           services don{"'t"} just follow trends; they set them. Partner with our

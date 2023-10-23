@@ -69,8 +69,8 @@ export default function AppBar({ currentTab, setCurrentTab }) {
           className="cursor-pointer"
         >
           {/* <AcmeLogo /> */}
-          <p className="font-bold text-inherit text-lg sm:text-2xl dark:text-gray-200  tracking-tighter">
-            The Eagle Coders
+          <p className="font-bold text-inherit text-lg sm:text-2xl dark:text-gray-200  tracking-tight font-mono">
+            CodeRippleX
           </p>
         </NavbarBrand>
       </NavbarContent>

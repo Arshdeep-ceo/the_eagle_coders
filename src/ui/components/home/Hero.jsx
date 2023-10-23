@@ -53,7 +53,7 @@ function Hero({ setCurrentTab }) {
         Master React, Ai, Flutter and more...
       </h2>
       <p className=" text-gray-500 dark:text-gray-300 max-w-xl self-center p-3 text-center text-sm sm:p-6 z-10">
-        We at Eagle Coders inspires to teach students the current market leading
+        We at CodeRippleX inspires to teach students the current market leading
         technologies<br></br>We Provide IT services and software products and AI
         Services. <br></br>Innovating today for a better digital tomorrow.
       </p>

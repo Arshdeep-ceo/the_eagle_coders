@@ -102,8 +102,8 @@ export default function Contactform() {
           <p>Request a call</p>
         </h2>
         <p className="mt-2 pb-6 text-xl leading-8 dark:text-gray-300">
-          Contact the Eagle Coders® here by Email Skype or Contact form - We
-          look forward to starting a conversation with you!
+          Contact CodeRippleX® here by Email Skype or Contact form - We look
+          forward to starting a conversation with you!
         </p>
       </div>
 
