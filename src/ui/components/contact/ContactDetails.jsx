@@ -7,20 +7,22 @@ import { Location } from "@styled-icons/entypo/Location";
 export default function ContactDetails() {
   return (
     <div className=" mt-4 dark:text-gray-500 text-center flex flex-col gap-5 flex-wrap">
-      <Card
-        isFooterBlurred
-        radius="lg"
-        className=" text-xl border-none  bg-white/10 h-48 shadow-lg grow hover:scale-[1.03]"
+      <a
+        href="mailto:rkrk09134@gmail.com?body=Hey there CodeRippleX, I'm "
+        className="grow "
       >
-        <div className="my-auto">
+        <Card
+          isFooterBlurred
+          radius="lg"
+          className=" text-xl border-none  bg-white/10 h-48 shadow-lg hover:scale-[1.03] items-center "
+        >
           <p className="font-bold pb-4">Chat</p>
           <p className="">We are here to help</p>
-          <Gmail size="30" color="white" />
+          <Gmail size="30" color="white" className="self-center" />
 
           <p className=" underline">theeaglecoders@gmail.com</p>
-        </div>
-      </Card>
-
+        </Card>
+      </a>
       <Card
         isFooterBlurred
         radius="lg"
