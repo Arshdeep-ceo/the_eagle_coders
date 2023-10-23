@@ -13,7 +13,7 @@ const links = [
   { name: "Meet our leadership", href: "#" },
 ];
 const stats = [
-  { name: "Offices worldwide", value: "3" },
+  { name: "Offices worldwide", value: "2" },
   { name: "Full-time colleagues", value: "30+" },
   { name: "Hours per week", value: "40" },
   { name: "Paid time off", value: "Unlimited" },

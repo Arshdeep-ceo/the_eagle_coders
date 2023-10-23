@@ -63,7 +63,7 @@ export default function Fellowship() {
         </div>
         <div className="m-4 dark:bg-slate-950 rounded-xl ">
           <p className=" dark:text-amber-600 text-2xl font-bold p-8">
-            Part - Time: Duration: 12 Months{" "}
+            Part - Time: Duration: 9 Months{" "}
           </p>
           <div className=" flex lg:flex-row flex-col  p-6 ">
             <div className=" p-4  border border-gray-800 rounded-lg shadow  dark:border-gray-700 lg:flex-grow">
@@ -72,7 +72,7 @@ export default function Fellowship() {
               </h5>
 
               <p className="mb-3 font-normal text-gray-500 dark:text-gray-400">
-                12 Months(12-14 hours/week )
+                9 Months(12-14 hours/week )
               </p>
             </div>
             <div className="p-6 border border-gray-200 rounded-lg shadow  dark:border-gray-700">

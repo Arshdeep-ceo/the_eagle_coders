@@ -5,8 +5,8 @@ import { useScroll, motion, useTransform } from "framer-motion";
 import "../../index.css";
 import Footer from "../home/footer/footer.jsx";
 import Use from "../home/use.jsx";
-import Course from "../home/course.jsx";
-import { Zoom } from "react-awesome-reveal";
+import SoftProducts from "./products";
+import AIservices from "./aiservices";
 import { useOutletContext } from "react-router-dom";
 
 function Home() {
@@ -37,20 +37,141 @@ function Home() {
         />
       </a>
       <Hero setCurrentTab={setCurrentTab} />
-
       <Use />
-      <div className="mt-6 mb-6  bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text  subpixel-antialiased z-10">
-        <Zoom cascade={true}>
-          <h1 className="mb-2 text-center text-transparent bg-clip-text bg-[#ECEDEE] text-4xl px-4 mt-8 font-bold w-screen sm:mt-10 mx-auto md:mt-8 lg:text-5xl xl:text-6xl xl:mt-0 hover:scale-105 transition-all ">
-            Our company provide{" "}
-            <span className="bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text">
-              courses{" "}
-            </span>
-          </h1>
-          {/* Become the future you desire! <br /> */}
-        </Zoom>
+
+      <div className="bg-gray-900 ">
+        <div className="mx-auto pl-4 pr-8 pt-10 pb-12 ">
+          <div className="">
+            <h2 className=" text-center text-5xl font-bold text-amber-600 ">
+              Services provided by<br></br> The Eagle Coders
+            </h2>
+
+            <p className=" text-center mt-4 text-2xl text-gray-400">
+              Our company provide IT services and software products.At The Eagle
+              Coders, we craft software that pushes the boundaries of innovation
+              and delivers exceptional user experiences.From ideation to
+              deployment,our company is your end-to-end partner for cutting-edge
+              software solutions.Transforming your vision into pixel-perfect
+              reality, one line of code at a time.
+            </p>
+          </div>
+        </div>
+        <div className="h-auto w-auto">
+          <p className=" -mt-4 pb-6 text-center pl-6 mb-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white ">
+            IT Services:
+          </p>
+          <p className="pb-4 text-xl pl-6 mb-2 tracking-tight text-gray-900 dark:text-gray-400 animate-pulse">
+            In a digital world that never stops evolving, our company stands at
+            the forefront, delivering agile and scalable software solutions. We
+            power businesses with IT solutions that are both innovative and
+            reliable.From robust infrastructure management to cutting-edge cloud
+            solutions, Eagle coders is your trusted IT partner for the digital
+            age.<br></br>Our commitment? Seamless IT solutions that optimize
+            operations, reduce costs, and drive growth.
+          </p>
+
+          <div className="mt-6 mb-6 items-start grid grid-cols-1 px-5 min-[540px]:grid-cols-2 lg:grid-cols-4 gap-4 ">
+            <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img
+                className="rounded-t-lg h-60 w-full"
+                src="https://assets-global.website-files.com/62be22872850996333a4861f/62be2287285099f561a48ee2_IT%20services%20.jpg"
+                alt=""
+              />
+              <div className="p-5">
+                <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Tech Support Solutions managed IT services
+                </p>
+              </div>
+            </div>
+            <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img
+                className="rounded-t-lg h-60 w-full"
+                src="https://www.veritis.com/wp-content/uploads/2022/09/What-are-the-Different-Types-of-Cloud-Computing-Services.jpg"
+                alt=""
+              />
+              <div className="p-5">
+                <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Cloud Computing Services provided
+                </p>
+              </div>
+            </div>
+            <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img
+                className="rounded-t-lg h-60 w-full"
+                src="https://www.bitlyft.com/hubfs/Cybersecurity-solutions.jpeg"
+                alt=""
+              />
+              <div className="p-5">
+                <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Network Security Solutions provided
+                </p>
+              </div>
+            </div>
+            <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img
+                className="rounded-t-lg h-60 w-full"
+                src="https://www.irissol.com/wp-content/uploads/2020/12/Data-Backup-And-Recovery-Services.jpeg"
+                alt=""
+              />
+              <div className="p-5">
+                <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Data Recovery and Backup Services
+                </p>
+              </div>
+            </div>
+            <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img
+                className="rounded-t-lg h-60 w-full"
+                src="https://statesecurity.com.au/wp-content/uploads/2019/08/security_consulting.jpg"
+                alt=""
+              />
+              <div className="p-5">
+                <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Cybersecurity Consulting IT Infrastructure
+                </p>
+              </div>
+            </div>
+            <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img
+                className="rounded-t-lg h-60 w-full"
+                src="https://distantjob.com/wp-content/uploads/2022/05/Software-Development-Project-Management.png"
+                alt=""
+              />
+              <div className="p-5">
+                <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Management Software Development
+                </p>
+              </div>
+            </div>
+            <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img
+                className="rounded-t-lg h-60 w-full"
+                src="https://www.appsdevpro.com/blog/wp-content/uploads/2022/09/Top-Web-Design-Development-Trends-You-Need-to-Know-in-2023.png"
+                alt=""
+              />
+              <div className="p-5">
+                <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Web Design and Development
+                </p>
+              </div>
+            </div>
+            <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <img
+                className="rounded-t-lg h-60 w-full"
+                src="https://www.finesofttechnologies.com/wp-content/uploads/2019/04/Custom-Application-Development.jpg"
+                alt=""
+              />
+              <div className="p-5">
+                <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  Custom Application Development
+                </p>
+              </div>
+            </div>
+          </div>
+          <AIservices />
+          <SoftProducts />
+        </div>
       </div>
-      <Course />
       <section
         className="mt-8 p-7  rounded-lg flex flex-col sm:flex-row text-gray-400 dark:bg-gray-900/40 backdrop-blur-lg"
         style={{ y: animatedY }}
@@ -111,7 +232,6 @@ function Home() {
           />
         </motion.div>
       </section>
-
       <section
         className="mt-8 p-7  rounded-lg flex flex-col sm:flex-row text-gray-400 dark:bg-gray-900/40 backdrop-blur-lg"
         style={{ y: animatedY }}
@@ -233,7 +353,6 @@ function Home() {
           />
         </motion.div>
       </section>
-
       <section className=" p-6" style={{}}>
         <div className=" font-bold text-stone-700 dark:text-yellow-500 text-4xl transition-all hover:scale-[1.01] hover:drop-shadow-lg duration-100">
           Why Us?
@@ -252,7 +371,6 @@ function Home() {
           competitive market.
         </p>
       </section>
-
       <section
         className="mt-8 p-7  rounded-lg flex flex-col sm:flex-row text-gray-400 dark:bg-gray-900/40 backdrop-blur-lg"
         style={{ y: animatedY }}
@@ -319,7 +437,6 @@ function Home() {
           </p>
         </div>
       </section>
-
       <Footer />
     </div>
     // </section>
