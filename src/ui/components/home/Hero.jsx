@@ -56,6 +56,8 @@ function Hero({ setCurrentTab }) {
         We at CodeRippleX inspires to teach students the current market leading
         technologies<br></br>We Provide IT services and software products and AI
         Services. <br></br>Innovating today for a better digital tomorrow.
+        <br></br>Unparalleled expertise meets unmatched dedication: That's the
+        CodeRippleX promise to each of our valued clients.
       </p>
       <div className="flex items-center justify-center gap-x-3 flex-col gap-y-2 sm:flex-row z-10">
         <Button
