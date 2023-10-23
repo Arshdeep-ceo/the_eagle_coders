@@ -14,7 +14,7 @@ export default function Explore() {
 
   return (
     <div className="flex flex-col relative overflow-hidden bg-gray-950 ">
-      <div className="flex flex-col sm:flex-row justify-between xl:justify-around p-3 md:p-12 sm:px-6 lg:px-8 pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-26">
+      <div className="flex flex-col sm:flex-row justify-between xl:justify-around p-3 md:p-12 sm:px-6 lg:px-8 pt-16 sm:pb-40 sm:pt-24 pb-10 lg:pt-26">
         <div>
           <h2 className="text-4xl font-bold tracking-tight text-white md:text-5xl">
             Get in touch and
@@ -73,8 +73,8 @@ export default function Explore() {
         <div className=" py-24 sm:px-6 sm:py-32 lg:px-8">
           <div className="-mt-20 relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
             <svg
-              viewBox="0 0 1024 1024"
-              className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
+              viewBox="0 0 524 524"
+              className=" absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
               aria-hidden="true"
             >
               <circle
@@ -91,7 +91,7 @@ export default function Explore() {
                 </radialGradient>
               </defs>
             </svg>
-            <div className=" mx-auto max-w-md text-center lg:mx-0 lg:py-32 lg:text-left">
+            <div className=" max-w-md text-center lg:py-32 lg:text-left">
               <h2 className=" text-3xl font-bold tracking-tight text-white sm:text-4xl">
                 Our Vision
               </h2>
