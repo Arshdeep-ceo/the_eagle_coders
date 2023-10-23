@@ -1,7 +1,7 @@
 export default function ProjectAll() {
   return (
-    <div className="bg-gray-900">
-      <div className="mx-auto pl-4 pr-8 pt-20 pb-12">
+    <div className="bg-gray-900 ">
+      <div className="mx-auto pl-4 pr-8 pt-20 pb-12 ">
         <div className="">
           <h2 className="text-6xl font-bold tracking-tight text-amber-600 ">
             Project List
@@ -17,7 +17,7 @@ export default function ProjectAll() {
         </div>
       </div>
       <div className="h-auto w-auto">
-        <p className=" pl-6 mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
+        <p className=" pl-6 mb-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white">
           Machine learning
         </p>
 
@@ -451,14 +451,14 @@ export default function ProjectAll() {
             </p> */}
             </div>
           </div>
-          <div className=" border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className=" mb-10 border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="rounded-t-lg h-60"
               src="https://blog.salesforceairesearch.com/content/images/2019/01/Screen-Shot-2019-01-23-at-5.32.44-PM.png"
               alt=""
             />
 
-            <div className="p-5">
+            <div className="p-5 ">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Machine Translation with Transformers
               </h5>
