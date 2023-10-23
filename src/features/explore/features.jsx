@@ -37,7 +37,7 @@ export default function Features() {
     <div className=" bg-gray-900 rounded-large">
       <div className=" mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
         <div>
-          <h2 className=" pt-36 text-3xl font-bold tracking-tight text-white sm:text-4xl">
+          <h2 className=" -pt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
             List of courses we provide
           </h2>
           <p className="mt-4 text-gray-400">
