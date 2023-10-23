@@ -252,6 +252,11 @@ function Home() {
           competitive market.
         </p>
       </section>
+      <section className=" p-6" style={{}}>
+        <div className=" text-center font-bold text-stone-700 dark:text-yellow-700 text-4xl transition-all hover:scale-[1.01] hover:drop-shadow-lg duration-100">
+          We Provide IT services and software products
+        </div>
+      </section>
 
       <section
         className="mt-8 p-7  rounded-lg flex flex-col sm:flex-row text-gray-400 dark:bg-gray-900/40 backdrop-blur-lg"
