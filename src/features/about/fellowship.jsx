@@ -8,7 +8,7 @@ export default function Fellowship() {
           CODERIPPLEX FELLOWSHIP
         </h2>
         <div className="m-4 dark:bg-slate-950 rounded-xl ">
-          <p className=" dark:text-amber-600 text-2xl  font-bold p-8">
+          <p className=" dark:text-amber-600 text-2xl  font-bold p-8 animate-pulse">
             Full - Time: Duration: 6 Months{" "}
           </p>
           <div className="  flex lg:flex-row flex-col p-4">
@@ -62,7 +62,7 @@ export default function Fellowship() {
           </p>
         </div>
         <div className="m-4 dark:bg-slate-950 rounded-xl ">
-          <p className=" dark:text-amber-600 text-2xl font-bold p-8">
+          <p className=" dark:text-amber-600 text-2xl font-bold p-8 animate-pulse">
             Part - Time: Duration: 9 Months{" "}
           </p>
           <div className=" flex lg:flex-row flex-col  p-6 ">

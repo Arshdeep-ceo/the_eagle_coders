@@ -18,7 +18,7 @@ export default function Internship() {
                 <h2 className="text-3xl pb-6 text-amber-600">
                   Full-time/Part-time Internship Programme
                 </h2>
-                <p className=" text-xl text-gray-300 text-left">
+                <p className=" lg:text-xl text-gray-300 text-left">
                   The program is a combination of offline-classroom learning,
                   hands-on work experience, mentoring and coaching by some of
                   the most inspiring academics and professionals in our
@@ -51,7 +51,7 @@ export default function Internship() {
                   </svg>
                   <div className="text-white mb-4">Student of CodeRippleX</div>
                 </div>
-                <p className="pb-4">
+                <p className="pb-4 text-sm">
                   “We are satisfied with the solution given to us and with the
                   communication flow through the project. We would like to
                   recommend Mr. Arshdeep Singh and his development team. We look
@@ -86,7 +86,7 @@ export default function Internship() {
                   <div className="text-white mb-4">Student of CodeRippleX</div>
                 </div>
               </figcaption>
-              <p className="pb-4">
+              <p className="pb-4 text-sm">
                 “Choosing CodeRippleX was the best decision for our digital
                 initiatives. Their tailoed solutions and flexibility have
                 exceeded our expectations.”
@@ -117,7 +117,7 @@ export default function Internship() {
                   <div className="text-white mb-4">Student of CodeRippleX</div>
                 </div>
               </figcaption>
-              <p className="pb-4">
+              <p className="pb-4 text-sm">
                 “CodeRippleX is a standout digital agency in our area, offering
                 personalize attention and exceptional expertise.”
               </p>
@@ -147,7 +147,7 @@ export default function Internship() {
                   <div className="text-white mb-4">Student of CodeRippleX</div>
                 </div>
               </figcaption>
-              <p className="pb-4">
+              <p className="pb-4 text-sm">
                 “I am impressed by CodeRippleX dedication, creativity and
                 attention to detail. They deliver high-quality solutions with
                 speed and agility.”
@@ -178,7 +178,7 @@ export default function Internship() {
                   <div className="text-white mb-4">Student of CodeRippleX</div>
                 </div>
               </figcaption>
-              <p className="pb-4">
+              <p className="pb-4 text-sm">
                 “CodeRippleX stands out with their skill, efficiency and their
                 customer focused approach. Highly regarded in the industry.”
               </p>

@@ -97,7 +97,7 @@ export default function Contactform() {
         />
       </div>
       <div className=" rounded-xl shadow-2xl mt-6 pt-6 mx-auto max-w-2xl text-center">
-        <h2 className="font-bold tracking-tight dark:text-amber-600 text-xl sm:text-3xl">
+        <h2 className="font-bold tracking-tight dark:text-amber-600 text-xl sm:text-3xl animate-pulse">
           Interested?<br></br>
           <p>Request a call</p>
         </h2>
