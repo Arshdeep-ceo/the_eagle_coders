@@ -72,7 +72,7 @@ function Hero({ setCurrentTab }) {
           variant="bordered"
           color="primary"
           radius="full"
-          className=" w-48 cursor-pointer hover:bg-slate-200"
+          className=" w-48 cursor-pointer hover:bg-slate-900"
         >
           Contact
         </Button>
