@@ -22,7 +22,7 @@ function Home() {
     // <section className="">
     // <div className="overflow-visible">
 
-    <div className="flex items-stretch flex-col ">
+    <div className="flex  flex-col ">
       <a
         aria-label="Chat on WhatsApp"
         href="https://wa.me/916283669924?text=Hey%20there%20Eagle%20Coders%20"
