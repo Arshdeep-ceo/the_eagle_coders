@@ -358,10 +358,10 @@ function Home() {
           />
         </motion.div>
       </section>
-      <div className=" grid bg-slate-950 rounded-2xl ml-24 mr-24 pt-8">
+      <div className=" grid bg-slate-950 rounded-2xl lg:ml-24 lg:mr-24 pt-8">
         <div className="text-4xl font-bold text-center text-amber-700  ">
           100+ companies waiting for you
-          <p className=" pt-4 pb-4 text-gray-400 text-sm pl-12 pr-12 animate-pulse">
+          <p className=" pt-4 pb-4 text-gray-400 text-sm lg:pl-12 lg:pr-12 animate-pulse">
             We{"'ll"} help you get hired. Our team will work with you throughout
             the program and after graduation to help you embellish your
             portfolio, practice interviewing and land a job that enhances your
