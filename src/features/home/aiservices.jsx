@@ -2,8 +2,8 @@ export default function AIservices() {
   return (
     <div className="bg-gray-900 ">
       <div className="h-auto w-auto">
-        <p className=" pt-6 text-center pl-6 mb-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white">
-          AI services:
+        <p className=" pt-6 text-center pl-6 mb-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-pink-700">
+          AI Services
         </p>
         <p className="pb-5 text-xl pl-6 mb-2 tracking-tight text-gray-900 dark:text-gray-400 animate-pulse">
           We harness the power of AI to unlock new possibilities and propel
