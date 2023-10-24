@@ -77,7 +77,7 @@ export default function About() {
       {/* <div className="mx-auto max-w-7xl px-6 lg:px-8"> */}
       <div className=" ">
         <div className="p-4 text-center rounded-xl bg-slate-800">
-          <h2 className=" text-3xl sm:text-[3rem] font-bold sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-pink-400 via-amber-600 to bg-amber-200">
+          <h2 className=" text-3xl sm:text-[3rem] font-bold sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-pink-400 via-amber-600 to bg-amber-200 animate-appearance-in">
             Work with us
           </h2>
           <p className="mt-4 lg:text-xl leading-6 text-black  dark:text-gray-400 animate-drip-expand">
