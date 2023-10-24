@@ -28,7 +28,7 @@ function Hero({ setCurrentTab }) {
     <motion.header
       // initial={{ scale: 1 }}
       // animate={{ scale: 0.5 }}
-      className="bg-[url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=2020&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-cover  flex flex-col pt-24 lg:h-[90vh] h-[60vh] pb-8 relative"
+      className="  flex flex-col pt-24 lg:h-[90vh] h-[60vh] pb-8 relative"
       style={{
         y: y1,
         scale: scale,
