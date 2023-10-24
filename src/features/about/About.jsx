@@ -80,7 +80,7 @@ export default function About() {
           <h2 className=" text-3xl sm:text-[3rem] font-bold sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-pink-400 via-amber-600 to bg-amber-200">
             Work with us
           </h2>
-          <p className="mt-4 text-xl leading-6 text-black  dark:text-gray-400 animate-drip-expand">
+          <p className="mt-4 lg:text-xl leading-6 text-black  dark:text-gray-400 animate-drip-expand">
             Learn with Expert Learning with Experts is a global classroom
             community that brings people together to learn from expert tutors
             and each other.<br></br>An industry that will bring the biggest
@@ -101,7 +101,7 @@ export default function About() {
                 className="pr-6 lg:text-xl my-2 text-stone-600 dark:text-gray-400 "
                 style={{ fontSize: `${textSize}rem` }}
               >
-                <ul className=" text-blue-500 text-xl font-bold">
+                <ul className=" text-blue-500 lg:text-xl font-bold">
                   <p> Train</p>
                   <p>Educate</p>
                   <p>Innovate</p>
@@ -145,7 +145,7 @@ export default function About() {
           <h2 className=" mb-4 bg-clip-text text-center mt-5 text-2xl font-bold dark:text-amber-600  sm:text-4xl  ">
             We provide
           </h2>
-          <p className="  text-gray-300 text-center text-xl animate-appearance-in ">
+          <p className="  text-gray-300 text-center lg:text-xl animate-appearance-in ">
             At CodeRippleX, we train students to apply Data Science to problems
             that really matter and work with government & NGO data to create
             real change in society.<br></br>We understand that true Data
@@ -169,7 +169,7 @@ export default function About() {
               <h2 className="mb-4 bg-clip-text text-center mt-5 text-4xl font-bold dark:text-amber-600  sm:text-5xl">
                 Our Awesome Team!
               </h2>
-              <p className="mt-2 text-2xl  text-gray-800 dark:text-gray-300">
+              <p className="mt-2 lg:text-2xl  text-gray-800 dark:text-gray-300">
                 Meet the leaders behind the worlds leading software development
                 platform.
               </p>
