@@ -20,7 +20,7 @@ export default function ContactDetails() {
           <p className="">We are here to help</p>
           <Gmail size="30" color="white" className="self-center" />
 
-          <p className=" underline">theeaglecoders@gmail.com</p>
+          <p className=" underline">CodeRippleX@gmail.com</p>
         </Card>
       </a>
       <Card

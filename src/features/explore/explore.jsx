@@ -1,5 +1,7 @@
 import Features from "./features.jsx";
-import { Button } from "@nextui-org/react";
+import Course from "../home/course.jsx";
+import { Button } from "flowbite-react";
+import { Zoom } from "react-awesome-reveal";
 import Footer from "../home/footer/footer.jsx";
 import { useNavigate } from "react-router-dom";
 import { useOutletContext } from "react-router-dom";
@@ -117,6 +119,18 @@ export default function Explore() {
           </div>
         </div>
       </div>
+      <div className="mt-6 mb-6  bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text  subpixel-antialiased z-10">
+        <Zoom cascade={true}>
+          <h1 className="mb-2 text-center text-transparent bg-clip-text bg-[#ECEDEE] text-4xl px-4 mt-8 font-bold w-screen sm:mt-10 mx-auto md:mt-8 lg:text-5xl xl:text-6xl xl:mt-0 hover:scale-105 transition-all ">
+            Our company provide{" "}
+            <span className="bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text">
+              courses{" "}
+            </span>
+          </h1>
+          {/* Become the future you desire! <br /> */}
+        </Zoom>
+      </div>
+      <Course />
       <Features />
       <Footer />
     </div>
