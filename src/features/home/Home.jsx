@@ -42,16 +42,18 @@ function Home() {
       <div className="bg-gray-900 ">
         <div className="mx-auto pl-4 pr-8 pt-10 pb-12 ">
           <div className="">
-            <h2 className=" text-center text-5xl font-bold text-amber-600 ">
+            <h2 className=" text-center lg:text-5xl text-3xl font-bold text-amber-600 animate-appearance-in ">
               Services provided by<br></br> CodeRippleX
             </h2>
 
-            <p className=" text-center mt-4 text-2xl text-gray-400">
+            <p className=" text-center mt-4 lg:text-2xl text-gray-400">
               Our company provide IT services and software products.<br></br>At
               CodeRippleX, we craft software that pushes the boundaries of
-              innovation and delivers exceptional user experiences.<br></br>From
-              ideation to deployment,our company is your end-to-end partner for
-              cutting-edge software solutions.Transforming your vision into
+              innovation and delivers exceptional user experiences.
+            </p>
+            <p className="hidden lg:block text-center mt-4 lg:text-2xl text-gray-400">
+              From ideation to deployment,our company is your end-to-end partner
+              for cutting-edge software solutions.Transforming your vision into
               pixel-perfect reality, one line of code at a time.
             </p>
           </div>
@@ -64,7 +66,10 @@ function Home() {
             In a digital world that never stops evolving, our company stands at
             the forefront, delivering agile and scalable software solutions. We
             power businesses with IT solutions that are both innovative and
-            reliable.From robust infrastructure management to cutting-edge cloud
+            reliable.
+          </p>
+          <p className=" hidden lg:block pb-4 text-xl pl-6 mb-2 tracking-tight text-gray-900 dark:text-gray-400 animate-pulse">
+            From robust infrastructure management to cutting-edge cloud
             solutions, CodeRippleX is your trusted IT partner for the digital
             age.<br></br>Our commitment? Seamless IT solutions that optimize
             operations, reduce costs, and drive growth.
@@ -188,7 +193,7 @@ function Home() {
             style={{ fontSize: `${textSize}rem` }}
           ></motion.p>
 
-          <p className="mt-2 text-stone-600 dark:text-gray-400">
+          <p className="mt-2 text-stone-600 dark:text-gray-400 text-xs lg:text-sm">
             1.Navigating the complexities of today{"'s"} industries requires
             specialized tools; our training software stands as a beacon, guiding
             firms to success.<br></br>2.Merging cutting-edge technology with
@@ -261,7 +266,7 @@ function Home() {
 
         <div className="pt-4 sm:basis-[65%] sm:ml-6 sm:p-0 ">
           <h2
-            className=" font-bold text-stone-700 dark:text-gray-300 text-4xl transition-all hover:scale-[1.01] hover:drop-shadow-lg"
+            className="pt-4 font-bold text-stone-700 dark:text-gray-300 text-4xl transition-all hover:scale-[1.01] hover:drop-shadow-lg"
             style={{ color: { animatedText } }}
           >
             Experience <br></br>excellence<br></br>with us
@@ -271,7 +276,7 @@ function Home() {
             style={{ fontSize: `${textSize}rem` }}
           ></motion.p>
 
-          <p className="mt-2 text-stone-600 dark:text-gray-400">
+          <p className="mt-2 text-stone-600 dark:text-gray-400 pb-4 ">
             At the<span className="text-pink-500 font-bold"> CodeRippleX</span>{" "}
             , we provide an unparalleled experience for aspiring web developers,
             ensuring they are equipped for the rapidly evolving digital
@@ -279,12 +284,12 @@ function Home() {
             of theoretical knowledge and hands-on coding practice, emphasizing
             both the art and science of web development.
           </p>
-          <p className="mt-2 text-stone-600 dark:text-gray-400">
+          <p className=" hidden lg:block mt-2 text-stone-600 dark:text-gray-400">
             Dive into the dynamic world of coding with us! At our company, we
             believe that every line of code is a step towards the future, and we{" "}
             {"'re"} eager to guide you on this transformative journey.<br></br>
           </p>
-          <p className="mt-2 text-stone-600 dark:text-gray-400">
+          <p className=" hidden lg:block mt-2 text-stone-600 dark:text-gray-400">
             Whether you{"'re"} a beginner with a budding interest or an
             intermediate looking to hone your skills, we have the perfect
             environment for you. Through hands-on projects, collaborative
@@ -327,7 +332,7 @@ function Home() {
             this purpose, Sabudh organizes various workshops to help the interns
             get ready for their future endeavors.
           </p>
-          <p className="lg:text-xl mt-2 text-stone-600 dark:text-gray-400">
+          <p className=" hidden lg:block lg:text-xl mt-2 text-stone-600 dark:text-gray-400">
             The list of proposed workshops is as follows:<br></br> Team Building
             sessions<br></br>
             Resume and cover letter building<br></br> Curating social media
@@ -364,11 +369,14 @@ function Home() {
           understand the concepts but can also apply them in real-world
           scenarios. This holistic approach to education equips our learners
           with practical skills that make them industry-ready from day one.
-          <br></br>Our company is at the forefront of industry innovations,
-          giving students access to the latest tools, technologies, and
-          methodologies. By learning with us, students are always a step ahead,
-          positioning themselves as top candidates for future opportunities in a
-          competitive market.
+          <br></br>
+        </p>
+        <p className="hidden lg:block mt-2 dark:text-gray-200 text-xl">
+          Our company is at the forefront of industry innovations, giving
+          students access to the latest tools, technologies, and methodologies.
+          By learning with us, students are always a step ahead, positioning
+          themselves as top candidates for future opportunities in a competitive
+          market.
         </p>
       </section>
       <section

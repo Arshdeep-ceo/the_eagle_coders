@@ -9,14 +9,17 @@ export default function AIservices() {
           We harness the power of AI to unlock new possibilities and propel
           businesses forward.Our AI algorithms don{"'t"} just process data, they
           breathe intelligence into every facet of your business.Experience the
-          future of decision-making with our advanced AI-driven solutions.Our AI
-          services don{"'t"} just follow trends; they set them. Partner with our
-          company and shape the future.Turn your data into your most powerful
-          asset with our company unparalleled AI expertise.AI is the language of
-          tomorrow, and at our company, we{"'re"} fluent. Let{"'s"} redefine
-          your business together.Bridging the gap between human intuition and
-          machine intelligence, Eagle coders is revolutionizing industries one
-          algorithm at a time.
+          future of decision-making with our advanced AI-driven solutions.
+        </p>
+        <p className="pb-5 hidden lg:block text-xl pl-6 mb-2 tracking-tight text-gray-900 dark:text-gray-400 animate-pulse">
+          {" "}
+          Our AI services don{"'t"} just follow trends, they set them. Partner
+          with our company and shape the future.Turn your data into your most
+          powerful asset with our company unparalleled AI expertise.AI is the
+          language of tomorrow, and at our company, we{"'re"} fluent. Let
+          {"'s"} redefine your business together.Bridging the gap between human
+          intuition and machine intelligence, Eagle coders is revolutionizing
+          industries one algorithm at a time.
         </p>
 
         <div className="mt-6 mb-6 items-start grid grid-cols-1 px-5 min-[540px]:grid-cols-2 lg:grid-cols-4 gap-4 ">

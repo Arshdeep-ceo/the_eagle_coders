@@ -52,7 +52,7 @@ export default function Use() {
           delivering solutions accessed via Web & Mobile Platforms. Technologies
           we are experts in Web Projects, Mobile Applications, IoT, AI & ML.
         </p>
-        <p className="mt-2 text-stone-600 dark:text-gray-400">
+        <p className="hidden lg:block mt-2 sm: text-stone-600 dark:text-gray-400">
           Students benefit from personalized guidance, thanks to our dedicated
           instructors who boast not only academic prowess but also extensive
           industry experience. Beyond mastering languages like JavaScript,
