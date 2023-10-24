@@ -49,7 +49,7 @@ function Hero({ setCurrentTab }) {
           {/* Become the future you desire! <br /> */}
         </Zoom>
       </div>
-      <h2 className="font-semibold text-lg m-2 leading-3 text-center dark:text-gray-300 z-10">
+      <h2 className="font-semibold text-lg m-2 leading-3 text-center dark:text-gray-200 z-10">
         Master React, Ai, Flutter and more...
       </h2>
       <p className=" text-gray-500 dark:text-gray-200 max-w-xl self-center p-3 text-center text-xs sm:p-6 z-10">
