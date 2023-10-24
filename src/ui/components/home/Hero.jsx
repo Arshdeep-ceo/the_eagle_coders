@@ -54,8 +54,8 @@ function Hero({ setCurrentTab }) {
       </h2>
       <p className=" text-gray-500 dark:text-gray-200 max-w-xl self-center p-3 text-center text-xs sm:p-6 z-10">
         We at CodeRippleX inspires to teach students the current market leading
-        technologies<br></br>We Provide IT services and software products and AI
-        Services. <br></br>Innovating today for a better digital tomorrow.
+        technologies<br></br>We Provide IT services, software products, and AI
+        services. <br></br>Innovating today for a better digital tomorrow.
       </p>
       <div className="flex items-center justify-center gap-x-3 flex-col gap-y-2 sm:flex-row z-10">
         <Button
