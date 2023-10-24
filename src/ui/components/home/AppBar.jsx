@@ -69,12 +69,14 @@ export default function AppBar({ currentTab, setCurrentTab }) {
           className="cursor-pointer"
         >
           {/* <AcmeLogo /> */}
-          <p className="font-bold text-inherit text-lg sm:text-2xl dark:text-gray-200  tracking-tight font-mono">
+          <img src="/appbarlogo.png" alt="" className="h-10 mr-2" />
+          <p className="font-bold text-inherit text-lg sm:text-xl dark:text-gray-200 font-mono ">
             CodeRippleX
           </p>
         </NavbarBrand>
       </NavbarContent>
 
+      {/* Navbar menu for screens above mobile, not visible for mobile screens */}
       <NavbarContent className="hidden sm:flex gap-4 " justify="">
         {menuItems.map((element, index) => (
           <NavbarItem
@@ -112,36 +114,9 @@ export default function AppBar({ currentTab, setCurrentTab }) {
           </Button>
           {/* </Link> */}
         </NavbarItem>
-        {/* <Dropdown placement="bottom-end">
-          <DropdownTrigger>
-            <Avatar
-              isBordered
-              as="button"
-              className="transition-transform"
-              color=""
-              name="Jason Hughes"
-              size="sm"
-              src="/images/logo.png"
-            />
-          </DropdownTrigger>
-          <DropdownMenu aria-label="Profile Actions" variant="flat">
-            <DropdownItem key="profile" className="h-14 gap-2">
-              <p className="font-semibold">Signed in as</p>
-              <p className="font-semibold">theeaglecoders@gmail.com</p>
-            </DropdownItem>
-            <DropdownItem key="settings">My Settings</DropdownItem>
-            <DropdownItem key="team_settings">Team Settings</DropdownItem>
-            <DropdownItem key="analytics">Analytics</DropdownItem>
-            <DropdownItem key="system">System</DropdownItem>
-            <DropdownItem key="configurations">Configurations</DropdownItem>
-            <DropdownItem key="help_and_feedback">Help & Feedback</DropdownItem>
-            <DropdownItem key="logout" color="danger">
-              Log Out
-            </DropdownItem>
-          </DropdownMenu>
-        </Dropdown> */}
       </NavbarContent>
 
+      {/* Navbar menu for mobile screens */}
       <NavbarMenu>
         {menuItems.map((item, index) => (
           <NavbarMenuItem
