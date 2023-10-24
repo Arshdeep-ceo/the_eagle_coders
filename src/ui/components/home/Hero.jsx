@@ -37,7 +37,7 @@ function Hero({ setCurrentTab }) {
       }}
     >
       <AnimatedArrow />
-      <div className=" bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text  subpixel-antialiased z-10">
+      <div className="  bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text  subpixel-antialiased z-10">
         <Zoom cascade={true}>
           <h1 className=" mb-2 text-center text-transparent bg-clip-text bg-[#ECEDEE] text-4xl px-4 mt-8 font-bold w-screen sm:mt-10 mx-auto md:mt-8 lg:text-5xl xl:text-6xl xl:mt-0 hover:scale-105 transition-all  ">
             Become the{" "}
@@ -52,12 +52,10 @@ function Hero({ setCurrentTab }) {
       <h2 className="font-semibold text-lg m-2 leading-3 text-center dark:text-gray-300 z-10">
         Master React, Ai, Flutter and more...
       </h2>
-      <p className=" text-gray-500 dark:text-gray-300 max-w-xl self-center p-3 text-center text-sm sm:p-6 z-10">
+      <p className=" text-gray-500 dark:text-gray-300 max-w-xl self-center p-3 text-center text-xs sm:p-6 z-10">
         We at CodeRippleX inspires to teach students the current market leading
         technologies<br></br>We Provide IT services and software products and AI
         Services. <br></br>Innovating today for a better digital tomorrow.
-        <br></br>
-        That{"'s"} the CodeRippleX promise to each of our valued clients.
       </p>
       <div className="flex items-center justify-center gap-x-3 flex-col gap-y-2 sm:flex-row z-10">
         <Button
