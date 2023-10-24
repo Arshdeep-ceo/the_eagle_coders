@@ -109,10 +109,12 @@ export default function About() {
                 CodeRippleX is a collective and collaborative initiative to
                 train, educate and innovate young data enthusiasts of India to
                 become changemakers of society using Data Science.<br></br>
-                CodeRippleX aims to train, educate and develop aspiring Data
-                Scientists into benchmark leaders to promote sustainable,
-                socially responsible, and impactful solutions for the modern
-                world.
+                <p className="hidden lg:block">
+                  CodeRippleX aims to train, educate and develop aspiring Data
+                  Scientists into benchmark leaders to promote sustainable,
+                  socially responsible, and impactful solutions for the modern
+                  world.
+                </p>
               </motion.p>
             </div>
             <motion.div
