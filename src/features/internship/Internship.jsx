@@ -49,7 +49,9 @@ export default function Internship() {
                   >
                     <circle cx={1} cy={1} r={1} />
                   </svg>
-                  <div className="text-white mb-4">Student of CodeRippleX</div>
+                  <div className="text-white mb-4">
+                    Student of<br></br> CodeRippleX
+                  </div>
                 </div>
                 <p className="pb-4 text-sm">
                   “We are satisfied with the solution given to us and with the
@@ -83,7 +85,9 @@ export default function Internship() {
                   >
                     <circle cx={1} cy={1} r={1} />
                   </svg>
-                  <div className="text-white mb-4">Student of CodeRippleX</div>
+                  <div className="text-white mb-4">
+                    Student of <br></br>CodeRippleX
+                  </div>
                 </div>
               </figcaption>
               <p className="pb-4 text-sm">
@@ -114,7 +118,9 @@ export default function Internship() {
                   >
                     <circle cx={1} cy={1} r={1} />
                   </svg>
-                  <div className="text-white mb-4">Student of CodeRippleX</div>
+                  <div className="text-white mb-4">
+                    Student of<br></br> CodeRippleX
+                  </div>
                 </div>
               </figcaption>
               <p className="pb-4 text-sm">
