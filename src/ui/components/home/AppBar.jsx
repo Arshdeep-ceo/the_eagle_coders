@@ -57,7 +57,7 @@ export default function AppBar({ currentTab, setCurrentTab }) {
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
       shouldHideOnScroll
-      className="z-40  text-gray-200 bg-transparent "
+      className="z-40  text-gray-200  "
     >
       <NavbarContent>
         <NavbarMenuToggle
