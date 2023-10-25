@@ -34,13 +34,12 @@ export default function Contact() {
       </div>
       <ContactDetails />
       <Contactform />
-
-      {/* <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.2422507052315!2d76.6939939!3d30.7115894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fee561aa9133b%3A0x690bedf187a1dff!2sd%2C%20185D%2C%20Phase%208B%2C%20Industrial%20Area%2C%20Sector%2074%2C%20Sahibzada%20Ajit%20Singh%20Nagar%2C%20Punjab%20160055!5e0!3m2!1sen!2sin!4v1698169301783!5m2!1sen!2sin"
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6860.522284314265!2d76.68106316636394!3d30.711058200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fefaaa4a7fc21%3A0xf66a04b4a94e20ac!2sProsperity%20Square!5e0!3m2!1sen!2sin!4v1698253635058!5m2!1sen!2sin"
         className="  h-full rounded-lg"
         allowfullscreen=""
         loading="lazy"
-      ></iframe> */}
+      ></iframe>
     </div>
   );
 }
