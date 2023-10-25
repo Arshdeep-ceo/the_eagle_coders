@@ -23,6 +23,7 @@ export default function ContactDetails() {
           <p className=" underline">CodeRippleX@gmail.com</p>
         </Card>
       </a>
+
       <Card
         isFooterBlurred
         radius="lg"
@@ -32,26 +33,29 @@ export default function ContactDetails() {
           <div className=" font-bold pb-4">Visit us</div>
           <Location size="30" color="white" />
           <p className="mt-3 underline">Visit our office HQ.</p>
-          <p className="font-semibold mt-4 ">
+          <p className="font-semibold mt-4 p-3">
             d, 185D, Phase 8B, Industrial Area, Sector 74, Sahibzada Ajit Singh
             Nagar, Punjab 160055
           </p>
         </div>
       </Card>
-      <Card
-        isFooterBlurred
-        radius="lg"
-        className="text-xl border-none  bg-white/10 h-48 grow shadow-lg hover:scale-[1.03]"
-      >
-        <div className="my-auto ">
-          <div className="pb-4 font-bold">Call us</div>
-          <p className=" ">Speak to our friendly team</p>
-          <PhoneCall size="30" color="white" />
-          <p className=" font-semibold underline mt-2">
-            +91 88723 12729<br></br>+91 88475 97046
-          </p>
-        </div>
-      </Card>
+
+      <a href="tel:884-759-7046" className="grow ">
+        <Card
+          isFooterBlurred
+          radius="lg"
+          className="text-xl border-none  bg-white/10 h-48 grow shadow-lg hover:scale-[1.03]"
+        >
+          <div className="my-auto ">
+            <div className="pb-4 font-bold">Call us</div>
+            <p className=" ">Speak to our friendly team</p>
+            <PhoneCall size="30" color="white" />
+            <p className=" font-semibold underline mt-2">
+              +91 88723 12729<br></br>+91 88475 97046
+            </p>
+          </div>
+        </Card>
+      </a>
     </div>
   );
 }
