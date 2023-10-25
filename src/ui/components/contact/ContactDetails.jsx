@@ -33,9 +33,8 @@ export default function ContactDetails() {
           <div className=" font-bold pb-4">Visit us</div>
           <Location size="30" color="white" />
           <p className="mt-3 underline">Visit our office HQ.</p>
-          <p className="font-semibold mt-4 p-3">
-            d, 185D, Phase 8B, Industrial Area, Sector 74, Sahibzada Ajit Singh
-            Nagar, Punjab 160055
+          <p className="font-semibold mt-4 ">
+            D-185, Sector 74, Sahibzada Ajit Singh Nagar, Punjab 160055
           </p>
         </div>
       </Card>

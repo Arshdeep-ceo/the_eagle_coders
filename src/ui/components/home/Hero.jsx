@@ -28,7 +28,7 @@ function Hero({ setCurrentTab }) {
     <motion.header
       // initial={{ scale: 1 }}
       // animate={{ scale: 0.5 }}
-      className="bg-[url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=2020&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-cover  flex flex-col pt-24 lg:h-[90vh] h-[60vh] pb-8 relative"
+      className="  flex flex-col pt-24 lg:h-[90vh] h-[60vh] pb-8 relative"
       style={{
         y: y1,
         scale: scale,
@@ -54,8 +54,8 @@ function Hero({ setCurrentTab }) {
       </h2>
       <p className=" text-gray-500 dark:text-gray-200 max-w-xl self-center p-3 text-center text-xs sm:p-6 z-10">
         We at CodeRippleX inspires to teach students the current market leading
-        technologies<br></br>We Provide IT services and software products and AI
-        Services. <br></br>Innovating today for a better digital tomorrow.
+        technologies<br></br>We Provide IT services, software products, and AI
+        services. <br></br>Innovating today for a better digital tomorrow.
       </p>
       <div className="flex items-center justify-center gap-x-3 flex-col gap-y-2 sm:flex-row z-10">
         <Button

@@ -34,14 +34,12 @@ export default function Contact() {
       </div>
       <ContactDetails />
       <Contactform />
-
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d270749.72481984575!2d76.57867897943643!3d30.808395150261166!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1697443684655!5m2!1sen!2sin"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6860.522284314265!2d76.68106316636394!3d30.711058200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fefaaa4a7fc21%3A0xf66a04b4a94e20ac!2sProsperity%20Square!5e0!3m2!1sen!2sin!4v1698253635058!5m2!1sen!2sin"
         className="  h-full rounded-lg"
         allowfullscreen=""
         loading="lazy"
-        // referrerpolicy="no-referrer-when-downgrade"
-      />
+      ></iframe>
     </div>
   );
 }
