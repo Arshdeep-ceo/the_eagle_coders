@@ -28,7 +28,7 @@ function Hero({ setCurrentTab }) {
     <motion.header
       // initial={{ scale: 1 }}
       // animate={{ scale: 0.5 }}
-      className="  flex flex-col pt-24 h-[85vh] lg:h-[85vh]  pb-8 relative"
+      className="  flex flex-col pt-24 h-[80vh] lg:h-[80vh]  pb-20 relative items-center justify-center"
       style={{
         y: y1,
         scale: scale,
@@ -39,7 +39,7 @@ function Hero({ setCurrentTab }) {
       <AnimatedArrow />
       <div className="  bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text  subpixel-antialiased z-10">
         <Zoom cascade={true}>
-          <h1 className=" mb-2 text-center text-transparent bg-clip-text bg-[#ECEDEE] text-4xl px-4 mt-3 font-bold w-screen sm:mt-10 mx-auto md:mt-8 lg:text-5xl xl:text-6xl xl:mt-0 hover:scale-105 transition-all  ">
+          <h1 className=" mb-2 text-center text-transparent bg-clip-text bg-[#ECEDEE] text-4xl px-4 font-bold w-screen lg:text-5xl xl:text-6xl hover:scale-105 transition-all  ">
             Become the{" "}
             <span className="bg-gradient-to-r from-pink-500 to-yellow-500 bg-clip-text">
               future{" "}
