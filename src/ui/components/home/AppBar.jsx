@@ -40,6 +40,7 @@ export default function AppBar({ currentTab, setCurrentTab }) {
   ];
 
   const handleClick = (key) => {
+    setIsMenuOpen(false);
     setCurrentTab(key);
   };
   const handleContactButton = () => {
@@ -55,6 +56,7 @@ export default function AppBar({ currentTab, setCurrentTab }) {
 
   return (
     <Navbar
+      isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
       shouldHideOnScroll
       className="z-40  text-gray-200  "
@@ -122,7 +124,7 @@ export default function AppBar({ currentTab, setCurrentTab }) {
           <NavbarMenuItem
             // key={`${item}-${index}`}
             key={index}
-            onClick={() => setCurrentTab(index)}
+            onClick={() => handleClick(index)}
           >
             <Link
               style={{}}
