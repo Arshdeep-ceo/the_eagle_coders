@@ -28,7 +28,7 @@ function Hero({ setCurrentTab }) {
     <motion.header
       // initial={{ scale: 1 }}
       // animate={{ scale: 0.5 }}
-      className="  flex flex-col pt-24 lg:h-[90vh] h-[60vh] pb-8 relative"
+      className="  flex flex-col pt-24 h-[85vh] lg:h-[85vh]  pb-8 relative"
       style={{
         y: y1,
         scale: scale,

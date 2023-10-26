@@ -8,7 +8,7 @@ export default function Use() {
   const textSize = useTransform(scrollY, [100, 350], [1, 2]);
   return (
     <section
-      className="mt-8 p-7  rounded-lg flex flex-col sm:flex-row text-gray-400 dark:bg-gray-900/40 backdrop-blur-lg"
+      className=" p-7  rounded-lg flex flex-col sm:flex-row text-gray-400 dark:bg-gray-900/40 backdrop-blur-lg"
       style={{ y: animatedY }}
     >
       <motion.div
