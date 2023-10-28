@@ -25,7 +25,7 @@ function Home() {
     <div className="flex  flex-col p-0 m-0 overflow-x-clip">
       <a
         aria-label="Chat on WhatsApp"
-        href="https://wa.me/916283669924?text=Hey%20there%20Eagle%20Coders%20"
+        href="https://wa.me/916283669924?text=Hey%20there%20AstraBytes%20"
         target="_blank"
         rel="noopener noreferrer"
       >

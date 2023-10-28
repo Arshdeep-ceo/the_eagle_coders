@@ -8,7 +8,7 @@ export default function ContactDetails() {
   return (
     <div className=" mt-4 dark:text-gray-500 text-center flex flex-col gap-5 flex-wrap">
       <a
-        href="mailto:theastracoders@gmail.com?body=Hey there CodeRippleX, I'm "
+        href="mailto:theastracoders@gmail.com?body=Hey there Astrabytes, I'm "
         className="grow "
       >
         <Card
