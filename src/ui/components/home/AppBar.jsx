@@ -71,7 +71,7 @@ export default function AppBar({ currentTab, setCurrentTab }) {
           className="cursor-pointer"
         >
           {/* <AcmeLogo /> */}
-          <img src="/appbarlogo2.png" alt="" className="h-10 mr-2 rounded-md" />
+          <img src="/logo1.png" alt="" className="h-12 mr-2 rounded-md" />
           <p className="font-bold text-inherit text-lg sm:text-xl dark:text-gray-200 font-mono ">
             AstraBytes
           </p>
