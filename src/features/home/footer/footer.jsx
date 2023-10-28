@@ -61,7 +61,7 @@ export default function Footer() {
             className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
           >
             &copy; {currentYear}{" "}
-            <p>Made with ❤️ by CodeRippleX... All Rights Reserved.</p>
+            <p>Made with ❤️ by AstraBytes... All Rights Reserved.</p>
           </Typography>
           <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
             <Typography

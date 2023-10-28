@@ -32,7 +32,7 @@ export default function Projects() {
               instructors.
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Tailored Solutions for Your Business CodeRippleX, with over a
+              Tailored Solutions for Your Business AstraBytes, with over a
               decade of software expertise, offers user-friendly and scalable
               websites and apps customized to your needs.
             </p>

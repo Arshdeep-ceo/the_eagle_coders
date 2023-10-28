@@ -40,6 +40,7 @@ export default function AppBar({ currentTab, setCurrentTab }) {
   ];
 
   const handleClick = (key) => {
+    setIsMenuOpen(false);
     setCurrentTab(key);
   };
   const handleContactButton = () => {
@@ -55,9 +56,10 @@ export default function AppBar({ currentTab, setCurrentTab }) {
 
   return (
     <Navbar
+      isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
       shouldHideOnScroll
-      className="z-40  text-gray-200  "
+      className="z-40  text-gray-200 bg-transparent "
     >
       <NavbarContent>
         <NavbarMenuToggle
@@ -69,9 +71,9 @@ export default function AppBar({ currentTab, setCurrentTab }) {
           className="cursor-pointer"
         >
           {/* <AcmeLogo /> */}
-          <img src="/appbarlogo.png" alt="" className="h-10 mr-2" />
+          <img src="/appbarlogo2.png" alt="" className="h-10 mr-2 rounded-md" />
           <p className="font-bold text-inherit text-lg sm:text-xl dark:text-gray-200 font-mono ">
-            CodeRippleX
+            AstraBytes
           </p>
         </NavbarBrand>
       </NavbarContent>
@@ -122,7 +124,7 @@ export default function AppBar({ currentTab, setCurrentTab }) {
           <NavbarMenuItem
             // key={`${item}-${index}`}
             key={index}
-            onClick={() => setCurrentTab(index)}
+            onClick={() => handleClick(index)}
           >
             <Link
               style={{}}
