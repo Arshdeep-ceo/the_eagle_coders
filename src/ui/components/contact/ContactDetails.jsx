@@ -29,8 +29,8 @@ export default function ContactDetails() {
         radius="lg"
         className=" text-xl border-none  bg-white/10 h-48 grow shadow-lg hover:scale-[1.03]"
       >
-        <div className="my-auto ">
-          <div className=" font-bold pb-4">Visit us</div>
+        <div className="my-auto hover:scroll-auto ">
+          <div className=" font-bold pb-4 ">Visit us</div>
           <Location size="30" color="white" />
           <p className="mt-3 underline">Visit our office HQ.</p>
           <p className="font-semibold mt-4 ">
