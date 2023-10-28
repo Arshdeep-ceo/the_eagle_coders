@@ -8,7 +8,7 @@ export default function ContactDetails() {
   return (
     <div className=" mt-4 dark:text-gray-500 text-center flex flex-col gap-5 flex-wrap">
       <a
-        href="mailto:rkrk09134@gmail.com?body=Hey there CodeRippleX, I'm "
+        href="mailto:theastracoders@gmail.com?body=Hey there CodeRippleX, I'm "
         className="grow "
       >
         <Card
@@ -20,7 +20,7 @@ export default function ContactDetails() {
           <p className="">We are here to help</p>
           <Gmail size="30" color="white" className="self-center" />
 
-          <p className=" underline">CodeRippleX@gmail.com</p>
+          <p className=" underline">theastracoders@gmail.com</p>
         </Card>
       </a>
 
@@ -39,7 +39,7 @@ export default function ContactDetails() {
         </div>
       </Card>
 
-      <a href="tel:884-759-7046" className="grow ">
+      <a href="tel:6283669924" className="grow ">
         <Card
           isFooterBlurred
           radius="lg"
