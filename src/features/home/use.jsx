@@ -40,7 +40,7 @@ export default function Use() {
           style={{ color: { animatedText } }}
         >
           Welcome to <br></br>
-          <span className=" text-pink-800 text-4xl">CodeRippleX </span>
+          <span className=" text-pink-800 text-4xl">AstraBytes </span>
         </h2>
         <motion.p
           className="my-2 text-stone-600 dark:text-gray-400 "
@@ -48,7 +48,7 @@ export default function Use() {
         ></motion.p>
 
         <p className="mt-2 text-stone-600 dark:text-gray-400">
-          CodeRippleX is Project based Software Company primarily focused on
+          AstraBytes is Project based Software Company primarily focused on
           delivering solutions accessed via Web & Mobile Platforms. Technologies
           we are experts in Web Projects, Mobile Applications, IoT, AI & ML.
         </p>

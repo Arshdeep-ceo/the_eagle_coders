@@ -50,7 +50,7 @@ export default function Internship() {
                     <circle cx={1} cy={1} r={1} />
                   </svg>
                   <div className="text-white mb-4">
-                    Student of<br></br> CodeRippleX
+                    Student of<br></br> AstraBytes
                   </div>
                 </div>
                 <p className="pb-4 text-sm">
@@ -86,12 +86,12 @@ export default function Internship() {
                     <circle cx={1} cy={1} r={1} />
                   </svg>
                   <div className="text-white mb-4">
-                    Student of <br></br>CodeRippleX
+                    Student of <br></br>AstraBytes
                   </div>
                 </div>
               </figcaption>
               <p className="pb-4 text-sm">
-                “Choosing CodeRippleX was the best decision for our digital
+                “Choosing AstraBytes was the best decision for our digital
                 initiatives. Their tailoed solutions and flexibility have
                 exceeded our expectations.”
               </p>
@@ -119,12 +119,12 @@ export default function Internship() {
                     <circle cx={1} cy={1} r={1} />
                   </svg>
                   <div className="text-white mb-4">
-                    Student of<br></br> CodeRippleX
+                    Student of<br></br> AstraBytes
                   </div>
                 </div>
               </figcaption>
               <p className="pb-4 text-sm">
-                “CodeRippleX is a standout digital agency in our area, offering
+                “AstraBytes is a standout digital agency in our area, offering
                 personalize attention and exceptional expertise.”
               </p>
             </blockquote>
@@ -150,11 +150,11 @@ export default function Internship() {
                   >
                     <circle cx={1} cy={1} r={1} />
                   </svg>
-                  <div className="text-white mb-4">Student of CodeRippleX</div>
+                  <div className="text-white mb-4">Student of AstraBytes</div>
                 </div>
               </figcaption>
               <p className="pb-4 text-sm">
-                “I am impressed by CodeRippleX dedication, creativity and
+                “I am impressed by AstraBytes dedication, creativity and
                 attention to detail. They deliver high-quality solutions with
                 speed and agility.”
               </p>
@@ -181,11 +181,11 @@ export default function Internship() {
                   >
                     <circle cx={1} cy={1} r={1} />
                   </svg>
-                  <div className="text-white mb-4">Student of CodeRippleX</div>
+                  <div className="text-white mb-4">Student of AstraBytes</div>
                 </div>
               </figcaption>
               <p className="pb-4 text-sm">
-                “CodeRippleX stands out with their skill, efficiency and their
+                “AstraBytes stands out with their skill, efficiency and their
                 customer focused approach. Highly regarded in the industry.”
               </p>
             </blockquote>

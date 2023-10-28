@@ -106,11 +106,11 @@ export default function About() {
                   <p>Educate</p>
                   <p>Innovate</p>
                 </ul>
-                CodeRippleX is a collective and collaborative initiative to
+                AstraBytes is a collective and collaborative initiative to
                 train, educate and innovate young data enthusiasts of India to
                 become changemakers of society using Data Science.<br></br>
                 <p className="hidden lg:block">
-                  CodeRippleX aims to train, educate and develop aspiring Data
+                  AstraBytes aims to train, educate and develop aspiring Data
                   Scientists into benchmark leaders to promote sustainable,
                   socially responsible, and impactful solutions for the modern
                   world.
@@ -148,7 +148,7 @@ export default function About() {
             We provide
           </h2>
           <p className="  text-gray-300 text-center lg:text-xl animate-appearance-in ">
-            At CodeRippleX, we train students to apply Data Science to problems
+            At AstraBytes, we train students to apply Data Science to problems
             that really matter and work with government & NGO data to create
             real change in society.<br></br>We understand that true Data
             Scientists must satisfy their need to learn more in a subject that

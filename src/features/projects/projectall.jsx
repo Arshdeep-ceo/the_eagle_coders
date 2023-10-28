@@ -8,7 +8,7 @@ export default function ProjectAll() {
           </h2>
 
           <p className="mt-4 text-gray-400">
-            Streamlined Transportation CodeRippleX provides a user-friendly,
+            Streamlined Transportation AstraBytes provides a user-friendly,
             customizable websites and app.The perfect blend of AI and human
             ingenuity. Start Navigating the Future of Project Management and AI
             Tools. Learn from the Experts. It{"'s"} your solution for entering

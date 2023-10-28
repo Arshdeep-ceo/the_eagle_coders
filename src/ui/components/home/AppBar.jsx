@@ -73,7 +73,7 @@ export default function AppBar({ currentTab, setCurrentTab }) {
           {/* <AcmeLogo /> */}
           <img src="/appbarlogo2.png" alt="" className="h-10 mr-2 rounded-md" />
           <p className="font-bold text-inherit text-lg sm:text-xl dark:text-gray-200 font-mono ">
-            CodeRippleX
+            AstraBytes
           </p>
         </NavbarBrand>
       </NavbarContent>
