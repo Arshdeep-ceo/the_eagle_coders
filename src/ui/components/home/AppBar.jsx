@@ -72,9 +72,9 @@ export default function AppBar({ currentTab, setCurrentTab }) {
         >
           {/* <AcmeLogo /> */}
           <img
-            src="/logo1.png"
+            src="/logo4.png"
             alt=""
-            className="h-12 mr-1 sm:mr-2 rounded-md"
+            className="h-10 mr-1 sm:mr-2 rounded-md"
           />
           <p className="font-bold text-inherit text-lg sm:text-xl dark:text-gray-200 font-mono ">
             AstraBytes
