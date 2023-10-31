@@ -63,8 +63,7 @@ export default function ProjectAll() {
                 whether a new transaction is fraudulent or not. Our aim here is
                 to detect 100% of the fraudulent transactions while minimizing
                 the incorrect fraud classifications.This dataset has been
-                processed, split into train and test, and it was used for
-                training, testing, and comparison.
+                processed, split into train and test.
               </p>
               {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
               Available now!
@@ -90,8 +89,7 @@ export default function ProjectAll() {
                 that existing forest cover types are more a result of ecological
                 process rather than forest management practices. Each
                 observation is 30m x 30m forest cover type determined from US
-                Forest Service (USFS) Region 2 Resource Information System (RIS)
-                data.
+                Forest Service (USFS) Region 2.
               </p>
               {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
               Available now!
