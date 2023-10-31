@@ -39,9 +39,7 @@ export default function ProjectAll() {
                 substrate) is a thin slice of semiconductor used for the
                 fabrication of integrated circuits. The goal is to build a
                 machine learning model which predicts whether a wafer needs to
-                be replaced or not(i.e., whether it is working or not) based on
-                the inputs from various sensors. we perform different sets of
-                validation.
+                be replaced or not(i.e., whether it is working or not)
               </p>
             </div>
           </div>
