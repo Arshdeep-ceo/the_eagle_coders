@@ -115,8 +115,7 @@ export default function ProjectAll() {
                 algorithms such as linear regression, decision trees, or random
                 forest. The model is trained on a dataset that includes features
                 such as job title, years of experience, education level,
-                location, and other relevant information, as well as the target
-                variable of salary.
+                location, and other relevant information.
               </p>
               {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
               Available now!
@@ -142,7 +141,7 @@ export default function ProjectAll() {
                 color, gill color, etc.Support vector machines, random forests,
                 and decision trees are often used methods for classifying
                 mushrooms. The machine learning model gains the ability to
-                identify patterns in the data throughout the training phase.
+                identify patterns in the data.
               </p>
               {/* <p className="bg-white/10  inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white focus:ring-4 focus:outline-none focus:ring-blue-300">
               Available now!
