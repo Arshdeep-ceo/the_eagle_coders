@@ -5,7 +5,7 @@ const team = [
     name: "Arshdeep Singh",
     role: "Web Developer",
     experience:
-      "Mr.Arshdeep Singh works as a Full stack developer. He train students to apply Data Science to problems that really matter. He is a software engineer who loves to create websites as well as apps for people. He think that people should look at the bigger picture when they are building something. He love to work in groups where everyone can voice their opinions and ideas.",
+      "Mr.Arshdeep Singh works as a Full stack developer. He is a software engineer who loves to create websites as well as apps for people. He think that people should look at the bigger picture when they are building something. He love to work in groups where everyone can voice their opinions and ideas.",
     imageUrl: "/images/arsh.jpeg",
   },
   {

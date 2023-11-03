@@ -125,7 +125,13 @@ export default function Internship() {
               </figcaption>
               <p className="pb-4 text-sm">
                 “AstraBytes is a standout digital agency in our area, offering
-                personalize attention and exceptional expertise.”
+                personalize attention and exceptional expertise. They help me
+                create a fantastic platforms. AstraBytes is a good choice for
+                student interns. The work was engaging, and the company offered
+                opportunities for growth. I learned a lot during my time there,
+                and the mentors were supportive. However, the workload can be
+                intense, so be prepared for some long hours during busy
+                periods.”
               </p>
             </blockquote>
           </div>
@@ -156,7 +162,9 @@ export default function Internship() {
               <p className="pb-4 text-sm">
                 “I am impressed by AstraBytes dedication, creativity and
                 attention to detail. They deliver high-quality solutions with
-                speed and agility.”
+                speed and agility. On the positive side, the company did provide
+                flexible working hours, which was helpful for balancing my
+                studies.”
               </p>
             </blockquote>
           </div>
@@ -185,8 +193,12 @@ export default function Internship() {
                 </div>
               </figcaption>
               <p className="pb-4 text-sm">
-                “AstraBytes stands out with their skill, efficiency and their
-                customer focused approach. Highly regarded in the industry.”
+                “I cannot say enough good things about my experience at
+                AstraBytes. The company{"'s"} internship program is top-notch. I
+                received excellent mentorship, participated in innovative
+                projects, and gained valuable industry insights. The work
+                culture is also fantastic, making it a great place for students
+                to kickstart their careers.”
               </p>
             </blockquote>
           </div>
