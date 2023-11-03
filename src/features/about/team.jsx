@@ -35,21 +35,21 @@ const team = [
     name: "Jaspreet Kaur",
     role: "Web developer",
     experience:
-      "Ms. Jaspreet Kaur stands at the crossroads of people and strategy with Three years of dedicated experience in Human Resources. She seamlessly marries theoretical principles with pragmatic solutions tailored to our organizational needs. As our HR Manager, Neha's approach is defined by a keen understanding of both individual aspirations and business objectives.",
+      "Ms. Jaspreet Kaur's ability to adapt and learn is also striking. In the ever-evolving world of web development, she is always up-to-date with the latest trends, technologies, and best practices. This dedication to growth and improvement is a testament to her passion for what she do.",
     imageUrl: "/images/team/t3.webp",
   },
   {
     name: "Shubham agarwal",
     role: "Python developer",
     experience:
-      "Mr. Shubam agarwal stands at the crossroads of people and strategy with Three years of dedicated experience in Human Resources. She seamlessly marries theoretical principles with pragmatic solutions tailored to our organizational needs. As our HR Manager, Neha's approach is defined by a keen understanding of both individual aspirations and business objectives.",
+      "Mr. Shubam agarwal is not just a Python developer, he is a problem-solving genius. He has an uncanny ability to tackle complex challenges with grace and ease, turning them into elegant solutions. Whether it's building web applications, automating tedious tasks, or diving into data science, he excels at it all.",
     imageUrl: "/images/team/t2.webp",
   },
   {
     name: "Harshita Sharma",
     role: "Python developer",
     experience:
-      "Ms.Harshits Sharma stands at the crossroads of people and strategy with Three years of dedicated experience in Human Resources. She seamlessly marries theoretical principles with pragmatic solutions tailored to our organizational needs. As our HR Manager, Neha's approach is defined by a keen understanding of both individual aspirations and business objectives.",
+      "About Ms.Harshits Sharma,i have the privilege of calling her is not just a friend but a Python developer extraordinaire. She is a true prodigy when it comes to this versatile programming language, and her passion and expertise shine through in everything she does.",
     imageUrl:
       "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=60&w=700&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzaW5lc3MlMjB3b21lbnxlbnwwfHwwfHx8MA%3D%3D",
   },
@@ -57,7 +57,7 @@ const team = [
     name: " Jasika",
     role: "Web developer",
     experience:
-      "Ms. Jasika stands at the crossroads of people and strategy with Three years of dedicated experience in Human Resources. She seamlessly marries theoretical principles with pragmatic solutions tailored to our organizational needs. As our HR Manager, Neha's approach is defined by a keen understanding of both individual aspirations and business objectives.",
+      "Ms. Jasika stands at the crossroads of people and strategy with Three years of dedicated experience in Web development. it's not just about the technical powers, she has an innate talent for understanding the unique needs and visions of their clients. She listen, she adapt, and she deliver exactly what you want -  sometimes even better than you imagined.",
     imageUrl:
       "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?auto=format&fit=crop&q=80&w=387&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
