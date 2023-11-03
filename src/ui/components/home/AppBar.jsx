@@ -64,7 +64,7 @@ export default function AppBar({ currentTab, setCurrentTab }) {
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
+          className="min-[850px]:hidden"
         />
         <NavbarBrand
           onClick={() => handleLogoClick()}
@@ -83,7 +83,7 @@ export default function AppBar({ currentTab, setCurrentTab }) {
       </NavbarContent>
 
       {/* Navbar menu for screens above mobile, not visible for mobile screens */}
-      <NavbarContent className="hidden sm:flex gap-4 " justify="">
+      <NavbarContent className="hidden min-[850px]:flex gap-4 " justify="">
         {menuItems.map((element, index) => (
           <NavbarItem
             isActive={currentTab === index ? true : false}
@@ -115,6 +115,7 @@ export default function AppBar({ currentTab, setCurrentTab }) {
             color="primary"
             variant="flat"
             onPress={() => handleContactButton()}
+            className="min-[500px]:hidden"
           >
             Contact
           </Button>
