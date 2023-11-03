@@ -8,7 +8,7 @@ export default function ContactDetails() {
   return (
     <div className=" mt-4 dark:text-gray-500 text-center flex flex-col gap-5 flex-wrap">
       <a
-        href="mailto:theastracoders@gmail.com?body=Hey there Astrabytes, I'm "
+        href="mailto:theastrabytes@gmail.com?body=Hey there Astrabytes, I'm "
         className="grow "
       >
         <Card
@@ -20,26 +20,27 @@ export default function ContactDetails() {
           <p className="">We are here to help</p>
           <Gmail size="30" color="white" className="self-center" />
 
-          <p className=" underline">theastracoders@gmail.com</p>
+          <p className=" underline">theastrabytes@gmail.com</p>
         </Card>
       </a>
 
       <Card
         isFooterBlurred
         radius="lg"
-        className=" text-xl border-none  bg-white/10 h-48 grow shadow-lg hover:scale-[1.03]"
+        className=" text-xl border-none  bg-white/10 grow shadow-lg hover:scale-[1.03] pb-4"
       >
         <div className="my-auto hover:scroll-auto ">
           <div className=" font-bold pb-4 ">Visit us</div>
           <Location size="30" color="white" />
           <p className="mt-3 underline">Visit our office HQ.</p>
           <p className="font-semibold mt-4 ">
-            D-185, Sector 74, Sahibzada Ajit Singh Nagar, Punjab 160055
+            Prosperity Square, Second floor ,D-185, Sector 74, Sahibzada Ajit
+            Singh Nagar, Punjab 160055
           </p>
         </div>
       </Card>
 
-      <a href="tel:6283669924" className="grow ">
+      <a href="tel:62833247119" className="grow ">
         <Card
           isFooterBlurred
           radius="lg"
@@ -49,9 +50,7 @@ export default function ContactDetails() {
             <div className="pb-4 font-bold">Call us</div>
             <p className=" ">Speak to our friendly team</p>
             <PhoneCall size="30" color="white" />
-            <p className=" font-semibold underline mt-2">
-              +91 88723 12729<br></br>+91 88475 97046
-            </p>
+            <p className=" font-semibold underline mt-2">+91-62833247119</p>
           </div>
         </Card>
       </a>
