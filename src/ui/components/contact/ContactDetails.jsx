@@ -14,13 +14,13 @@ export default function ContactDetails() {
         <Card
           isFooterBlurred
           radius="lg"
-          className=" text-xl border-none  bg-white/10 h-48 shadow-lg hover:scale-[1.03] items-center "
+          className="p-4 text-xl border-none  bg-white/10 shadow-lg hover:scale-[1.03] items-center "
         >
-          <p className="font-bold pb-4">Chat</p>
+          <p className="font-bold ">Chat</p>
           <p className="">We are here to help</p>
           <Gmail size="30" color="white" className="self-center" />
 
-          <p className=" underline">theastrabytes@gmail.com</p>
+          <p className=" underline ">theastrabytes@gmail.com</p>
         </Card>
       </a>
 
@@ -44,10 +44,10 @@ export default function ContactDetails() {
         <Card
           isFooterBlurred
           radius="lg"
-          className="text-xl border-none  bg-white/10 h-48 grow shadow-lg hover:scale-[1.03]"
+          className="text-xl border-none  bg-white/10  grow shadow-lg hover:scale-[1.03]"
         >
-          <div className="my-auto ">
-            <div className="pb-4 font-bold">Call us</div>
+          <div className="my-auto p-4 ">
+            <div className=" font-bold">Call us</div>
             <p className=" ">Speak to our friendly team</p>
             <PhoneCall size="30" color="white" />
             <p className=" font-semibold underline mt-2">+91-62833247119</p>
