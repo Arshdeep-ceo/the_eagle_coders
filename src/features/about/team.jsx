@@ -31,6 +31,36 @@ const team = [
       "Ms. Neha Sharma stands at the crossroads of people and strategy with Three years of dedicated experience in Human Resources. She seamlessly marries theoretical principles with pragmatic solutions tailored to our organizational needs. As our HR Manager, Neha's approach is defined by a keen understanding of both individual aspirations and business objectives.",
     imageUrl: "/images/Neha.jpeg",
   },
+  {
+    name: "Jaspreet Kaur",
+    role: "Web developer",
+    experience:
+      "Ms. Jaspreet Kaur stands at the crossroads of people and strategy with Three years of dedicated experience in Human Resources. She seamlessly marries theoretical principles with pragmatic solutions tailored to our organizational needs. As our HR Manager, Neha's approach is defined by a keen understanding of both individual aspirations and business objectives.",
+    imageUrl: "/images/team/t3.webp",
+  },
+  {
+    name: "Shubham agarwal",
+    role: "Python developer",
+    experience:
+      "Mr. Shubam agarwal stands at the crossroads of people and strategy with Three years of dedicated experience in Human Resources. She seamlessly marries theoretical principles with pragmatic solutions tailored to our organizational needs. As our HR Manager, Neha's approach is defined by a keen understanding of both individual aspirations and business objectives.",
+    imageUrl: "/images/team/t2.webp",
+  },
+  {
+    name: "Harshita Sharma",
+    role: "Python developer",
+    experience:
+      "Ms.Harshits Sharma stands at the crossroads of people and strategy with Three years of dedicated experience in Human Resources. She seamlessly marries theoretical principles with pragmatic solutions tailored to our organizational needs. As our HR Manager, Neha's approach is defined by a keen understanding of both individual aspirations and business objectives.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=60&w=700&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzaW5lc3MlMjB3b21lbnxlbnwwfHwwfHx8MA%3D%3D",
+  },
+  {
+    name: " Jasika",
+    role: "Web developer",
+    experience:
+      "Ms. Jasika stands at the crossroads of people and strategy with Three years of dedicated experience in Human Resources. She seamlessly marries theoretical principles with pragmatic solutions tailored to our organizational needs. As our HR Manager, Neha's approach is defined by a keen understanding of both individual aspirations and business objectives.",
+    imageUrl:
+      "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?auto=format&fit=crop&q=80&w=387&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
 
   // More people...
 ];
@@ -48,9 +78,11 @@ export default function Team() {
           key={person.name}
           className={`mt-2 p-7 sm:flex-row  rounded-lg flex flex-col  ${
             index === 1 && "sm:flex-row-reverse"
-          }  ${
-            index === 3 && "sm:flex-row-reverse"
-          } text-gray-400 dark:bg-gray-900/40 backdrop-blur-lg`}
+          }  
+          ${index === 3 && "sm:flex-row-reverse"} 
+          ${index === 5 && "sm:flex-row-reverse"} 
+          ${index === 7 && "sm:flex-row-reverse"} 
+           text-gray-400 dark:bg-gray-900/40 backdrop-blur-lg`}
           // style={{ y: animatedY }}
         >
           <motion.div
@@ -58,9 +90,14 @@ export default function Team() {
               opacity: 0,
               transform: `translateX(${
                 (index === 0 && "-40px") ||
-                (index === 2 && "-40px") ||
                 (index === 1 && "40px") ||
-                (index === 3 && "40px")
+                (index === 2 && "-40px") ||
+                (index === 3 && "40px") ||
+                (index === 4 && "-40px") ||
+                (index === 5 && "40px") ||
+                (index === 6 && "-40px") ||
+                (index === 7 && "40px") ||
+                (index === 8 && "-40px")
               })`,
             }}
             // style={{ x: photoX }}
@@ -76,14 +113,14 @@ export default function Team() {
                 objectPosition: "top",
               }}
               // className="w-[50%] h-[40%] m-3  transform transition duration-[10000] hover:scale-105 overflow-hidden self-start sm:w-[40%]"
-              className="bg-[#4B5563] overflow-hidden bg-contain rounded-2xl bg-clip-border sm:basis-[35%] max-h-[25rem]  drop-shadow-xl transition-all hover:scale-105 hover:drop-shadow-2xl duration-75 shadow-xl "
+              className="bg-[#4B5563]  bg-contain rounded-2xl bg-clip-border sm:basis-[35%] max-h-[20rem]  drop-shadow-xl transition-all hover:scale-105 hover:drop-shadow-2xl duration-75 shadow-xl "
               // style={{}}
               // initial={{ opacity: 0 }}
               // whileInView={{ opacity: 1 }}
               // animate={{ transform: "translateX(100px)", opacity: 1 }}
             />
           </motion.div>
-          <div className="pt-4 sm:basis-[65%] sm:ml-6 sm:p-0 ">
+          <div className=" pt-4 sm:basis-[65%] sm:mx-5 sm:p-0 ">
             <h2
               className="pt-4 font-bold text-stone-700 dark:text-gray-300 text-4xl transition-all hover:scale-[1.01] hover:drop-shadow-lg"
               // style={{ color: { animatedText } }}

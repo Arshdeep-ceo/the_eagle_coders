@@ -31,7 +31,7 @@ export default function Explore() {
             variant="shadow"
             color="primary"
             radius="medium"
-            className="mt-4 w-48 p-5 dark:bg-indigo-600 text-white"
+            className="mt-4  p-2 dark:bg-indigo-600 text-white"
           >
             Start your journey now...
           </Button>

@@ -60,7 +60,7 @@ export default function About() {
   const photoX = useTransform(scrollY, [100, 350], [-100, 0]);
   const animatedY = useTransform(scrollY, [0, 400], [0, -300]);
   return (
-    <div className="overflow-hidden bg-white  dark:bg-gray-950 p-4 ">
+    <div className=" bg-white  dark:bg-gray-950 p-4 ">
       <div
         className="fixed -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"
         aria-hidden="true"
