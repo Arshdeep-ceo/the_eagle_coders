@@ -93,7 +93,10 @@ export default function Internship() {
               <p className="pb-4 text-sm">
                 “Choosing AstraBytes was the best decision for our digital
                 initiatives. Their tailoed solutions and flexibility have
-                exceeded our expectations.”
+                exceeded our expectationsThe company{"'s"} internship program is
+                top-notch. I was involved in meaningful projects, and the
+                guidance and support I received from my mentors were invaluable.
+                The experience significantly enhanced my skills and knowledge.”
               </p>
             </blockquote>
           </div>
