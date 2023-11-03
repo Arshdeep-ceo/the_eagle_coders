@@ -46,7 +46,7 @@ function Home() {
               Services provided by<br></br> AstraBytes
             </h2>
 
-            <p className=" text-center mt-4 lg:text-2xl text-gray-400">
+            <p className=" text-center mt-4 lg:text-2xl text-lg text-gray-400">
               Our company provide IT services and software products.<br></br>At
               AstraBytes, we craft software that pushes the boundaries of
               innovation and delivers exceptional user experiences.
@@ -193,18 +193,20 @@ function Home() {
             style={{ fontSize: `${textSize}rem` }}
           ></motion.p>
 
-          <p className="mt-2 text-stone-600 dark:text-gray-400 text-xs lg:text-sm">
+          <p className="mt-2 text-stone-600 dark:text-gray-400 text-sm lg:text-sm pr-4">
             1.Navigating the complexities of today{"'s"} industries requires
             specialized tools; our training software stands as a beacon, guiding
             firms to success.<br></br>2.Merging cutting-edge technology with
             deep industry insights, our software reshapes the landscape of
             professional training.<br></br>3.In an era of relentless change, our
             training software provides businesses the anchor they need:
-            tailored, industry-specific solutions.<br></br>4.From novices to
-            experts, our platform elevates every professional, gearing them up
-            to face real-world challenges.<br></br>5.We don{"'t"} just train, we
-            transform. Dive deep into industry practices with our software and
-            emerge as a leader.
+            tailored, industry-specific solutions.
+          </p>
+          <p className=" hidden lg:block text mt-2 text-stone-600 dark:text-gray-400 text-xs lg:text-sm pr-4">
+            4.From novices to experts, our platform elevates every professional,
+            gearing them up to face real-world challenges.<br></br>5.We don
+            {"'t"} just train, we transform. Dive deep into industry practices
+            with our software and emerge as a leader.
           </p>
 
           <h2
@@ -323,16 +325,16 @@ function Home() {
             style={{ fontSize: `${textSize}rem` }}
           ></motion.p>
 
-          <p className=" lg:text-xl mt-2 text-stone-600 dark:text-gray-400">
+          <p className=" lg:text-lg mt-2 text-stone-600 dark:text-gray-400">
             The Placement Program is designed to help interns improve their
             chances to get the right career opportunity and make them
-            industry-ready. Sabudh seeks to assist interns with professional
+            industry-ready.AstraBytes seeks to assist interns with professional
             development and improve their interpersonal skills, hence making
             them ready to deliver in all kinds of business environments. For
-            this purpose, Sabudh organizes various workshops to help the interns
-            get ready for their future endeavors.
+            this purpose,AstraBytes organizes various workshops to help the
+            interns get ready for their future endeavors.
           </p>
-          <p className=" hidden lg:block lg:text-xl mt-2 text-stone-600 dark:text-gray-400">
+          <p className=" hidden lg:block lg:text-lg mt-2 text-stone-600 dark:text-gray-400">
             The list of proposed workshops is as follows:<br></br> Team Building
             sessions<br></br>
             Resume and cover letter building<br></br> Curating social media
@@ -359,15 +361,16 @@ function Home() {
         </motion.div>
       </section>
       <div className=" grid bg-slate-950 rounded-2xl lg:ml-24 lg:mr-24 pt-8">
-        <div className="text-4xl font-bold text-center text-amber-700  ">
+        <div className="text-4xl font-bold text-center text-amber-700 px-6 ">
           100+ companies waiting for you
-          <p className=" pt-4 pb-4 text-gray-400 text-sm lg:pl-12 lg:pr-12 animate-pulse">
-            We{"'ll"} help you get hired. Our team will work with you throughout
-            the program and after graduation to help you embellish your
-            portfolio, practice interviewing and land a job that enhances your
-            skills and accelerates your growth.
-          </p>
         </div>
+        <p className="px-6 text-center pt-4 pb-4 text-gray-400 text-lg lg:pl-12 lg:pr-12 ">
+          We{"'ll"} help you get hired. Our team will work with you throughout
+          the program and after graduation to help you embellish your portfolio,
+          practice interviewing and land a job that enhances your skills and
+          accelerates your growth.
+        </p>
+
         <div className="grid lg:grid-cols-4 grid-cols-2 lg:ml-38 lg:mr-30">
           <img
             src="https://www.mphasis.com/content/dam/mphasis-com/global/logo/mphasis-logo.png.thumb.468.468.png"
@@ -556,7 +559,7 @@ function Home() {
           Why Us?
         </div>
 
-        <p className="mt-2 dark:text-gray-200 text-xl">
+        <p className="mt-2 dark:text-gray-400 text-lg">
           Our company offers a unique blend of hands-on experience and
           theoretical and practical knowledge, ensuring that students not only
           understand the concepts but can also apply them in real-world
@@ -564,7 +567,7 @@ function Home() {
           with practical skills that make them industry-ready from day one.
           <br></br>
         </p>
-        <p className="hidden lg:block mt-2 dark:text-gray-200 text-xl">
+        <p className="hidden lg:block mt-2 dark:text-gray-400 text-lg">
           Our company is at the forefront of industry innovations, giving
           students access to the latest tools, technologies, and methodologies.
           By learning with us, students are always a step ahead, positioning

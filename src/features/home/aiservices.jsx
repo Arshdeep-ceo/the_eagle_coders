@@ -18,7 +18,7 @@ export default function AIservices() {
           powerful asset with our company unparalleled AI expertise.AI is the
           language of tomorrow, and at our company, we{"'re"} fluent. Let
           {"'s"} redefine your business together.Bridging the gap between human
-          intuition and machine intelligence, Eagle coders is revolutionizing
+          intuition and machine intelligence, AstraBytes is revolutionizing
           industries one algorithm at a time.
         </p>
 
