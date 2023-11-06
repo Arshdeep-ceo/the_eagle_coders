@@ -35,21 +35,21 @@ const team = [
     name: "Jaspreet Kaur",
     role: "Marketing Manager",
     experience:
-      "Ms. Jaspreet Kaur's ability to adapt and learn is also striking. In the ever-evolving world of web development, she is always up-to-date with the latest trends, technologies, and best practices. This dedication to growth and improvement is a testament to her passion for what she do.",
+      "Ms. Jaspreet Kaur's ability to adapt and learn is also striking. In the ever-evolving world of marketing, she is always up-to-date with the latest trends, technologies, and best practices. This dedication to growth and improvement is a testament to her passion for what she do.",
     imageUrl: "/images/team/t3.webp",
   },
   {
     name: "Shubham agarwal",
     role: "Project Manager",
     experience:
-      "Mr. Shubam agarwal is not just a Python developer, he is a problem-solving genius. He has an uncanny ability to tackle complex challenges with grace and ease, turning them into elegant solutions. Whether it's building web applications, automating tedious tasks, or diving into data science, he excels at it all.",
+      "Mr. Shubam agarwal is an outstanding project manager with a proven track record of successful project deliveries. I've had the privilege of working alongside him on several projects, and I can confidently say that he is a valuable asset to any team or organization. He possesses exceptional organizational and leadership skills. He has a keen eye for detail, ensuring that every aspect of a project is carefully planned and executed.",
     imageUrl: "/images/team/t2.webp",
   },
   {
     name: "Harshita Sharma",
     role: "ReactJs developer",
     experience:
-      "About Ms.Harshits Sharma, I have the privilege of calling her is not just a friend but a Python developer extraordinaire. She is a true prodigy when it comes to this versatile programming language, and her passion and expertise shine through in everything she does.",
+      "Ms.Harshits Sharma is a talented ReactJS developer. I've had the pleasure of collaborating with her on a few projects, and I've been consistently impressed with their skills and dedication. She excel at designing and implementing responsive user interfaces, leveraging the power of React to create efficient and modular components.",
     imageUrl:
       "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=60&w=700&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVzaW5lc3MlMjB3b21lbnxlbnwwfHwwfHx8MA%3D%3D",
   },
@@ -57,7 +57,7 @@ const team = [
     name: " Jasika",
     role: "Flutter developer",
     experience:
-      "Ms. Jasika stands at the crossroads of people and strategy with Three years of dedicated experience in Web development. it's not just about the technical powers, she has an innate talent for understanding the unique needs and visions of their clients. She listen, she adapt, and she deliver exactly what you want -  sometimes even better than you imagined.",
+      "Ms. Jasika  is an exceptional Flutter developer. I've had the opportunity to witness their talent and dedication in the field of mobile app development, and I'm consistently impressed by her  skills. Jasika has a deep understanding of Flutter and the Dart programming language, which they leverage to create polished and user-friendly mobile applications. She excel at building responsive and visually appealing UIs. ",
     imageUrl:
       "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?auto=format&fit=crop&q=80&w=387&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
