@@ -33,21 +33,21 @@ const team = [
   },
   {
     name: "Jaspreet Kaur",
-    role: "Web developer",
+    role: "Marketing Manager",
     experience:
       "Ms. Jaspreet Kaur stands at the crossroads of people and strategy with Three years of dedicated experience in Human Resources. She seamlessly marries theoretical principles with pragmatic solutions tailored to our organizational needs. As our HR Manager, Neha's approach is defined by a keen understanding of both individual aspirations and business objectives.",
     imageUrl: "/images/team/t3.webp",
   },
   {
     name: "Shubham agarwal",
-    role: "Python developer",
+    role: "Project Manager",
     experience:
       "Mr. Shubam agarwal stands at the crossroads of people and strategy with Three years of dedicated experience in Human Resources. She seamlessly marries theoretical principles with pragmatic solutions tailored to our organizational needs. As our HR Manager, Neha's approach is defined by a keen understanding of both individual aspirations and business objectives.",
     imageUrl: "/images/team/t2.webp",
   },
   {
     name: "Harshita Sharma",
-    role: "Python developer",
+    role: "ReactJs developer",
     experience:
       "Ms.Harshits Sharma stands at the crossroads of people and strategy with Three years of dedicated experience in Human Resources. She seamlessly marries theoretical principles with pragmatic solutions tailored to our organizational needs. As our HR Manager, Neha's approach is defined by a keen understanding of both individual aspirations and business objectives.",
     imageUrl:
@@ -55,7 +55,7 @@ const team = [
   },
   {
     name: " Jasika",
-    role: "Web developer",
+    role: "Flutter developer",
     experience:
       "Ms. Jasika stands at the crossroads of people and strategy with Three years of dedicated experience in Human Resources. She seamlessly marries theoretical principles with pragmatic solutions tailored to our organizational needs. As our HR Manager, Neha's approach is defined by a keen understanding of both individual aspirations and business objectives.",
     imageUrl:
