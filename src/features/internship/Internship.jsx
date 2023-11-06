@@ -1,19 +1,28 @@
 import { motion, useScroll } from "framer-motion";
 import Footer from "../home/footer/footer.jsx";
-import Contactform from "../../features/contact/contactform.jsx";
-export default function Internship() {
+import Contactform from "../contact/contactform.jsx";
+import ReviewCard from "../../ui/components/Internship/ReviewCard.jsx";
+
+export default function Internship1() {
   const { scrollYProgress } = useScroll();
   return (
     <div>
       <section className="relative isolate overflow-hidden bg-slate-750 px-6 py-24 sm:py-32 lg:px-8">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.indigo.100),white)] opacity-20" />
-        <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-slate-950 shadow-xl shadow-indigo-600/10 ring-1 ring-gray-800 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
+        {/* <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-slate-950 shadow-xl shadow-indigo-600/10 ring-1 ring-gray-800 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" /> */}
+        <div
+          className="absolute"
+          style={{
+            backgroundClip: "polygon(50% 0, 100% 50%, 50% 100%, 0 50%)",
+            backgroundColor: "red",
+          }}
+        />
         <Contactform />
         <div className="mx-auto max-w-2xl lg:max-w-4xl">
           <motion.div style={{ scaleX: scrollYProgress }} />
           <img className=" h-auto bg-white" src="/images/blog/b3.webp" alt="" />
           <figure className="mt-10">
-            <blockquote className="text-center text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
+            <blockquote className="text-center text-xl leading-8 text-white sm:text-2xl sm:leading-9">
               <figcaption className="mt-4">
                 <h2 className="text-3xl pb-6 text-amber-600">
                   Full-time/Part-time Internship Programme
@@ -27,169 +36,12 @@ export default function Internship() {
                   for innovation.
                 </p>
               </figcaption>
-              <p className=" text-left underline pt-6 text-amber-600 pb-6">
+              <p className="  text-left underline pt-6 text-amber-600 pb-6">
                 Our students feel happy with us.
               </p>
-              <div className=" bg-slate-500 rounded-3xl">
-                <img
-                  className="mx-auto h-10 w-10 rounded-full"
-                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                  alt=""
-                />
-                <div className="mt-4 flex items-center justify-center space-x-3 text-base ">
-                  <div className="font-semibold text-white mb-4">
-                    Jasleen Kaur
-                  </div>
-                  <svg
-                    viewBox="0 0 2 2"
-                    width={3}
-                    height={3}
-                    aria-hidden="true"
-                    className="fill-gray-900"
-                  >
-                    <circle cx={1} cy={1} r={1} />
-                  </svg>
-                  <div className="text-white mb-4">
-                    Student of<br></br> AstraBytes
-                  </div>
-                </div>
-                <p className="pb-4 text-sm">
-                  “We are satisfied with the solution given to us and with the
-                  communication flow through the project. We would like to
-                  recommend Mr. Arshdeep Singh and his development team. We look
-                  forward to working with them in future projects. I wanted to
-                  take a moment to thank you for the services your team has
-                  provided.”
-                </p>
-              </div>
+              <ReviewCard />
             </blockquote>
           </figure>
-          <div className=" bg-slate-500 rounded-3xl">
-            <blockquote className="mt-14 text-center text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
-              <figcaption className="mt-4">
-                <img
-                  className="mx-auto h-10 w-10 rounded-full"
-                  src="/images/team/t1.webp"
-                  alt=""
-                />
-                <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                  <div className=" mb-4 font-semibold text-white">
-                    Rahul Kumar
-                  </div>
-                  <svg
-                    viewBox="0 0 2 2"
-                    width={3}
-                    height={3}
-                    aria-hidden="true"
-                    className="fill-gray-900"
-                  >
-                    <circle cx={1} cy={1} r={1} />
-                  </svg>
-                  <div className="text-white mb-4">
-                    Student of <br></br>AstraBytes
-                  </div>
-                </div>
-              </figcaption>
-              <p className="pb-4 text-sm">
-                “Choosing AstraBytes was the best decision for our digital
-                initiatives. Their tailoed solutions and flexibility have
-                exceeded our expectations.”
-              </p>
-            </blockquote>
-          </div>
-          <div className=" bg-slate-500 rounded-3xl">
-            <blockquote className=" mt-14 text-center text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
-              <figcaption className="mt-4">
-                <img
-                  className="  mx-auto h-10 w-10 rounded-full"
-                  src="/images/team/t2.webp"
-                  alt=""
-                />
-                <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                  <div className="font-semibold text-white mb-4">
-                    Hamid Sharma
-                  </div>
-                  <svg
-                    viewBox="0 0 2 2"
-                    width={3}
-                    height={3}
-                    aria-hidden="true"
-                    className="fill-gray-900"
-                  >
-                    <circle cx={1} cy={1} r={1} />
-                  </svg>
-                  <div className="text-white mb-4">
-                    Student of<br></br> AstraBytes
-                  </div>
-                </div>
-              </figcaption>
-              <p className="pb-4 text-sm">
-                “AstraBytes is a standout digital agency in our area, offering
-                personalize attention and exceptional expertise.”
-              </p>
-            </blockquote>
-          </div>
-          <div className=" bg-slate-500 rounded-3xl">
-            <blockquote className="mt-14 text-center text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
-              <figcaption className="mt-4 ">
-                <img
-                  className="mx-auto h-10 w-10 rounded-full"
-                  src="/images/team/t3.webp"
-                  alt=""
-                />
-                <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                  <div className="font-semibold text-white mb-4">
-                    Simranjeet Kaur
-                  </div>
-                  <svg
-                    viewBox="0 0 2 2"
-                    width={3}
-                    height={3}
-                    aria-hidden="true"
-                    className="fill-gray-900"
-                  >
-                    <circle cx={1} cy={1} r={1} />
-                  </svg>
-                  <div className="text-white mb-4">Student of AstraBytes</div>
-                </div>
-              </figcaption>
-              <p className="pb-4 text-sm">
-                “I am impressed by AstraBytes dedication, creativity and
-                attention to detail. They deliver high-quality solutions with
-                speed and agility.”
-              </p>
-            </blockquote>
-          </div>
-          <div className=" bg-slate-500 rounded-3xl">
-            <blockquote className="mt-14 text-center text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
-              <figcaption className="mt-4">
-                <img
-                  className="mx-auto h-10 w-10 rounded-full"
-                  src="/images/team/t4.webp"
-                  alt=""
-                />
-                <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-                  <div className="font-semibold text-white mb-4">
-                    Jaswinder Singh
-                  </div>
-                  <svg
-                    viewBox="0 0 2 2"
-                    width={3}
-                    height={3}
-                    aria-hidden="true"
-                    className="fill-gray-900 mb-4"
-                  >
-                    <circle cx={1} cy={1} r={1} />
-                  </svg>
-                  <div className="text-white mb-4">Student of AstraBytes</div>
-                </div>
-              </figcaption>
-              <p className="pb-4 text-sm">
-                “AstraBytes stands out with their skill, efficiency and their
-                customer focused approach. Highly regarded in the industry.”
-              </p>
-            </blockquote>
-          </div>
         </div>
       </section>
       <Footer />
