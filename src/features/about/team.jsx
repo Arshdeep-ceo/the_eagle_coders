@@ -21,7 +21,7 @@ const team = [
     name: "Ramanpreet kaur",
     role: "Web Developer",
     experience:
-      "Ms.Ramanpreet Kaur works as a web developer. With Two years of experience in the dynamic field of web development, She has consistently showcased exceptional technical prowess coupled with a keen eye for design. Being a pivotal part of our team, she brings an unmatched passion for creating responsive, user-friendly, and innovative websites.Beyond technical skills, his strength lies in her dedication to continuous learning and improvement.",
+      "Ms.Ramanpreet Kaur works as a web developer. She has consistently showcased exceptional technical prowess coupled with a keen eye for design. Being a pivotal part of our team, she brings an unmatched passion for creating responsive, user-friendly, and innovative websites.Beyond technical skills, his strength lies in her dedication to continuous learning and improvement.",
     imageUrl: "/images/myimg1.JPG",
   },
   {
