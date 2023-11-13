@@ -45,14 +45,14 @@ export default function Features() {
             to learn from the best trainers of our company...
           </p>
 
-          <dl className="mt-16 grid grid-cols-1 gap-x-6  sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+          <div className="mt-16 grid grid-cols-1 gap-x-6  sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
             {features.map((feature) => (
               <div key={feature.name} className="border-t border-gray-200 pt-4">
                 <dt className="font-medium text-gray-900">{feature.name}</dt>
                 <dd className="text-sm text-gray-300">{feature.name}</dd>
               </div>
             ))}
-          </dl>
+          </div>
         </div>
         <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
           <img
