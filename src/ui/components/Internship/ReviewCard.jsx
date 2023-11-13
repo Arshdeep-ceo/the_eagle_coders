@@ -1,7 +1,7 @@
 const reviews = [
   {
     name: "Jasleen Kaur",
-    role: "Client of AstraBytes",
+    role: "Student of AstraBytes",
     comment:
       "We are satisfied with the solution given to us and with the communication flow through the project. We would like to recommend Mr. Arshdeep Singh and his development team. We look forward to working with them in future projects. I wanted to take a moment to thank you for the services your team has provided.",
     imgUrl:
