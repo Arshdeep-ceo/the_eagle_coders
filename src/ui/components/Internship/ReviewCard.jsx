@@ -39,7 +39,7 @@ const reviews = [
 export default function ReviewCard() {
   return (
     <>
-      {reviews.map((person, index) => (
+      {reviews.map((person) => (
         <div key={person.name} className=" bg-black/20 rounded-3xl ">
           <blockquote
             key={person.name}
