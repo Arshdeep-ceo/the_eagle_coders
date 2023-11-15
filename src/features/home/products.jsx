@@ -56,18 +56,7 @@ export default function SoftProducts() {
               </p>
             </div>
           </div>
-          <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <img
-              className="rounded-t-lg h-60 w-full"
-              src="https://media.licdn.com/dms/image/D5622AQE2PsDfTYj0bA/feedshare-shrink_800/0/1692959492897?e=1700697600&v=beta&t=s2vztf-2UNRqomPvMpIM6YwmI5x55z7ZY-U1P7hhNZU"
-              alt=""
-            />
-            <div className="p-5">
-              <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                NetConnect Networking Software
-              </p>
-            </div>
-          </div>
+
           <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="rounded-t-lg h-60 w-full"
@@ -83,27 +72,16 @@ export default function SoftProducts() {
           <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="rounded-t-lg h-60 w-full"
-              src="https://datapulse.app/og.png"
+              src="https://media.licdn.com/dms/image/D5622AQE2PsDfTYj0bA/feedshare-shrink_800/0/1692959492897?e=1700697600&v=beta&t=s2vztf-2UNRqomPvMpIM6YwmI5x55z7ZY-U1P7hhNZU"
               alt=""
             />
             <div className="p-5">
-              <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                DataPulse Analytics Software
+              <p className="mb-2 text-2xl font-bold tracking-tighter text-gray-900 dark:text-white">
+                NetConnect Networking Software
               </p>
             </div>
           </div>
-          <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            <img
-              className="rounded-t-lg h-60 w-full"
-              src="https://i.ytimg.com/vi/q08NpElVAqY/maxresdefault.jpg"
-              alt=""
-            />
-            <div className="p-5">
-              <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                AppWiz Application Suite
-              </p>
-            </div>
-          </div>
+
           <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="rounded-t-lg h-60 w-full"
@@ -137,6 +115,30 @@ export default function SoftProducts() {
             <div className="p-5">
               <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 BizFlow Business Process Software
+              </p>
+            </div>
+          </div>
+          <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <img
+              className="rounded-t-lg h-60 w-full"
+              src="https://datapulse.app/og.png"
+              alt=""
+            />
+            <div className="p-5">
+              <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                DataPulse Analytics Software
+              </p>
+            </div>
+          </div>
+          <div className="border-none grow max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <img
+              className="rounded-t-lg h-60 w-full"
+              src="https://i.ytimg.com/vi/q08NpElVAqY/maxresdefault.jpg"
+              alt=""
+            />
+            <div className="p-5">
+              <p className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                AppWiz Application Suite
               </p>
             </div>
           </div>
