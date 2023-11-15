@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router";
 
 // eslint-disable-next-line react/prop-types
-const ScrollToTop = ({ children }) => {
+const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
