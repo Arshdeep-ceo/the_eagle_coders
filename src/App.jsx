@@ -47,7 +47,7 @@ function App() {
   return (
     <NextUIProvider>
       <main className="dark  bg-gradient-to-tr from-gray-950 from-60% via-[#14091C] via-90% to-gray-950 to-100%">
-        <RouterProvider router={router} />
+        <RouterProvider router={router}></RouterProvider>
       </main>
     </NextUIProvider>
   );
