@@ -7,17 +7,16 @@ const SITEMAP = [
   },
   {
     title: "Help Center",
-    links: ["WhatsApp", "Twitter", "GitHub", "Contact Us"],
+    links: ["WhatsApp", "Facebook", "GitHub", "Contact Us"],
   },
   {
     title: "Courses we provide",
     links: [
-      "Flutter app development",
+      "Flutter",
       "Web development",
       "Artificial Intelligence",
       "Machine learning",
-      "Java Fullstack",
-      "And many more...",
+      "ReactJs",
     ],
   },
 ];
@@ -28,7 +27,7 @@ export default function Footer() {
   return (
     <footer className=" dark:bg-gray-950 relative w-full">
       <div className=" mx-auto w-full max-w-7xl px-8">
-        <div className=" dark:text-gray-400 mx-auto grid w-full grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-3  justify-items-center content-center place-content-center place-items-center">
+        <div className=" dark:text-gray-400 mx-auto grid w-full grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-3  justify-items-center content-center place-content-center place-items-center items-start">
           {SITEMAP.map(({ title, links }, key) => (
             <div key={key} className=" w-full">
               <Typography
@@ -63,7 +62,7 @@ export default function Footer() {
             &copy; {currentYear}{" "}
             <p>Made with ❤️ by AstraBytes... All Rights Reserved.</p>
           </Typography>
-          <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
+          <div className="flex gap-4 text-blue-gray-900 sm:justify-end">
             <Typography
               as="a"
               href="#"
