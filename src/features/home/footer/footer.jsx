@@ -1,13 +1,21 @@
 import { Typography } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
 
 const SITEMAP = [
   {
     title: "Company",
-    links: ["About Us", "Testimonials", "Our Team", "Explore"],
+    links: ["About Us", "Internship", "Projects", "Explore"],
+    href: ["/about", "/internship", "/projects", "/explore"],
   },
   {
-    title: "Help Center",
-    links: ["WhatsApp", "Facebook", "GitHub", "Contact Us"],
+    title: "Social",
+    links: ["WhatsApp", "Facebook", "GitHub", "Instagram"],
+    href: [
+      "https://wa.me/916283247119?text=Hey%20there%20AstraBytes%20",
+      "https://www.facebook.com/profile.php?id=61553702875094",
+      "https://github.com/AstraBytes",
+      "https://instagram.com/astrabytes_private_ltd?utm_source=qr&igshid=OGUzMzk1ZmEzMg==",
+    ],
   },
   {
     title: "Courses we provide",
@@ -18,6 +26,7 @@ const SITEMAP = [
       "Machine learning",
       "ReactJs",
     ],
+    href: ["/explore", "/explore", "/explore", "/explore", "/explore"],
   },
 ];
 
@@ -28,7 +37,7 @@ export default function Footer() {
     <footer className=" dark:bg-gray-950 relative w-full">
       <div className=" mx-auto w-full max-w-7xl px-8">
         <div className=" dark:text-gray-400 mx-auto grid w-full grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-3  justify-items-center content-center place-content-center place-items-center items-start">
-          {SITEMAP.map(({ title, links }, key) => (
+          {SITEMAP.map(({ title, links, href }, key) => (
             <div key={key} className=" w-full">
               <Typography
                 variant="small"
@@ -45,16 +54,30 @@ export default function Footer() {
                     color="blue-gray"
                     className="font-normal"
                   >
-                    <a className="inline-block py-1 pr-2 transition-transform hover:scale-105">
-                      {link}
-                    </a>
+                    {title == "Social" ? (
+                      <a
+                        className="inline-block py-1 pr-2 transition-transform hover:scale-105"
+                        href={href[key]}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {link}
+                      </a>
+                    ) : (
+                      <Link
+                        className="inline-block py-1 pr-2 transition-transform hover:scale-105"
+                        to={href[key]}
+                      >
+                        {link}
+                      </Link>
+                    )}
                   </Typography>
                 ))}
               </ul>
             </div>
           ))}
         </div>
-        <div className=" dark:text-gray-300 flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
+        <div className="pb-12 dark:text-gray-300 flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
           <Typography
             variant="small"
             className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"

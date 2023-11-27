@@ -29,7 +29,6 @@ function Home() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        {" "}
         <img
           className="fixed bottom-5 right-5 z-30 hover:scale-[1.05] shadow-lg "
           alt="Chat on WhatsApp"
