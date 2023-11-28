@@ -77,7 +77,7 @@ export default function Footer() {
             </div>
           ))}
         </div>
-        <div className="pb-12 dark:text-gray-300 flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
+        <div className="pb-16 dark:text-gray-300 flex w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
           <Typography
             variant="small"
             className="mb-4 text-center font-normal text-blue-gray-900 md:mb-0"
