@@ -48,6 +48,30 @@ export default function About() {
     {
       imageUrl: "/images/meet2.bg.jpeg",
     },
+    {
+      imageUrl: "/images/img66.jpeg",
+    },
+    {
+      imageUrl: "/images/img77.jpeg",
+    },
+    {
+      imageUrl: "/images/img88.jpeg",
+    },
+    {
+      imageUrl: "/images/img99.jpeg",
+    },
+    {
+      imageUrl: "/images/img111.jpeg",
+    },
+    {
+      imageUrl: "/images/img222.jpeg",
+    },
+    {
+      imageUrl: "/images/img333.jpeg",
+    },
+    {
+      imageUrl: "/images/img444.jpeg",
+    },
 
     // More people...
   ];
