@@ -28,6 +28,21 @@ export default function About() {
       imageUrl: "/images/team.bg.jpeg",
     },
     {
+      imageUrl: "/images/img11.jpeg",
+    },
+    {
+      imageUrl: "/images/img22.jpeg",
+    },
+    {
+      imageUrl: "/images/img33.jpeg",
+    },
+    {
+      imageUrl: "/images/img44.jpeg",
+    },
+    {
+      imageUrl: "/images/img55.jpeg",
+    },
+    {
       imageUrl: "/images/meet.bg.jpeg",
     },
     {
