@@ -15,8 +15,7 @@ import {
   // Avatar,
 } from "@nextui-org/react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
 export default function AppBar({ currentTab, setCurrentTab }) {
